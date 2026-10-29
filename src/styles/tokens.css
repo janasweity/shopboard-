@@ -1,0 +1,19 @@
+﻿:root {
+  color-scheme: light;
+  --color-bg: #ffffff;
+  --color-ink: #17232d;
+  --color-muted: #57636a;
+  --color-primary: #1548c7;
+  --color-primary-dark: #103693;
+  --color-yellow: #ffe000;
+  --color-panel: #f3f5f5;
+  --color-line: #d9dfe2;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 5rem;
+  --font-body: 'Helvetica Neue', Arial, sans-serif;
+}
+
