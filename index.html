@@ -1,11 +1,189 @@
 ﻿<!doctype html>
-<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="theme-color" content="#ffe000" /><meta name="description" content="Havlo Home — contemporary furniture and home accessories, room inspiration, and thoughtful design for everyday living." /><link rel="icon" type="image/svg+xml" href="/shopboard.svg" /><title>Havlo Home — Make room for living</title></head><body>
-<a class="skip-link" href="#main-content">Skip to main content</a>
-<aside class="sidebar" aria-label="Havlo Home services"><a class="brand" href="/" data-route aria-label="Havlo Home home">havlo<span>HOME</span></a><nav aria-label="Store services"><a data-route href="/?page=inspiration#planning"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M5 26V7h22v19H5m0-6h22M10 7v13m4-5 8-8m-5 11 8-8" /></svg><span>Planning<br />tools</span></a><a data-route href="/?page=products"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M16 8c-4-3-9-3-12-2v20c4-2 8-2 12 0 4-2 8-2 12 0V6c-3-1-8-1-12 2v18" /></svg><span>Catalogue<br />&amp; inspiration</span></a><a data-route href="/?page=about#store-information"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M4 26h24M7 26V7h18v19M12 26V15h8v11M11 11h10" /></svg><span>Store<br />information</span></a><a data-route href="/?page=about#returns"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M8 12a10 10 0 1 1-1 10M8 4v8H1m12 2h6v7h-6z" /></svg><span>Returns<br />&amp; support</span></a></nav><p class="sidebar-note">A little more<br />feeling at home.<span aria-hidden="true">↗</span></p></aside>
-<div class="page-content" id="top"><header class="site-header"><nav aria-label="Main navigation"><ul class="nav-list"><li><a data-route data-page="home" href="/">Home</a></li><li><a data-route data-page="products" href="/?page=products">Products</a></li><li><a data-route data-page="inspiration" href="/?page=inspiration">Room inspiration</a></li><li><a data-route data-page="about" href="/?page=about">About &amp; Contact</a></li></ul></nav><button class="cart-toggle" type="button" aria-haspopup="dialog" aria-controls="cart-dialog"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m2 3 3 1 3 12h11l3-9H6M10 21h.01M18 21h.01" /></svg>Cart <span id="cart-count">0</span></button></header>
-<main id="main-content" tabindex="-1"><div id="page-view"></div><noscript><h1>Welcome to Havlo Home</h1><p>Please enable JavaScript to browse our local furniture catalogue and pages.</p></noscript>
-<p id="cart-status" class="cart-status" role="status" aria-live="polite"></p>
-<section class="registration-section" id="registration" aria-labelledby="registration-title"><div class="registration-copy"><p class="eyebrow">THERE'S ROOM FOR YOU HERE</p><h2 id="registration-title">Make yourself<br />at home.</h2><p id="demo-description">Try our registration demo. No account is created, and your details are never sent or stored. Please use made-up details.</p><button type="button" class="reopen-button" hidden>Reopen demo form</button></div><dialog open id="registration-dialog" aria-labelledby="registration-title" aria-describedby="demo-description demo-behavior"><form method="dialog" class="registration-form"><p class="form-heading">Try the experience</p><div class="form-field"><label for="email">Email address</label><input id="email" type="email" required autocomplete="off" placeholder="you@example.com" /></div><div class="form-field"><label for="password">Demo password</label><input id="password" type="password" minlength="8" required autocomplete="off" aria-describedby="password-help" placeholder="At least 8 characters" /><p id="password-help">Use 8 or more characters. Never use a real password.</p></div><button type="submit" class="button">Try the demo <span aria-hidden="true">↗</span></button><p id="demo-behavior">Valid entries close this demo form. No account is created.</p></form></dialog></section>
-</main><footer class="site-footer"><a data-route class="footer-brand" href="/" aria-label="Havlo Home home">havlo<span>HOME</span></a><p>© 2026 Havlo Home. Make room for living.</p><a href="#top">Back to top ↑</a></footer></div>
-<dialog id="cart-dialog" class="cart-dialog" aria-labelledby="cart-title" aria-describedby="cart-note"><div class="cart-header"><h2 id="cart-title">Your favourites.</h2><form method="dialog"><button type="submit" class="close-cart" aria-label="Close cart">×</button></form></div><p id="cart-note">A local demo cart. Items stay while you browse these pages and reset on refresh. No checkout or payments.</p><p id="cart-empty">Your cart is waiting for a little inspiration.</p><ul id="cart-items"></ul><div class="cart-summary"><span>Subtotal</span><strong id="cart-total">$0.00</strong></div><button type="button" class="button" id="continue-shopping">Continue exploring →</button></dialog>
-<script type="module" src="/src/shopboard.js"></script></body></html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffe000" />
+    <meta
+      name="description"
+      content="Havlo Home — contemporary furniture and home accessories, room inspiration, and thoughtful design for everyday living."
+    />
+    <link rel="icon" type="image/svg+xml" href="/shopboard.svg" />
+    <title>Havlo Home — Make room for living</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <aside class="sidebar" aria-label="Havlo Home services">
+      <a class="brand" href="/" data-route aria-label="Havlo Home home"
+        >havlo<span>HOME</span></a
+      >
+      <nav aria-label="Store services">
+        <a data-route href="/?page=inspiration#planning"
+          ><svg aria-hidden="true" viewBox="0 0 32 32">
+            <path d="M5 26V7h22v19H5m0-6h22M10 7v13m4-5 8-8m-5 11 8-8" /></svg
+          ><span>Planning<br />tools</span></a
+        ><a data-route href="/?page=products"
+          ><svg aria-hidden="true" viewBox="0 0 32 32">
+            <path
+              d="M16 8c-4-3-9-3-12-2v20c4-2 8-2 12 0 4-2 8-2 12 0V6c-3-1-8-1-12 2v18"
+            /></svg
+          ><span>Catalogue<br />&amp; inspiration</span></a
+        ><a data-route href="/?page=about#store-information"
+          ><svg aria-hidden="true" viewBox="0 0 32 32">
+            <path d="M4 26h24M7 26V7h18v19M12 26V15h8v11M11 11h10" /></svg
+          ><span>Store<br />information</span></a
+        ><a data-route href="/?page=about#returns"
+          ><svg aria-hidden="true" viewBox="0 0 32 32">
+            <path d="M8 12a10 10 0 1 1-1 10M8 4v8H1m12 2h6v7h-6z" /></svg
+          ><span>Returns<br />&amp; support</span></a
+        >
+      </nav>
+      <p class="sidebar-note">
+        A little more<br />feeling at home.<span aria-hidden="true">↗</span>
+      </p>
+    </aside>
+    <div class="page-content" id="top">
+      <header class="site-header">
+        <nav aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a data-route data-page="home" href="/">Home</a></li>
+            <li>
+              <a data-route data-page="products" href="/?page=products"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a data-route data-page="inspiration" href="/?page=inspiration"
+                >Room inspiration</a
+              >
+            </li>
+            <li>
+              <a data-route data-page="about" href="/?page=about"
+                >About &amp; Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button
+          class="cart-toggle"
+          type="button"
+          aria-haspopup="dialog"
+          aria-controls="cart-dialog"
+        >
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="m2 3 3 1 3 12h11l3-9H6M10 21h.01M18 21h.01" /></svg
+          >Cart <span id="cart-count">0</span>
+        </button>
+      </header>
+      <main id="main-content" tabindex="-1">
+        <div id="page-view"></div>
+        <noscript
+          ><h1>Welcome to Havlo Home</h1>
+          <p>
+            Please enable JavaScript to browse our local furniture catalogue and
+            pages.
+          </p></noscript
+        >
+        <p
+          id="cart-status"
+          class="cart-status"
+          role="status"
+          aria-live="polite"
+        ></p>
+        <section
+          class="registration-section"
+          id="registration"
+          aria-labelledby="registration-title"
+        >
+          <div class="registration-copy">
+            <p class="eyebrow">THERE'S ROOM FOR YOU HERE</p>
+            <h2 id="registration-title">Make yourself<br />at home.</h2>
+            <p id="demo-description">
+              Try our registration demo. No account is created, and your details
+              are never sent or stored. Please use made-up details.
+            </p>
+            <button type="button" class="reopen-button" hidden>
+              Reopen demo form
+            </button>
+          </div>
+          <dialog
+            open
+            id="registration-dialog"
+            aria-labelledby="registration-title"
+            aria-describedby="demo-description demo-behavior"
+          >
+            <form method="dialog" class="registration-form">
+              <p class="form-heading">Try the experience</p>
+              <div class="form-field">
+                <label for="email">Email address</label
+                ><input
+                  id="email"
+                  type="email"
+                  required
+                  autocomplete="off"
+                  placeholder="you@example.com"
+                />
+              </div>
+              <div class="form-field">
+                <label for="password">Demo password</label
+                ><input
+                  id="password"
+                  type="password"
+                  minlength="8"
+                  required
+                  autocomplete="off"
+                  aria-describedby="password-help"
+                  placeholder="At least 8 characters"
+                />
+                <p id="password-help">
+                  Use 8 or more characters. Never use a real password.
+                </p>
+              </div>
+              <button type="submit" class="button">
+                Try the demo <span aria-hidden="true">↗</span>
+              </button>
+              <p id="demo-behavior">
+                Valid entries close this demo form. No account is created.
+              </p>
+            </form>
+          </dialog>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <a data-route class="footer-brand" href="/" aria-label="Havlo Home home"
+          >havlo<span>HOME</span></a
+        >
+        <p>© 2026 Havlo Home. Make room for living.</p>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </div>
+    <dialog
+      id="cart-dialog"
+      class="cart-dialog"
+      aria-labelledby="cart-title"
+      aria-describedby="cart-note"
+    >
+      <div class="cart-header">
+        <h2 id="cart-title">Your favourites.</h2>
+        <form method="dialog">
+          <button type="submit" class="close-cart" aria-label="Close cart">
+            ×
+          </button>
+        </form>
+      </div>
+      <p id="cart-note">
+        A local demo cart. Items stay while you browse these pages and reset on
+        refresh. No checkout or payments.
+      </p>
+      <p id="cart-empty">Your cart is waiting for a little inspiration.</p>
+      <ul id="cart-items"></ul>
+      <div class="cart-summary">
+        <span>Subtotal</span><strong id="cart-total">$0.00</strong>
+      </div>
+      <button type="button" class="button" id="continue-shopping">
+        Continue exploring →
+      </button>
+    </dialog>
+    <script type="module" src="/src/shopboard.js"></script>
+  </body>
+</html>

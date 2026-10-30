@@ -14,6 +14,29 @@ npm test
 
 Use `npm.cmd` in Windows PowerShell if script execution policy blocks `npm.ps1`. Browser tests use installed Google Chrome.
 
+## Formatting and linting
+
+Install development dependencies with `npm install` (or `npm ci` for the locked versions). The `prepare` script runs Husky and sets this checkout's Git hooks path to `.husky/_`. Run `npm run prepare` if hooks need to be enabled again. Development dependencies must be installed for the hooks to work.
+
+```sh
+npm run lint
+npm run format
+npm run format:check
+```
+
+`lint` checks JavaScript and fails on errors or warnings. `format` rewrites supported files; `format:check` checks formatting without modifying files.
+
+- `eslint.config.js` uses ESLint's flat configuration and recommended JavaScript rules. Source files have browser globals; configuration files have Node globals. Playwright tests have both because their callbacks also execute in the browser. `eslint-config-prettier` disables conflicting formatting rules.
+- `.prettierrc.json` preserves the existing no-semicolon, single-quote JavaScript style, uses trailing commas and LF line endings, and leaves embedded template languages alone to preserve rendered HTML strings.
+- `.prettierignore` excludes generated folders, Husky's generated internals, the npm-managed lockfile, project instruction files, and existing prompt documents. ESLint also ignores generated folders.
+- `lint-staged.config.js` formats staged JavaScript first, then runs ESLint. Other staged files are formatted when Prettier supports them; binary assets are skipped. Tasks run sequentially, and lint-staged updates the staged versions automatically.
+- `.husky/pre-commit` runs lint-staged before each normal commit. A formatting or lint failure returns a nonzero status and blocks the commit. Like other local Git hooks, it can be bypassed explicitly; it is not a replacement for CI.
+- `package.json` contains the development dependencies and scripts; `package-lock.json` records their resolved versions.
+
+Stage and commit normally with `git add` and `git commit`. Review changes with `git diff` and `git diff --cached`. No manual formatting command is required before a commit, but the commands above let you check the whole project at any time.
+
+The hook was verified in a disposable nested repository by running `git hook run pre-commit`: a poorly formatted staged JavaScript file was corrected in the index, and an undefined identifier caused ESLint and the hook to exit with code 1. No commit was created, and the temporary repository was removed.
+
 ## Pages and URLs
 
 - `/`: Home with a large furnished-room hero, six categories, six featured product articles, and two promotional banners.
@@ -71,4 +94,3 @@ Six additional product images and three additional room images were generated wi
 ## Replay the intro
 
 Open http://127.0.0.1:5173/?intro=replay to replay it in the current tab. The replay parameter is removed immediately, so a subsequent refresh will not replay it again. Reduced motion still takes priority. Alternatively, remove only the havlo-entrance-seen sessionStorage key in browser developer tools and refresh.
-
