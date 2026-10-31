@@ -28,3 +28,10 @@ The cart was a module-local `new Map()` in `src/shopboard.js`. Add and quantity 
 - `npm.cmd test`: 249 passed (4.4 minutes), including all shared cart behavior, catalogue/variant checks, registration privacy, keyboard navigation, and page layout/accessibility checks at 360px, 768px, and 1280px. Lint, formatting, and build also passed again after updating the obsolete test expectations.
 
 The preview server is started separately for tests because the previous session exposed a Windows Playwright-managed server shutdown stall. Test commands reuse it so their results can exit normally.
+
+## Breakpoint practice
+
+- وضعت نقطة توقف داخل calculateCart على سطر حساب سعر المنتج × الكمية.
+- راقبت السعر وكان 1695، والكمية كانت 1.
+- نفّذت السطر باستخدام Step over، وكانت النتيجة 1695.
+- هذه تجربة لفهم التنفيذ، وليست خطأ في الحساب.
