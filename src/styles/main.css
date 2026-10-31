@@ -801,6 +801,15 @@ textarea {
   justify-content: space-between;
   margin-block: 1.5rem;
 }
+#clear-cart {
+  display: block;
+  min-height: 44px;
+  margin-bottom: 1rem;
+}
+#clear-cart:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 /* Footer navigation keeps every existing service accessible. */
 .site-footer {
   margin-top: 2rem;

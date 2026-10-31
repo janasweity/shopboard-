@@ -6,6 +6,7 @@ import {
   getCart,
   addCartItem,
   changeCartItem,
+  clearCart,
   claimEntranceSession,
 } from './state.js'
 import { initializeUI } from './ui.js'
@@ -18,5 +19,6 @@ initializeUI({
   getCart,
   addCartItem,
   changeCartItem,
+  clearCart,
   claimEntranceSession,
 })

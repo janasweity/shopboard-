@@ -77,6 +77,64 @@ test('cart preserves colors, quantities, count and current prices through refres
   ).toEqual([])
 })
 
+for (const width of [360, 768, 1280]) {
+  test(`clear cart removes all products and finishes, persists, and allows adding again at ${width}px`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width, height: 900 })
+    await page.goto(`/?page=product&id=${product.id}&color=${first.id}`)
+    await page.locator('.cart-toggle').click()
+    const clear = page.getByRole('button', { name: 'Clear cart', exact: true })
+    await expect(clear).toBeDisabled()
+    await page.keyboard.press('Escape')
+    await page.locator('.detail-add').click({ clickCount: 2 })
+    await page.goto(`/?page=product&id=${product.id}&color=${second.id}`)
+    await page.locator('.detail-add').click()
+    await page.goto(`/?page=product&id=${other.id}&color=${otherVariant.id}`)
+    await page.locator('.detail-add').click()
+    await page.locator('.cart-toggle').click()
+    await expect(page.locator('.cart-item')).toHaveCount(3)
+    await expect(page.locator('#cart-count')).toHaveText('4')
+    await expect(clear).toBeEnabled()
+    await clear.focus()
+    await clear.press('Enter')
+    await expect(page.locator('.cart-item')).toHaveCount(0)
+    await expect(page.locator('#cart-count')).toHaveText('0')
+    await expect(page.locator('#cart-total')).toHaveText(money(0))
+    await expect(page.locator('#cart-empty')).toBeVisible()
+    await expect(clear).toBeDisabled()
+    await expect(page.locator('#continue-shopping')).toBeFocused()
+    expect(
+      await page.evaluate(
+        (key) => JSON.parse(localStorage.getItem(key)),
+        storageKey,
+      ),
+    ).toEqual([])
+    await page.reload()
+    await expect(page.locator('#cart-count')).toHaveText('0')
+    await expect(page.locator('#cart-total')).toHaveText(money(0))
+    await page.locator('.cart-toggle').click()
+    await expect(clear).toBeDisabled()
+    await expect(page.locator('.cart-item')).toHaveCount(0)
+    expect(
+      await page
+        .locator('#cart-dialog')
+        .evaluate((dialog) => dialog.scrollWidth <= dialog.clientWidth),
+    ).toBe(true)
+    await page.keyboard.press('Escape')
+    await page.locator('.detail-add').click()
+    await page.reload()
+    await expect(page.locator('#cart-count')).toHaveText('1')
+    await expect(page.locator('#cart-total')).toHaveText(
+      money(otherVariant.price),
+    )
+    await page.locator('.cart-toggle').click()
+    await expect(clear).toBeEnabled()
+    await page.locator('[data-action="remove"]').click()
+    await expect(clear).toBeDisabled()
+  })
+}
+
 test('restore rejects corrupt entries and uses catalogue prices without rewriting saved data on startup', async ({
   page,
 }) => {

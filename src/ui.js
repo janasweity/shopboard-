@@ -20,6 +20,7 @@ export function initializeUI({
   getCart,
   addCartItem,
   changeCartItem,
+  clearCart,
   claimEntranceSession,
 }) {
   // Entrance animation and cleanup.
@@ -335,6 +336,7 @@ export function initializeUI({
     document.querySelector('#cart-count').textContent = String(quantity)
     document.querySelector('#cart-total').textContent = money(subtotal)
     document.querySelector('#cart-empty').hidden = quantity !== 0
+    document.querySelector('#clear-cart').disabled = quantity === 0
     return quantity
   }
 
@@ -370,7 +372,13 @@ export function initializeUI({
   document
     .querySelector('#continue-shopping')
     .addEventListener('click', () => cartDialog.close())
-  cartItems.addEventListener('click', (event) => {
+  cartDialog.addEventListener('click', (event) => {
+    if (event.target.closest('#clear-cart:not(:disabled)')) {
+      clearCart()
+      renderCart()
+      document.querySelector('#continue-shopping').focus()
+      return
+    }
     const button = event.target.closest('button[data-action]')
     if (!button) return
     const { key, action } = button.dataset
