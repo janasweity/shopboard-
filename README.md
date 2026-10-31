@@ -54,8 +54,12 @@ The project remains a single Vite entry point. Vanilla JavaScript renders the ap
 - `index.html`: shared semantic shell, slim header, navigation, main view, registration demo, cart dialog, and footer.
 - `src/pages.js`: page HTML templates and reusable product card markup.
 - `src/data/catalog.js`: combines preserved records from `retained-products.js` and `curated-products.js` with twenty designs from `expanded-products.js` and reviewed finishes from `additional-variants.js`; also defines category labels, collection metadata, room records and legacy routes.
-- `src/shopboard.js`: routing, search/filter state, gallery controls, cart event handling, room planner, and local form-demo behavior.
-- `src/entrance.js`: optional first-session brand intro: an ivory screen, serif RAHA name reveal, taupe underline and botanical accent, brief hold, upward curtain, and staggered content. The full sequence finishes at 3.75 seconds and cancels on navigation or Skip intro.
+- `src/main.js`: application entry point; imports styles and connects data, pure calculations, state operations, and UI initialization.
+- `src/data.js`: public catalogue exports; individual product, collection, and imagery records remain under `src/data/`.
+- `src/logic.js`: pure combined product search/category filtering/price sorting, cart validation/totals, and room-area calculations; no DOM or storage access.
+- `src/state.js`: cart state, localStorage restoration and saving, and the intro's sessionStorage flag; no DOM access.
+- `src/ui.js`: all application DOM access and event listeners, including routes, gallery/variant controls, cart rendering, room planner, local forms, manual room slider, shop-the-room panel, and the optional 3.75-second intro with its skip/cleanup behavior.
+- `src/product-gallery.js`: pure gallery selection; `src/pages.js` retains pure HTML templates without accessing the DOM.
 - `src/styles/tokens.css`: design colors, spacing, and typography tokens.
 - `src/styles/main.css`: responsive shared/page styling. Products use Grid; navigation uses Flexbox. Product columns: one at 360px, two from 768px, three from 1280px. Includes visible keyboard focus and reduced-motion support; uses min-width media queries.
 - `public/images/collection/`: local product and interior photography. Below-the-fold images lazy-load; hero/main product images load eagerly.

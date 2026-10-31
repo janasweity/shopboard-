@@ -17,7 +17,7 @@ The full image is displayed without cropping so percentage coordinates stay alig
 
 ## Interaction
 
-`src/data/shop-room.js` holds the room image and four product coordinates. `src/pages.js` renders the semantic section, native hotspot buttons, one initially hidden non-modal dialog panel, and the mobile list. `src/shop-room.js` handles panel opening, dismissal, focus, and responsive cleanup; the main router closes it before replacing page markup.
+`src/data/shop-room.js` holds the room image and four product coordinates. `src/pages.js` renders the semantic section, native hotspot buttons, one initially hidden non-modal dialog panel, and the mobile list. `src/ui.js` handles panel opening, dismissal, focus, and responsive cleanup; its router closes the panel before replacing page markup.
 
 - Enter, Space, or click opens one panel and focuses its close button.
 - Escape or Close dismisses it and returns focus to the triggering hotspot.

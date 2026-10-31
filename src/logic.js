@@ -1,4 +1,26 @@
-import { products } from './data/catalog.js'
+import { products } from './data.js'
+
+export function selectProducts(
+  source,
+  { query = '', category = 'all', sort = 'default' } = {},
+) {
+  const search = query.trim().toLowerCase()
+  const filtered = source.filter(
+    (product) =>
+      (category === 'all' ||
+        category === product.category ||
+        product.categories?.includes(category) ||
+        category === 'collection:' + product.collection) &&
+      product.name.toLowerCase().includes(search),
+  )
+  // Sorting a copy preserves both the source and the filtered order.
+  const sorted = [...filtered]
+  if (sort === 'price-asc') sorted.sort((a, b) => a.price - b.price)
+  if (sort === 'price-desc') sorted.sort((a, b) => b.price - a.price)
+  return sorted
+}
+
+export const calculateRoomArea = (width, length) => width * length
 
 const catalog = new Map(products.map((product) => [product.id, product]))
 export const cartKey = (productId, variantId) => productId + '::' + variantId

@@ -13,7 +13,7 @@ import {
   money,
   productURL,
   categoryName,
-} from './data/catalog.js'
+} from './data.js'
 
 export const routeLink = (href, text, className = '') =>
   `<a data-route href="${href}" class="${className}">${text}</a>`

@@ -2,6 +2,17 @@ import { cartKey, normalizeCart, resolveCartItem } from './logic.js'
 
 export const CART_STORAGE_KEY = 'raha-cart'
 
+export function claimEntranceSession(replay = false) {
+  const key = 'raha-entrance-seen'
+  try {
+    if (!replay && sessionStorage.getItem(key)) return false
+    sessionStorage.setItem(key, '1')
+    return true
+  } catch {
+    return false
+  }
+}
+
 function restoreCart() {
   try {
     return normalizeCart(JSON.parse(localStorage.getItem(CART_STORAGE_KEY)))
