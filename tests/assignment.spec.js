@@ -1,11 +1,11 @@
-import { test, expect } from '@playwright/test'
+﻿import { test, expect } from '@playwright/test'
 import { readFile } from 'node:fs/promises'
 
 test('Home retains the required semantic sections and native registration constraints', async ({
   page,
 }) => {
   await page.addInitScript(() =>
-    sessionStorage.setItem('havlo-entrance-seen', '1'),
+    sessionStorage.setItem('raha-entrance-seen', '1'),
   )
   await page.goto('/')
   await expect(
@@ -16,6 +16,14 @@ test('Home retains the required semantic sections and native registration constr
   await expect(page.locator('main section#products')).toBeVisible()
   await expect(page.locator('main section#registration')).toBeVisible()
   await expect(page.locator('#products article.product-card')).toHaveCount(6)
+  await expect(
+    page.locator('.category-grid, .our-story, .process-grid, .olive-banner'),
+  ).toHaveCount(0)
+  await expect(page.locator('.room-slider')).toBeVisible()
+  await expect(page.locator('#page-view > section')).toHaveCount(3)
+  await expect(
+    page.getByRole('button', { name: 'Reopen demo form' }),
+  ).toBeHidden()
   await expect(page.locator('h1')).toHaveCount(1)
 
   await expect(page.locator('label[for="email"]')).toHaveCount(1)

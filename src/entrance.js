@@ -1,4 +1,4 @@
-﻿const sessionKey = 'havlo-entrance-seen'
+﻿const sessionKey = 'raha-entrance-seen'
 let cleanup = () => {}
 export function stopEntrance() {
   cleanup()
@@ -25,7 +25,7 @@ export function startEntrance() {
   intro.className = 'store-intro'
   intro.setAttribute('aria-labelledby', 'intro-title')
   intro.innerHTML =
-    '<div class="intro-brand"><p class="intro-kicker">MAKE ROOM FOR LIVING</p><p id="intro-title">Havlo<span>Home</span></p><span class="intro-line" aria-hidden="true"></span></div><button type="button" class="skip-intro">Skip intro <span aria-hidden="true">↗</span></button>'
+    '<div class="intro-brand"><p class="intro-kicker">MAKE ROOM FOR LIVING</p><p id="intro-title">RAHA<span>HOME &amp; LIVING</span></p><span class="intro-line" aria-hidden="true"></span></div><button type="button" class="skip-intro">Skip intro <span aria-hidden="true">↗</span></button>'
   const targets = []
   const mark = (element, className, delay) => {
     if (!element) return

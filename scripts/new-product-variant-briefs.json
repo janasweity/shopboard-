@@ -1,0 +1,542 @@
+[
+  {
+    "id": "burgundy",
+    "name": "Burgundy",
+    "hex": "#742b40",
+    "change": "only the charcoal powder-coated metal parts to burgundy; keep brass hinge pins",
+    "product": "beam-task-lamp",
+    "source": "public/images/expansion/beam-task-lamp-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the charcoal powder-coated metal parts to burgundy; keep brass hinge pins. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "olive",
+    "name": "Olive",
+    "hex": "#72774e",
+    "change": "only the charcoal powder-coated metal parts to olive; keep brass hinge pins",
+    "product": "beam-task-lamp",
+    "source": "public/images/expansion/beam-task-lamp-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the charcoal powder-coated metal parts to olive; keep brass hinge pins. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e8dfcc",
+    "change": "only the charcoal powder-coated metal parts to cream; keep brass hinge pins",
+    "product": "beam-task-lamp",
+    "source": "public/images/expansion/beam-task-lamp-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the charcoal powder-coated metal parts to cream; keep brass hinge pins. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "burgundy",
+    "name": "Burgundy",
+    "hex": "#742d40",
+    "change": "only the main product finish to Burgundy",
+    "product": "channel-ottoman",
+    "source": "public/images/expansion/channel-ottoman-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Burgundy. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "ochre",
+    "name": "Ochre",
+    "hex": "#b88d3d",
+    "change": "only the main product finish to Ochre",
+    "product": "channel-ottoman",
+    "source": "public/images/expansion/channel-ottoman-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Ochre. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "taupe",
+    "name": "Taupe",
+    "hex": "#9b8c7b",
+    "change": "only the main product finish to Taupe",
+    "product": "channel-ottoman",
+    "source": "public/images/expansion/channel-ottoman-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Taupe. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "forest",
+    "name": "Forest green & cream",
+    "hex": "#2e5746",
+    "change": "only navy stripes and navy piping to forest green; keep cream stripes",
+    "product": "cadence-lumbar",
+    "source": "public/images/expansion/cadence-lumbar-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy stripes and navy piping to forest green; keep cream stripes. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "terracotta",
+    "name": "Terracotta & cream",
+    "hex": "#b56d50",
+    "change": "only navy stripes and navy piping to terracotta; keep cream stripes",
+    "product": "cadence-lumbar",
+    "source": "public/images/expansion/cadence-lumbar-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy stripes and navy piping to terracotta; keep cream stripes. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "ochre",
+    "name": "Ochre & cream",
+    "hex": "#b58d3e",
+    "change": "only navy stripes and navy piping to ochre; keep cream stripes",
+    "product": "cadence-lumbar",
+    "source": "public/images/expansion/cadence-lumbar-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy stripes and navy piping to ochre; keep cream stripes. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "smoked",
+    "name": "Smoked oak",
+    "hex": "#76604c",
+    "change": "only the main product finish to Smoked oak",
+    "product": "folio-rack",
+    "source": "public/images/expansion/folio-rack-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Smoked oak. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "white-oiled",
+    "name": "White-oiled oak",
+    "hex": "#d2c3a6",
+    "change": "only the main product finish to White-oiled oak",
+    "product": "folio-rack",
+    "source": "public/images/expansion/folio-rack-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to White-oiled oak. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "ebonized",
+    "name": "Ebonized oak",
+    "hex": "#34322e",
+    "change": "only the main product finish to Ebonized oak",
+    "product": "folio-rack",
+    "source": "public/images/expansion/folio-rack-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Ebonized oak. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "forest",
+    "name": "Forest green glass",
+    "hex": "#285640",
+    "change": "only the main product finish to Forest green glass",
+    "product": "gem-goblets",
+    "source": "public/images/expansion/gem-goblets-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Forest green glass. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "blush",
+    "name": "Blush glass",
+    "hex": "#c79ba6",
+    "change": "only the main product finish to Blush glass",
+    "product": "gem-goblets",
+    "source": "public/images/expansion/gem-goblets-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Blush glass. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "navy",
+    "name": "Navy glass",
+    "hex": "#32486e",
+    "change": "only the main product finish to Navy glass",
+    "product": "gem-goblets",
+    "source": "public/images/expansion/gem-goblets-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Navy glass. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "forest",
+    "name": "Forest green & cream",
+    "hex": "#315742",
+    "change": "only dusty-blue rim pattern to forest green; keep cream glaze and exact pattern",
+    "product": "mosaic-platter",
+    "source": "public/images/expansion/mosaic-platter-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only dusty-blue rim pattern to forest green; keep cream glaze and exact pattern. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "terracotta",
+    "name": "Terracotta & cream",
+    "hex": "#b96c50",
+    "change": "only dusty-blue rim pattern to terracotta; keep cream glaze and exact pattern",
+    "product": "mosaic-platter",
+    "source": "public/images/expansion/mosaic-platter-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only dusty-blue rim pattern to terracotta; keep cream glaze and exact pattern. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "ochre",
+    "name": "Ochre & cream",
+    "hex": "#ba903c",
+    "change": "only dusty-blue rim pattern to ochre; keep cream glaze and exact pattern",
+    "product": "mosaic-platter",
+    "source": "public/images/expansion/mosaic-platter-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only dusty-blue rim pattern to ochre; keep cream glaze and exact pattern. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "smoked",
+    "name": "Smoked rattan",
+    "hex": "#7b6552",
+    "change": "only the main product finish to Smoked rattan",
+    "product": "weft-tray",
+    "source": "public/images/expansion/weft-tray-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Smoked rattan. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "whitewashed",
+    "name": "Whitewashed rattan",
+    "hex": "#d0c3a8",
+    "change": "only the main product finish to Whitewashed rattan",
+    "product": "weft-tray",
+    "source": "public/images/expansion/weft-tray-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Whitewashed rattan. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "ebonized",
+    "name": "Ebonized rattan",
+    "hex": "#403b34",
+    "change": "only the main product finish to Ebonized rattan",
+    "product": "weft-tray",
+    "source": "public/images/expansion/weft-tray-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Ebonized rattan. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "forest",
+    "name": "Forest green",
+    "hex": "#295342",
+    "change": "only navy ceramic glaze to forest green; keep natural wood knob",
+    "product": "hearth-butter-dish",
+    "source": "public/images/expansion/hearth-butter-dish-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy ceramic glaze to forest green; keep natural wood knob. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "ochre",
+    "name": "Ochre",
+    "hex": "#b78c3e",
+    "change": "only navy ceramic glaze to ochre; keep natural wood knob",
+    "product": "hearth-butter-dish",
+    "source": "public/images/expansion/hearth-butter-dish-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy ceramic glaze to ochre; keep natural wood knob. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "blush",
+    "name": "Blush pink",
+    "hex": "#c79a9c",
+    "change": "only navy ceramic glaze to blush pink; keep natural wood knob",
+    "product": "hearth-butter-dish",
+    "source": "public/images/expansion/hearth-butter-dish-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy ceramic glaze to blush pink; keep natural wood knob. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "navy",
+    "name": "Navy & cream",
+    "hex": "#2c405c",
+    "change": "only olive printed leaves to navy; preserve every leaf shape, position and cream ground",
+    "product": "flora-duvet",
+    "source": "public/images/expansion/flora-duvet-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only olive printed leaves to navy; preserve every leaf shape, position and cream ground. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "terracotta",
+    "name": "Terracotta & cream",
+    "hex": "#b87155",
+    "change": "only olive printed leaves to terracotta; preserve every leaf shape, position and cream ground",
+    "product": "flora-duvet",
+    "source": "public/images/expansion/flora-duvet-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only olive printed leaves to terracotta; preserve every leaf shape, position and cream ground. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "dusty-blue",
+    "name": "Dusty blue & cream",
+    "hex": "#778d9f",
+    "change": "only olive printed leaves to dusty blue; preserve every leaf shape, position and cream ground",
+    "product": "flora-duvet",
+    "source": "public/images/expansion/flora-duvet-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only olive printed leaves to dusty blue; preserve every leaf shape, position and cream ground. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "forest",
+    "name": "Forest green",
+    "hex": "#2c5544",
+    "change": "only the main product finish to Forest green",
+    "product": "drum-bedside",
+    "source": "public/images/expansion/drum-bedside-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Forest green. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "charcoal",
+    "name": "Charcoal",
+    "hex": "#424449",
+    "change": "only the main product finish to Charcoal",
+    "product": "drum-bedside",
+    "source": "public/images/expansion/drum-bedside-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Charcoal. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e8dfce",
+    "change": "only the main product finish to Cream",
+    "product": "drum-bedside",
+    "source": "public/images/expansion/drum-bedside-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Cream. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "smoked",
+    "name": "Smoked oak",
+    "hex": "#77604a",
+    "change": "only the main product finish to Smoked oak",
+    "product": "scallop-mirror",
+    "source": "public/images/expansion/scallop-mirror-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Smoked oak. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "white-oiled",
+    "name": "White-oiled oak",
+    "hex": "#d5c7a9",
+    "change": "only the main product finish to White-oiled oak",
+    "product": "scallop-mirror",
+    "source": "public/images/expansion/scallop-mirror-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to White-oiled oak. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "ebonized",
+    "name": "Ebonized oak",
+    "hex": "#33322d",
+    "change": "only the main product finish to Ebonized oak",
+    "product": "scallop-mirror",
+    "source": "public/images/expansion/scallop-mirror-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Ebonized oak. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "navy",
+    "name": "Navy & cream",
+    "hex": "#2b405c",
+    "change": "only taupe yarn to navy; keep cream yarn, exact weave and folds",
+    "product": "herringbone-coverlet",
+    "source": "public/images/expansion/herringbone-coverlet-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only taupe yarn to navy; keep cream yarn, exact weave and folds. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "olive",
+    "name": "Olive & cream",
+    "hex": "#74774e",
+    "change": "only taupe yarn to olive; keep cream yarn, exact weave and folds",
+    "product": "herringbone-coverlet",
+    "source": "public/images/expansion/herringbone-coverlet-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only taupe yarn to olive; keep cream yarn, exact weave and folds. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "burgundy",
+    "name": "Burgundy & cream",
+    "hex": "#742e42",
+    "change": "only taupe yarn to burgundy; keep cream yarn, exact weave and folds",
+    "product": "herringbone-coverlet",
+    "source": "public/images/expansion/herringbone-coverlet-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only taupe yarn to burgundy; keep cream yarn, exact weave and folds. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "forest",
+    "name": "Forest green & cream",
+    "hex": "#2e5846",
+    "change": "only navy woven stripes to forest green; keep cream stripes and fringe",
+    "product": "hammam-towels",
+    "source": "public/images/expansion/hammam-towels-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy woven stripes to forest green; keep cream stripes and fringe. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "terracotta",
+    "name": "Terracotta & cream",
+    "hex": "#b66d50",
+    "change": "only navy woven stripes to terracotta; keep cream stripes and fringe",
+    "product": "hammam-towels",
+    "source": "public/images/expansion/hammam-towels-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy woven stripes to terracotta; keep cream stripes and fringe. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "ochre",
+    "name": "Ochre & cream",
+    "hex": "#b78e3e",
+    "change": "only navy woven stripes to ochre; keep cream stripes and fringe",
+    "product": "hammam-towels",
+    "source": "public/images/expansion/hammam-towels-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy woven stripes to ochre; keep cream stripes and fringe. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "forest",
+    "name": "Forest green",
+    "hex": "#2d5744",
+    "change": "only the main product finish to Forest green",
+    "product": "reed-toothbrush-cup",
+    "source": "public/images/expansion/reed-toothbrush-cup-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Forest green. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "dusty-blue",
+    "name": "Dusty blue",
+    "hex": "#738c9f",
+    "change": "only the main product finish to Dusty blue",
+    "product": "reed-toothbrush-cup",
+    "source": "public/images/expansion/reed-toothbrush-cup-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Dusty blue. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e7decb",
+    "change": "only the main product finish to Cream",
+    "product": "reed-toothbrush-cup",
+    "source": "public/images/expansion/reed-toothbrush-cup-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Cream. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "navy",
+    "name": "Navy",
+    "hex": "#293e58",
+    "change": "only charcoal canvas bag to navy; keep beech frame and tan leather",
+    "product": "frame-laundry-basket",
+    "source": "public/images/expansion/frame-laundry-basket-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only charcoal canvas bag to navy; keep beech frame and tan leather. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "olive",
+    "name": "Olive",
+    "hex": "#777b52",
+    "change": "only charcoal canvas bag to olive; keep beech frame and tan leather",
+    "product": "frame-laundry-basket",
+    "source": "public/images/expansion/frame-laundry-basket-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only charcoal canvas bag to olive; keep beech frame and tan leather. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "taupe",
+    "name": "Taupe",
+    "hex": "#9a8977",
+    "change": "only charcoal canvas bag to taupe; keep beech frame and tan leather",
+    "product": "frame-laundry-basket",
+    "source": "public/images/expansion/frame-laundry-basket-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only charcoal canvas bag to taupe; keep beech frame and tan leather. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "navy",
+    "name": "Navy",
+    "hex": "#2d425f",
+    "change": "only the main product finish to Navy",
+    "product": "waffle-wash-bag",
+    "source": "public/images/expansion/waffle-wash-bag-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Navy. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "olive",
+    "name": "Olive",
+    "hex": "#777b51",
+    "change": "only the main product finish to Olive",
+    "product": "waffle-wash-bag",
+    "source": "public/images/expansion/waffle-wash-bag-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Olive. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e7dfce",
+    "change": "only the main product finish to Cream",
+    "product": "waffle-wash-bag",
+    "source": "public/images/expansion/waffle-wash-bag-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Cream. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "forest",
+    "name": "Forest green & cream",
+    "hex": "#2e5845",
+    "change": "only navy mountain shapes to forest green; keep exact mountain outlines, moon, cream ground and oak frame",
+    "product": "ink-landscape",
+    "source": "public/images/expansion/ink-landscape-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy mountain shapes to forest green; keep exact mountain outlines, moon, cream ground and oak frame. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "burgundy",
+    "name": "Burgundy & cream",
+    "hex": "#772f43",
+    "change": "only navy mountain shapes to burgundy; keep exact mountain outlines, moon, cream ground and oak frame",
+    "product": "ink-landscape",
+    "source": "public/images/expansion/ink-landscape-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy mountain shapes to burgundy; keep exact mountain outlines, moon, cream ground and oak frame. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "charcoal",
+    "name": "Charcoal & cream",
+    "hex": "#424349",
+    "change": "only navy mountain shapes to charcoal; keep exact mountain outlines, moon, cream ground and oak frame",
+    "product": "ink-landscape",
+    "source": "public/images/expansion/ink-landscape-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only navy mountain shapes to charcoal; keep exact mountain outlines, moon, cream ground and oak frame. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "amber",
+    "name": "Amber glass",
+    "hex": "#b78b3a",
+    "change": "only the main product finish to Amber glass",
+    "product": "facet-glass-vase",
+    "source": "public/images/expansion/facet-glass-vase-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Amber glass. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "blush",
+    "name": "Blush glass",
+    "hex": "#c89aa4",
+    "change": "only the main product finish to Blush glass",
+    "product": "facet-glass-vase",
+    "source": "public/images/expansion/facet-glass-vase-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Blush glass. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "dusty-blue",
+    "name": "Dusty blue glass",
+    "hex": "#718aa1",
+    "change": "only the main product finish to Dusty blue glass",
+    "product": "facet-glass-vase",
+    "source": "public/images/expansion/facet-glass-vase-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Dusty blue glass. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "steel",
+    "name": "Brushed steel",
+    "hex": "#a7afb0",
+    "change": "only the main product finish to Brushed steel",
+    "product": "bridge-candleholder",
+    "source": "public/images/expansion/bridge-candleholder-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Brushed steel. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "bronze",
+    "name": "Dark bronze",
+    "hex": "#66513c",
+    "change": "only the main product finish to Dark bronze",
+    "product": "bridge-candleholder",
+    "source": "public/images/expansion/bridge-candleholder-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Dark bronze. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "blackened",
+    "name": "Blackened steel",
+    "hex": "#333439",
+    "change": "only the main product finish to Blackened steel",
+    "product": "bridge-candleholder",
+    "source": "public/images/expansion/bridge-candleholder-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product finish to Blackened steel. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "smoked",
+    "name": "Natural & smoked",
+    "hex": "#8c765a",
+    "change": "only charcoal woven accents to smoked-brown seagrass; keep natural straw ground",
+    "product": "orbit-wall-basket",
+    "source": "public/images/expansion/orbit-wall-basket-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only charcoal woven accents to smoked-brown seagrass; keep natural straw ground. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "olive",
+    "name": "Natural & olive",
+    "hex": "#71794e",
+    "change": "only charcoal woven accents to olive-dyed seagrass; keep natural straw ground",
+    "product": "orbit-wall-basket",
+    "source": "public/images/expansion/orbit-wall-basket-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only charcoal woven accents to olive-dyed seagrass; keep natural straw ground. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  },
+  {
+    "id": "terracotta",
+    "name": "Natural & terracotta",
+    "hex": "#ad7053",
+    "change": "only charcoal woven accents to terracotta-dyed seagrass; keep natural straw ground",
+    "product": "orbit-wall-basket",
+    "source": "public/images/expansion/orbit-wall-basket-original.jpg",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only charcoal woven accents to terracotta-dyed seagrass; keep natural straw ground. Preserve EXACTLY the same object design, silhouette, proportions, construction, materials, object count, seam/rib/weave pattern, grain, angle, perspective, framing, lighting, background, furniture and all other objects. Change only the named finish or colorway. Keep any pattern geometry and placement identical. Maintain realistic material response, reflections and transparency. No redesign, altered shape, changed camera or replacement scene. No text, labels, logos, watermark, collage or interface. Landscape 1536 x 1024 with the original crop-safe margins."
+  }
+]

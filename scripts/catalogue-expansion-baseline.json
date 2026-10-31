@@ -1,0 +1,588 @@
+[
+  {
+    "id": "arc-sofa",
+    "name": "ARC Curved Sofa",
+    "category": "living-room",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Cream",
+        "image": "/images/catalogue/arc-sofa-original.jpg",
+        "available": true
+      },
+      {
+        "id": "olive",
+        "name": "Olive",
+        "image": "/images/catalogue/arc-sofa-olive.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "cobalt-bowls",
+    "name": "COBALT Glazed Bowl Pair",
+    "category": "kitchen-dining",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Cobalt blue",
+        "image": "/images/catalogue/cobalt-bowls-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "clay-towels",
+    "name": "CLAY Terracotta Towel Set",
+    "category": "bathroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Terracotta",
+        "image": "/images/catalogue/clay-towels-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "check-cushion",
+    "name": "CHECK Pink Gingham Cushion",
+    "category": "bedroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Soft pink & burgundy",
+        "image": "/images/catalogue/check-cushion-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "tempo-clock",
+    "name": "TEMPO Ochre Wall Clock",
+    "category": "home-decor",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Ochre & burgundy",
+        "image": "/images/catalogue/tempo-clock-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "orbit-side-table",
+    "name": "ORBIT Glass Side Table",
+    "category": "living-room",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Smoked glass & chrome",
+        "image": "/images/catalogue/orbit-side-table-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "moss-chair",
+    "name": "MOSS Olive Accent Chair",
+    "category": "living-room",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Olive",
+        "image": "/images/catalogue/moss-chair-original.jpg",
+        "available": true
+      },
+      {
+        "id": "burgundy",
+        "name": "Burgundy",
+        "image": "/images/catalogue/moss-chair-burgundy.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "dune-table",
+    "name": "DUNE Travertine Coffee Table",
+    "category": "living-room",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Sand travertine",
+        "image": "/images/catalogue/dune-table-original.jpg",
+        "available": true
+      },
+      {
+        "id": "ivory",
+        "name": "Ivory travertine",
+        "image": "/images/catalogue/dune-table-ivory.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "fern-lamp",
+    "name": "FERN Olive Table Lamp",
+    "category": "living-room",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Olive",
+        "image": "/images/catalogue/fern-lamp-original.jpg",
+        "available": true
+      },
+      {
+        "id": "cream",
+        "name": "Butter cream",
+        "image": "/images/catalogue/fern-lamp-cream.jpg",
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": "loom-rug",
+    "name": "LOOM Textured Wool Rug",
+    "category": "living-room",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Ivory",
+        "image": "/images/catalogue/loom-rug-original.jpg",
+        "available": true
+      },
+      {
+        "id": "sand",
+        "name": "Warm sand",
+        "image": "/images/catalogue/loom-rug-sand.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "grain-oak-boards",
+    "name": "GRAIN Oak Cutting Board Set",
+    "category": "kitchen-dining",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Natural oak",
+        "image": "/images/catalogue/grain-oak-boards-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "flax-table-runner",
+    "name": "FLAX Natural Table Runner",
+    "category": "kitchen-dining",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Natural flax",
+        "image": "/images/catalogue/flax-table-runner-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "rouge-bedding",
+    "name": "ROUGE Linen Duvet Set",
+    "category": "bedroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Burgundy",
+        "image": "/images/catalogue/rouge-bedding-original.jpg",
+        "available": true
+      },
+      {
+        "id": "olive",
+        "name": "Olive",
+        "image": "/images/catalogue/rouge-bedding-olive.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "ripple-mirror",
+    "name": "RIPPLE Organic Floor Mirror",
+    "category": "bedroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Champagne frame",
+        "image": "/images/catalogue/ripple-mirror-original.jpg",
+        "available": true
+      },
+      {
+        "id": "bronze",
+        "name": "Dark bronze frame",
+        "image": "/images/catalogue/ripple-mirror-bronze.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "velvet-cushion",
+    "name": "PLUM Velvet Cushion",
+    "category": "bedroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Burgundy",
+        "image": "/images/catalogue/velvet-cushion-original.jpg",
+        "available": true
+      },
+      {
+        "id": "cream",
+        "name": "Butter cream",
+        "image": "/images/catalogue/velvet-cushion-cream.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "earth-vase",
+    "name": "EARTH Ceramic Ring Vase",
+    "category": "home-decor",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Sand",
+        "image": "/images/catalogue/earth-vase-original.jpg",
+        "available": true
+      },
+      {
+        "id": "olive",
+        "name": "Olive",
+        "image": "/images/catalogue/earth-vase-olive.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "contour-art",
+    "name": "CONTOUR Olive Abstract Print",
+    "category": "home-decor",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Olive & beige",
+        "image": "/images/catalogue/contour-art-original.jpg",
+        "available": true
+      },
+      {
+        "id": "burgundy",
+        "name": "Burgundy & beige",
+        "image": "/images/catalogue/contour-art-burgundy.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "canopy-plant",
+    "name": "CANOPY Decorative Plant",
+    "category": "home-decor",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Sand planter",
+        "image": "/images/catalogue/canopy-plant-original.jpg",
+        "available": true
+      },
+      {
+        "id": "olive",
+        "name": "Olive planter",
+        "image": "/images/catalogue/canopy-plant-olive.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "glow-glass-candleholders",
+    "name": "GLOW Ribbed Glass Candle Holders",
+    "category": "home-decor",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Clear glass",
+        "image": "/images/catalogue/glow-glass-candleholders-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "patch-cushion",
+    "name": "PATCH Geometric Cushion",
+    "category": "living-room",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Ochre, blue & ivory",
+        "image": "/images/catalogue/patch-cushion-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "tide-throw",
+    "name": "TIDE Striped Cotton Throw",
+    "category": "living-room",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Muted blue & ivory",
+        "image": "/images/catalogue/tide-throw-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "petal-mugs",
+    "name": "PETAL Pink Mug Pair",
+    "category": "kitchen-dining",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Soft pink",
+        "image": "/images/catalogue/petal-mugs-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "rill-glasses",
+    "name": "RILL Fluted Glass Pair",
+    "category": "kitchen-dining",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Clear glass",
+        "image": "/images/catalogue/rill-glasses-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "lacquer-tray",
+    "name": "LOOP Burgundy Serving Tray",
+    "category": "kitchen-dining",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Burgundy",
+        "image": "/images/catalogue/lacquer-tray-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "pantry-jars",
+    "name": "PANTRY Glass Storage Jar Trio",
+    "category": "kitchen-dining",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Clear glass & acacia",
+        "image": "/images/catalogue/pantry-jars-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "ochre-plates",
+    "name": "SUN Ochre Dinner Plate Pair",
+    "category": "kitchen-dining",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Ochre",
+        "image": "/images/catalogue/ochre-plates-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "nook-bedside",
+    "name": "NOOK Walnut Bedside Table",
+    "category": "bedroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Walnut",
+        "image": "/images/catalogue/nook-bedside-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "pleat-lamp",
+    "name": "PLEAT Blue Bedside Lamp",
+    "category": "bedroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Muted blue & ivory",
+        "image": "/images/catalogue/pleat-lamp-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "cove-blanket",
+    "name": "COVE Ochre Waffle Blanket",
+    "category": "bedroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Ochre",
+        "image": "/images/catalogue/cove-blanket-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "reed-bench",
+    "name": "REED Woven Bedroom Bench",
+    "category": "bedroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Oak & natural cord",
+        "image": "/images/catalogue/reed-bench-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "arch-bath-mat",
+    "name": "ARCH Olive Bath Mat",
+    "category": "bathroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Olive & ivory",
+        "image": "/images/catalogue/arch-bath-mat-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "drop-dispenser",
+    "name": "DROP Blue Soap Dispenser",
+    "category": "bathroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Muted blue",
+        "image": "/images/catalogue/drop-dispenser-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "vein-vanity-tray",
+    "name": "VEIN Marble Vanity Tray",
+    "category": "bathroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Green marble",
+        "image": "/images/catalogue/vein-vanity-tray-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "braid-baskets",
+    "name": "BRAID Lidded Basket Pair",
+    "category": "bathroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Natural seagrass",
+        "image": "/images/catalogue/braid-baskets-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "stone-brush",
+    "name": "STONE Toilet Brush Set",
+    "category": "bathroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Warm grey",
+        "image": "/images/catalogue/stone-brush-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "fold-tissue-box",
+    "name": "FOLD Pink Tissue Box Cover",
+    "category": "bathroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Soft pink",
+        "image": "/images/catalogue/fold-tissue-box-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "stripe-shower-curtain",
+    "name": "STRIPE Blue Shower Curtain",
+    "category": "bathroom",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Muted blue & ivory",
+        "image": "/images/catalogue/stripe-shower-curtain-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "balance-bookends",
+    "name": "BALANCE Stone Bookend Pair",
+    "category": "home-decor",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Terracotta stone",
+        "image": "/images/catalogue/balance-bookends-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "ribbon-object",
+    "name": "RIBBON Pink Glass Sculpture",
+    "category": "home-decor",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Soft pink glass",
+        "image": "/images/catalogue/ribbon-object-original.jpg",
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "kinetic-mobile",
+    "name": "DRIFT Brass Hanging Mobile",
+    "category": "home-decor",
+    "variants": [
+      {
+        "id": "original",
+        "name": "Brass & burgundy",
+        "image": "/images/catalogue/kinetic-mobile-original.jpg",
+        "available": true
+      }
+    ]
+  }
+]

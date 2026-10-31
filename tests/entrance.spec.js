@@ -1,14 +1,15 @@
 ﻿import { test, expect } from '@playwright/test'
+import { products } from '../src/data/catalog.js'
 
 test('brand intro holds, finishes within four seconds, and does not replay', async ({
   page,
 }) => {
   await page.emulateMedia({ reducedMotion: 'no-preference' })
   await page.setViewportSize({ width: 1280, height: 900 })
-  await page.goto('/')
+  await page.goto('/', { waitUntil: 'domcontentloaded' })
   await expect(page.locator('.store-intro')).toBeVisible()
   await expect(page.getByRole('button', { name: 'Skip intro' })).toBeFocused()
-  await expect(page.locator('#intro-title')).toHaveText('HavloHome')
+  await expect(page.locator('#intro-title')).toHaveText('RAHAHOME & LIVING')
   const endTimes = await page.evaluate(() =>
     document
       .getAnimations()
@@ -36,7 +37,7 @@ test('brand intro holds, finishes within four seconds, and does not replay', asy
     .click()
   await expect(page.locator('.store-intro')).toHaveCount(0)
   await page.reload()
-  await expect(page.locator('.product-card')).toHaveCount(12)
+  await expect(page.locator('.product-card')).toHaveCount(products.length)
   await expect(page.locator('.store-intro')).toHaveCount(0)
 })
 
@@ -52,7 +53,7 @@ test('keyboard skip immediately reveals usable controls and clears animations', 
   await expect(page.locator('#main-content')).toBeFocused()
   await page.getByLabel('Find something for your home').fill('sofa')
   await page
-    .getByRole('button', { name: 'Add LINDEN Sofa to cart', exact: true })
+    .getByRole('button', { name: 'Add ARC Curved Sofa to cart', exact: true })
     .click()
   await expect(page.locator('#cart-count')).toHaveText('1')
 })
@@ -62,7 +63,7 @@ test('replay URL works in an existing session, is consumed, and Escape skips', a
 }) => {
   await page.emulateMedia({ reducedMotion: 'no-preference' })
   await page.addInitScript(() =>
-    sessionStorage.setItem('havlo-entrance-seen', '1'),
+    sessionStorage.setItem('raha-entrance-seen', '1'),
   )
   await page.goto('/?intro=replay')
   await expect(page.locator('.store-intro')).toBeVisible()
@@ -123,7 +124,7 @@ test('without JavaScript no intro hides the accessible page shell', async ({
   const page = await context.newPage()
   await page.goto('/')
   await expect(page.locator('.store-intro')).toHaveCount(0)
-  await expect(page.locator('.sidebar')).toBeVisible()
+  await expect(page.locator('.site-header')).toBeVisible()
   await expect(page.locator('noscript p')).toBeVisible()
   await expect(page.locator('noscript p')).toHaveText(
     'Please enable JavaScript to browse our local furniture catalogue and pages.',

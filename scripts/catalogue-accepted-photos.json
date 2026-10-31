@@ -1,0 +1,762 @@
+[
+  {
+    "source": "artifacts/catalogue-expansion/beam-task-lamp-original.png",
+    "target": "public/images/expansion/beam-task-lamp-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/channel-ottoman-original.png",
+    "target": "public/images/expansion/channel-ottoman-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cadence-lumbar-original.png",
+    "target": "public/images/expansion/cadence-lumbar-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/folio-rack-original.png",
+    "target": "public/images/expansion/folio-rack-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/gem-goblets-original.png",
+    "target": "public/images/expansion/gem-goblets-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/mosaic-platter-original.png",
+    "target": "public/images/expansion/mosaic-platter-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/weft-tray-original.png",
+    "target": "public/images/expansion/weft-tray-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/hearth-butter-dish-original.png",
+    "target": "public/images/expansion/hearth-butter-dish-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/flora-duvet-original.png",
+    "target": "public/images/expansion/flora-duvet-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/drum-bedside-original.png",
+    "target": "public/images/expansion/drum-bedside-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/scallop-mirror-original.png",
+    "target": "public/images/expansion/scallop-mirror-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/herringbone-coverlet-original.png",
+    "target": "public/images/expansion/herringbone-coverlet-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/hammam-towels-original.png",
+    "target": "public/images/expansion/hammam-towels-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/reed-toothbrush-cup-original.png",
+    "target": "public/images/expansion/reed-toothbrush-cup-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/frame-laundry-basket-original.png",
+    "target": "public/images/expansion/frame-laundry-basket-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/waffle-wash-bag-original.png",
+    "target": "public/images/expansion/waffle-wash-bag-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ink-landscape-original.png",
+    "target": "public/images/expansion/ink-landscape-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/facet-glass-vase-original.png",
+    "target": "public/images/expansion/facet-glass-vase-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/bridge-candleholder-original.png",
+    "target": "public/images/expansion/bridge-candleholder-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/orbit-wall-basket-original.png",
+    "target": "public/images/expansion/orbit-wall-basket-original.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/arc-sofa-terracotta.png",
+    "target": "public/images/expansion/arc-sofa-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/arc-sofa-charcoal.png",
+    "target": "public/images/expansion/arc-sofa-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cobalt-bowls-forest.png",
+    "target": "public/images/expansion/cobalt-bowls-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cobalt-bowls-terracotta.png",
+    "target": "public/images/expansion/cobalt-bowls-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cobalt-bowls-cream.png",
+    "target": "public/images/expansion/cobalt-bowls-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/clay-towels-dusty-blue.png",
+    "target": "public/images/expansion/clay-towels-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/clay-towels-navy.png",
+    "target": "public/images/expansion/clay-towels-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/clay-towels-cream.png",
+    "target": "public/images/expansion/clay-towels-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/check-cushion-olive.png",
+    "target": "public/images/expansion/check-cushion-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/check-cushion-navy.png",
+    "target": "public/images/expansion/check-cushion-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/check-cushion-terracotta.png",
+    "target": "public/images/expansion/check-cushion-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/tempo-clock-forest.png",
+    "target": "public/images/expansion/tempo-clock-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/tempo-clock-navy.png",
+    "target": "public/images/expansion/tempo-clock-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/tempo-clock-charcoal.png",
+    "target": "public/images/expansion/tempo-clock-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/orbit-side-table-clear-chrome.png",
+    "target": "public/images/expansion/orbit-side-table-clear-chrome.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/orbit-side-table-amber-chrome.png",
+    "target": "public/images/expansion/orbit-side-table-amber-chrome.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/orbit-side-table-smoked-brass.png",
+    "target": "public/images/expansion/orbit-side-table-smoked-brass.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/moss-chair-dusty-blue.png",
+    "target": "public/images/expansion/moss-chair-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/moss-chair-ochre.png",
+    "target": "public/images/expansion/moss-chair-ochre.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/dune-table-silver.png",
+    "target": "public/images/expansion/dune-table-silver.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/dune-table-mocha.png",
+    "target": "public/images/expansion/dune-table-mocha.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/fern-lamp-navy.png",
+    "target": "public/images/expansion/fern-lamp-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/fern-lamp-terracotta.png",
+    "target": "public/images/expansion/fern-lamp-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/fern-lamp-forest.png",
+    "target": "public/images/expansion/fern-lamp-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/loom-rug-charcoal.png",
+    "target": "public/images/expansion/loom-rug-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/loom-rug-dusty-blue.png",
+    "target": "public/images/expansion/loom-rug-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/grain-oak-boards-smoked.png",
+    "target": "public/images/expansion/grain-oak-boards-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/grain-oak-boards-white-oiled.png",
+    "target": "public/images/expansion/grain-oak-boards-white-oiled.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/grain-oak-boards-ebonized.png",
+    "target": "public/images/expansion/grain-oak-boards-ebonized.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/flax-table-runner-burgundy.png",
+    "target": "public/images/expansion/flax-table-runner-burgundy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/flax-table-runner-olive.png",
+    "target": "public/images/expansion/flax-table-runner-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/flax-table-runner-dusty-blue.png",
+    "target": "public/images/expansion/flax-table-runner-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/rouge-bedding-navy.png",
+    "target": "public/images/expansion/rouge-bedding-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/rouge-bedding-blush.png",
+    "target": "public/images/expansion/rouge-bedding-blush.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ripple-mirror-steel.png",
+    "target": "public/images/expansion/ripple-mirror-steel.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ripple-mirror-black.png",
+    "target": "public/images/expansion/ripple-mirror-black.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/velvet-cushion-forest.png",
+    "target": "public/images/expansion/velvet-cushion-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/velvet-cushion-navy.png",
+    "target": "public/images/expansion/velvet-cushion-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/earth-vase-terracotta.png",
+    "target": "public/images/expansion/earth-vase-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/earth-vase-charcoal.png",
+    "target": "public/images/expansion/earth-vase-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/contour-art-dusty-blue.png",
+    "target": "public/images/expansion/contour-art-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/contour-art-charcoal.png",
+    "target": "public/images/expansion/contour-art-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/canopy-plant-terracotta.png",
+    "target": "public/images/expansion/canopy-plant-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/canopy-plant-charcoal.png",
+    "target": "public/images/expansion/canopy-plant-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/glow-glass-candleholders-smoked.png",
+    "target": "public/images/expansion/glow-glass-candleholders-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/glow-glass-candleholders-amber.png",
+    "target": "public/images/expansion/glow-glass-candleholders-amber.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/glow-glass-candleholders-olive.png",
+    "target": "public/images/expansion/glow-glass-candleholders-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/patch-cushion-burgundy.png",
+    "target": "public/images/expansion/patch-cushion-burgundy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/patch-cushion-forest.png",
+    "target": "public/images/expansion/patch-cushion-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/patch-cushion-terracotta.png",
+    "target": "public/images/expansion/patch-cushion-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/tide-throw-navy.png",
+    "target": "public/images/expansion/tide-throw-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/tide-throw-forest.png",
+    "target": "public/images/expansion/tide-throw-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/tide-throw-terracotta.png",
+    "target": "public/images/expansion/tide-throw-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/petal-mugs-navy.png",
+    "target": "public/images/expansion/petal-mugs-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/petal-mugs-forest.png",
+    "target": "public/images/expansion/petal-mugs-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/petal-mugs-ochre.png",
+    "target": "public/images/expansion/petal-mugs-ochre.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/rill-glasses-smoked.png",
+    "target": "public/images/expansion/rill-glasses-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/rill-glasses-amber.png",
+    "target": "public/images/expansion/rill-glasses-amber.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/rill-glasses-forest.png",
+    "target": "public/images/expansion/rill-glasses-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/lacquer-tray-forest.png",
+    "target": "public/images/expansion/lacquer-tray-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/lacquer-tray-navy.png",
+    "target": "public/images/expansion/lacquer-tray-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/lacquer-tray-cream.png",
+    "target": "public/images/expansion/lacquer-tray-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/pantry-jars-smoked.png",
+    "target": "public/images/expansion/pantry-jars-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/pantry-jars-white-oiled.png",
+    "target": "public/images/expansion/pantry-jars-white-oiled.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/pantry-jars-ebonized.png",
+    "target": "public/images/expansion/pantry-jars-ebonized.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ochre-plates-forest.png",
+    "target": "public/images/expansion/ochre-plates-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ochre-plates-terracotta.png",
+    "target": "public/images/expansion/ochre-plates-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ochre-plates-dusty-blue.png",
+    "target": "public/images/expansion/ochre-plates-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/nook-bedside-smoked.png",
+    "target": "public/images/expansion/nook-bedside-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/nook-bedside-white-oiled.png",
+    "target": "public/images/expansion/nook-bedside-white-oiled.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/nook-bedside-ebonized.png",
+    "target": "public/images/expansion/nook-bedside-ebonized.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/pleat-lamp-terracotta.png",
+    "target": "public/images/expansion/pleat-lamp-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/pleat-lamp-forest.png",
+    "target": "public/images/expansion/pleat-lamp-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/pleat-lamp-taupe.png",
+    "target": "public/images/expansion/pleat-lamp-taupe.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cove-blanket-navy.png",
+    "target": "public/images/expansion/cove-blanket-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cove-blanket-olive.png",
+    "target": "public/images/expansion/cove-blanket-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cove-blanket-cream.png",
+    "target": "public/images/expansion/cove-blanket-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/reed-bench-smoked.png",
+    "target": "public/images/expansion/reed-bench-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/reed-bench-white-oiled.png",
+    "target": "public/images/expansion/reed-bench-white-oiled.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/reed-bench-ebonized.png",
+    "target": "public/images/expansion/reed-bench-ebonized.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/arch-bath-mat-dusty-blue.png",
+    "target": "public/images/expansion/arch-bath-mat-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/arch-bath-mat-navy.png",
+    "target": "public/images/expansion/arch-bath-mat-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/arch-bath-mat-terracotta.png",
+    "target": "public/images/expansion/arch-bath-mat-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/drop-dispenser-forest.png",
+    "target": "public/images/expansion/drop-dispenser-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/drop-dispenser-cream.png",
+    "target": "public/images/expansion/drop-dispenser-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/drop-dispenser-charcoal.png",
+    "target": "public/images/expansion/drop-dispenser-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/vein-vanity-tray-black.png",
+    "target": "public/images/expansion/vein-vanity-tray-black.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/vein-vanity-tray-white.png",
+    "target": "public/images/expansion/vein-vanity-tray-white.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/vein-vanity-tray-pink.png",
+    "target": "public/images/expansion/vein-vanity-tray-pink.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/braid-baskets-smoked.png",
+    "target": "public/images/expansion/braid-baskets-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/braid-baskets-whitewashed.png",
+    "target": "public/images/expansion/braid-baskets-whitewashed.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/braid-baskets-charcoal.png",
+    "target": "public/images/expansion/braid-baskets-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/stone-brush-cream.png",
+    "target": "public/images/expansion/stone-brush-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/stone-brush-charcoal.png",
+    "target": "public/images/expansion/stone-brush-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/stone-brush-forest.png",
+    "target": "public/images/expansion/stone-brush-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/fold-tissue-box-navy.png",
+    "target": "public/images/expansion/fold-tissue-box-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/fold-tissue-box-cream.png",
+    "target": "public/images/expansion/fold-tissue-box-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/fold-tissue-box-charcoal.png",
+    "target": "public/images/expansion/fold-tissue-box-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/stripe-shower-curtain-navy.png",
+    "target": "public/images/expansion/stripe-shower-curtain-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/stripe-shower-curtain-olive.png",
+    "target": "public/images/expansion/stripe-shower-curtain-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/stripe-shower-curtain-terracotta.png",
+    "target": "public/images/expansion/stripe-shower-curtain-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/balance-bookends-sand.png",
+    "target": "public/images/expansion/balance-bookends-sand.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/balance-bookends-ivory.png",
+    "target": "public/images/expansion/balance-bookends-ivory.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/balance-bookends-silver.png",
+    "target": "public/images/expansion/balance-bookends-silver.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ribbon-object-amber.png",
+    "target": "public/images/expansion/ribbon-object-amber.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ribbon-object-navy.png",
+    "target": "public/images/expansion/ribbon-object-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ribbon-object-forest.png",
+    "target": "public/images/expansion/ribbon-object-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/kinetic-mobile-steel-navy.png",
+    "target": "public/images/expansion/kinetic-mobile-steel-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/kinetic-mobile-black-ochre.png",
+    "target": "public/images/expansion/kinetic-mobile-black-ochre.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/kinetic-mobile-bronze-cream.png",
+    "target": "public/images/expansion/kinetic-mobile-bronze-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/beam-task-lamp-burgundy.png",
+    "target": "public/images/expansion/beam-task-lamp-burgundy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/beam-task-lamp-olive.png",
+    "target": "public/images/expansion/beam-task-lamp-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/beam-task-lamp-cream.png",
+    "target": "public/images/expansion/beam-task-lamp-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/channel-ottoman-burgundy.png",
+    "target": "public/images/expansion/channel-ottoman-burgundy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/channel-ottoman-ochre.png",
+    "target": "public/images/expansion/channel-ottoman-ochre.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/channel-ottoman-taupe.png",
+    "target": "public/images/expansion/channel-ottoman-taupe.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cadence-lumbar-forest.png",
+    "target": "public/images/expansion/cadence-lumbar-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cadence-lumbar-terracotta.png",
+    "target": "public/images/expansion/cadence-lumbar-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/cadence-lumbar-ochre.png",
+    "target": "public/images/expansion/cadence-lumbar-ochre.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/folio-rack-smoked.png",
+    "target": "public/images/expansion/folio-rack-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/folio-rack-white-oiled.png",
+    "target": "public/images/expansion/folio-rack-white-oiled.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/folio-rack-ebonized.png",
+    "target": "public/images/expansion/folio-rack-ebonized.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/gem-goblets-forest.png",
+    "target": "public/images/expansion/gem-goblets-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/gem-goblets-blush.png",
+    "target": "public/images/expansion/gem-goblets-blush.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/gem-goblets-navy.png",
+    "target": "public/images/expansion/gem-goblets-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/mosaic-platter-forest.png",
+    "target": "public/images/expansion/mosaic-platter-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/mosaic-platter-terracotta.png",
+    "target": "public/images/expansion/mosaic-platter-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/mosaic-platter-ochre.png",
+    "target": "public/images/expansion/mosaic-platter-ochre.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/weft-tray-smoked.png",
+    "target": "public/images/expansion/weft-tray-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/weft-tray-whitewashed.png",
+    "target": "public/images/expansion/weft-tray-whitewashed.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/weft-tray-ebonized.png",
+    "target": "public/images/expansion/weft-tray-ebonized.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/hearth-butter-dish-forest.png",
+    "target": "public/images/expansion/hearth-butter-dish-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/hearth-butter-dish-ochre.png",
+    "target": "public/images/expansion/hearth-butter-dish-ochre.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/hearth-butter-dish-blush.png",
+    "target": "public/images/expansion/hearth-butter-dish-blush.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/flora-duvet-navy.png",
+    "target": "public/images/expansion/flora-duvet-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/flora-duvet-terracotta.png",
+    "target": "public/images/expansion/flora-duvet-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/flora-duvet-dusty-blue.png",
+    "target": "public/images/expansion/flora-duvet-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/drum-bedside-forest.png",
+    "target": "public/images/expansion/drum-bedside-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/drum-bedside-charcoal.png",
+    "target": "public/images/expansion/drum-bedside-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/drum-bedside-cream.png",
+    "target": "public/images/expansion/drum-bedside-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/scallop-mirror-smoked.png",
+    "target": "public/images/expansion/scallop-mirror-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/scallop-mirror-white-oiled.png",
+    "target": "public/images/expansion/scallop-mirror-white-oiled.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/scallop-mirror-ebonized.png",
+    "target": "public/images/expansion/scallop-mirror-ebonized.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/herringbone-coverlet-navy.png",
+    "target": "public/images/expansion/herringbone-coverlet-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/herringbone-coverlet-olive.png",
+    "target": "public/images/expansion/herringbone-coverlet-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/herringbone-coverlet-burgundy.png",
+    "target": "public/images/expansion/herringbone-coverlet-burgundy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/hammam-towels-forest.png",
+    "target": "public/images/expansion/hammam-towels-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/hammam-towels-terracotta.png",
+    "target": "public/images/expansion/hammam-towels-terracotta.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/hammam-towels-ochre.png",
+    "target": "public/images/expansion/hammam-towels-ochre.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/reed-toothbrush-cup-forest.png",
+    "target": "public/images/expansion/reed-toothbrush-cup-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/reed-toothbrush-cup-dusty-blue.png",
+    "target": "public/images/expansion/reed-toothbrush-cup-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/reed-toothbrush-cup-cream.png",
+    "target": "public/images/expansion/reed-toothbrush-cup-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/frame-laundry-basket-navy.png",
+    "target": "public/images/expansion/frame-laundry-basket-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/frame-laundry-basket-olive.png",
+    "target": "public/images/expansion/frame-laundry-basket-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/frame-laundry-basket-taupe.png",
+    "target": "public/images/expansion/frame-laundry-basket-taupe.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/waffle-wash-bag-navy.png",
+    "target": "public/images/expansion/waffle-wash-bag-navy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/waffle-wash-bag-olive.png",
+    "target": "public/images/expansion/waffle-wash-bag-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/waffle-wash-bag-cream.png",
+    "target": "public/images/expansion/waffle-wash-bag-cream.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ink-landscape-forest.png",
+    "target": "public/images/expansion/ink-landscape-forest.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ink-landscape-burgundy.png",
+    "target": "public/images/expansion/ink-landscape-burgundy.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/ink-landscape-charcoal.png",
+    "target": "public/images/expansion/ink-landscape-charcoal.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/facet-glass-vase-amber.png",
+    "target": "public/images/expansion/facet-glass-vase-amber.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/facet-glass-vase-blush.png",
+    "target": "public/images/expansion/facet-glass-vase-blush.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/facet-glass-vase-dusty-blue.png",
+    "target": "public/images/expansion/facet-glass-vase-dusty-blue.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/bridge-candleholder-steel.png",
+    "target": "public/images/expansion/bridge-candleholder-steel.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/bridge-candleholder-bronze.png",
+    "target": "public/images/expansion/bridge-candleholder-bronze.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/bridge-candleholder-blackened.png",
+    "target": "public/images/expansion/bridge-candleholder-blackened.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/orbit-wall-basket-smoked.png",
+    "target": "public/images/expansion/orbit-wall-basket-smoked.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/orbit-wall-basket-olive.png",
+    "target": "public/images/expansion/orbit-wall-basket-olive.jpg"
+  },
+  {
+    "source": "artifacts/catalogue-expansion/orbit-wall-basket-terracotta.png",
+    "target": "public/images/expansion/orbit-wall-basket-terracotta.jpg"
+  }
+]

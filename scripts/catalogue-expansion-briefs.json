@@ -1,0 +1,642 @@
+[
+  {
+    "id": "beam-task-lamp",
+    "name": "BEAM Adjustable Task Lamp",
+    "category": "living-room",
+    "price": 118,
+    "finish": "Charcoal",
+    "hex": "#3c3d40",
+    "dimensions": "18 W x 34 D x 48 H cm",
+    "materials": "Powder-coated steel, brass joints, textile cable; bulb excluded",
+    "scene": "One articulated charcoal powder-coated metal task lamp with two slender jointed arms, exposed brass hinge pins, flat circular base and small conical adjustable shade. Full lamp isolated on warm grey studio background, three-quarter angle.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One articulated charcoal powder-coated metal task lamp with two slender jointed arms, exposed brass hinge pins, flat circular base and small conical adjustable shade. Full lamp isolated on warm grey studio background, three-quarter angle.",
+    "variants": [
+      {
+        "id": "burgundy",
+        "name": "Burgundy",
+        "hex": "#742b40",
+        "change": "only the charcoal powder-coated metal parts to burgundy; keep brass hinge pins"
+      },
+      {
+        "id": "olive",
+        "name": "Olive",
+        "hex": "#72774e",
+        "change": "only the charcoal powder-coated metal parts to olive; keep brass hinge pins"
+      },
+      {
+        "id": "cream",
+        "name": "Cream",
+        "hex": "#e8dfcc",
+        "change": "only the charcoal powder-coated metal parts to cream; keep brass hinge pins"
+      }
+    ]
+  },
+  {
+    "id": "channel-ottoman",
+    "name": "CHANNEL Velvet Storage Ottoman",
+    "category": "living-room",
+    "price": 165,
+    "finish": "Forest green",
+    "hex": "#254c3e",
+    "dimensions": "45 diameter x 42 H cm",
+    "materials": "Cotton-blend velvet, foam, plywood frame, dark-stained beech base",
+    "scene": "One round forest-green velvet upholstered ottoman with vertical channel stitching around its cylindrical body, removable round upholstered lid with a neat seam, low dark wooden plinth. Full product in a naturally lit living corner with pale taupe wall, no other furniture.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One round forest-green velvet upholstered ottoman with vertical channel stitching around its cylindrical body, removable round upholstered lid with a neat seam, low dark wooden plinth. Full product in a naturally lit living corner with pale taupe wall, no other furniture.",
+    "variants": [
+      {
+        "id": "burgundy",
+        "name": "Burgundy",
+        "hex": "#742d40",
+        "change": "only the main product finish to Burgundy"
+      },
+      {
+        "id": "ochre",
+        "name": "Ochre",
+        "hex": "#b88d3d",
+        "change": "only the main product finish to Ochre"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9b8c7b",
+        "change": "only the main product finish to Taupe"
+      }
+    ]
+  },
+  {
+    "id": "cadence-lumbar",
+    "name": "CADENCE Striped Lumbar Cushion",
+    "category": "living-room",
+    "price": 46,
+    "finish": "Navy & cream",
+    "hex": "#273c59",
+    "dimensions": "60 W x 30 H cm",
+    "materials": "Woven cotton cover, recycled polyester insert",
+    "scene": "One long rectangular lumbar cushion with navy and cream broad vertical woven stripes, narrow navy piping and crisp stitched corners. Full cushion on a simple cream sofa arm, fabric detail visible, soft room daylight. No other cushions.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One long rectangular lumbar cushion with navy and cream broad vertical woven stripes, narrow navy piping and crisp stitched corners. Full cushion on a simple cream sofa arm, fabric detail visible, soft room daylight. No other cushions.",
+    "variants": [
+      {
+        "id": "forest",
+        "name": "Forest green & cream",
+        "hex": "#2e5746",
+        "change": "only navy stripes and navy piping to forest green; keep cream stripes"
+      },
+      {
+        "id": "terracotta",
+        "name": "Terracotta & cream",
+        "hex": "#b56d50",
+        "change": "only navy stripes and navy piping to terracotta; keep cream stripes"
+      },
+      {
+        "id": "ochre",
+        "name": "Ochre & cream",
+        "hex": "#b58d3e",
+        "change": "only navy stripes and navy piping to ochre; keep cream stripes"
+      }
+    ]
+  },
+  {
+    "id": "folio-rack",
+    "name": "FOLIO Bentwood Magazine Rack",
+    "category": "living-room",
+    "price": 98,
+    "finish": "Natural oak",
+    "hex": "#ac865a",
+    "dimensions": "40 W x 26 D x 35 H cm",
+    "materials": "Moulded oak-veneered plywood, clear protective lacquer",
+    "scene": "One sculptural bent plywood magazine rack in natural oak veneer: continuous U-shaped curved panel making two angled pockets with a central slot handle. Full empty rack, low three-quarter studio photograph on pale dusty-blue seamless background. No magazines or other objects.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One sculptural bent plywood magazine rack in natural oak veneer: continuous U-shaped curved panel making two angled pockets with a central slot handle. Full empty rack, low three-quarter studio photograph on pale dusty-blue seamless background. No magazines or other objects.",
+    "variants": [
+      {
+        "id": "smoked",
+        "name": "Smoked oak",
+        "hex": "#76604c",
+        "change": "only the main product finish to Smoked oak"
+      },
+      {
+        "id": "white-oiled",
+        "name": "White-oiled oak",
+        "hex": "#d2c3a6",
+        "change": "only the main product finish to White-oiled oak"
+      },
+      {
+        "id": "ebonized",
+        "name": "Ebonized oak",
+        "hex": "#34322e",
+        "change": "only the main product finish to Ebonized oak"
+      }
+    ]
+  },
+  {
+    "id": "gem-goblets",
+    "name": "GEM Colored Goblet Pair",
+    "category": "kitchen-dining",
+    "price": 44,
+    "finish": "Amber glass",
+    "hex": "#b78a36",
+    "dimensions": "8 diameter x 16 H cm; 250 ml each; pair",
+    "materials": "Colored soda-lime glass",
+    "scene": "Exactly two amber colored glass goblets with short thick stems, round feet and vertically ribbed rounded bowls. Both empty and fully visible on pale blue tabletop, refracted daylight, high oblique tabletop arrangement. No glasses beyond the pair.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. Exactly two amber colored glass goblets with short thick stems, round feet and vertically ribbed rounded bowls. Both empty and fully visible on pale blue tabletop, refracted daylight, high oblique tabletop arrangement. No glasses beyond the pair.",
+    "variants": [
+      {
+        "id": "forest",
+        "name": "Forest green glass",
+        "hex": "#285640",
+        "change": "only the main product finish to Forest green glass"
+      },
+      {
+        "id": "blush",
+        "name": "Blush glass",
+        "hex": "#c79ba6",
+        "change": "only the main product finish to Blush glass"
+      },
+      {
+        "id": "navy",
+        "name": "Navy glass",
+        "hex": "#32486e",
+        "change": "only the main product finish to Navy glass"
+      }
+    ]
+  },
+  {
+    "id": "mosaic-platter",
+    "name": "MOSAIC Ceramic Serving Platter",
+    "category": "kitchen-dining",
+    "price": 62,
+    "finish": "Dusty blue & cream",
+    "hex": "#71879b",
+    "dimensions": "38 W x 24 D x 3 H cm",
+    "materials": "Food-contact glazed stoneware",
+    "scene": "One large oval ceramic serving platter, cream glaze with tasteful dusty-blue geometric stepped tile pattern painted around its broad rim, blank cream centre. Full empty platter in overhead tabletop photograph on charcoal linen with a small fold, no food or other ceramics.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One large oval ceramic serving platter, cream glaze with tasteful dusty-blue geometric stepped tile pattern painted around its broad rim, blank cream centre. Full empty platter in overhead tabletop photograph on charcoal linen with a small fold, no food or other ceramics.",
+    "variants": [
+      {
+        "id": "forest",
+        "name": "Forest green & cream",
+        "hex": "#315742",
+        "change": "only dusty-blue rim pattern to forest green; keep cream glaze and exact pattern"
+      },
+      {
+        "id": "terracotta",
+        "name": "Terracotta & cream",
+        "hex": "#b96c50",
+        "change": "only dusty-blue rim pattern to terracotta; keep cream glaze and exact pattern"
+      },
+      {
+        "id": "ochre",
+        "name": "Ochre & cream",
+        "hex": "#ba903c",
+        "change": "only dusty-blue rim pattern to ochre; keep cream glaze and exact pattern"
+      }
+    ]
+  },
+  {
+    "id": "weft-tray",
+    "name": "WEFT Woven Serving Tray",
+    "category": "kitchen-dining",
+    "price": 56,
+    "finish": "Natural rattan",
+    "hex": "#b49160",
+    "dimensions": "44 W x 30 D x 7 H cm",
+    "materials": "Woven rattan, solid rattan handles, clear protective finish",
+    "scene": "One oval woven rattan serving tray with an open lattice raised rim and two large loop handles made of solid bent rattan. Warm natural honey finish, full empty tray on a pale stone tabletop. Three-quarter view emphasizing woven texture, no props.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One oval woven rattan serving tray with an open lattice raised rim and two large loop handles made of solid bent rattan. Warm natural honey finish, full empty tray on a pale stone tabletop. Three-quarter view emphasizing woven texture, no props.",
+    "variants": [
+      {
+        "id": "smoked",
+        "name": "Smoked rattan",
+        "hex": "#7b6552",
+        "change": "only the main product finish to Smoked rattan"
+      },
+      {
+        "id": "whitewashed",
+        "name": "Whitewashed rattan",
+        "hex": "#d0c3a8",
+        "change": "only the main product finish to Whitewashed rattan"
+      },
+      {
+        "id": "ebonized",
+        "name": "Ebonized rattan",
+        "hex": "#403b34",
+        "change": "only the main product finish to Ebonized rattan"
+      }
+    ]
+  },
+  {
+    "id": "hearth-butter-dish",
+    "name": "HEARTH Ceramic Butter Dish",
+    "category": "kitchen-dining",
+    "price": 38,
+    "finish": "Navy",
+    "hex": "#273b59",
+    "dimensions": "18 W x 12 D x 10 H cm",
+    "materials": "Food-contact glazed stoneware, sealed beech knob",
+    "scene": "One navy glazed ceramic butter dish with a rectangular rounded-corner base tray and a ribbed domed rectangular lid with one small round natural wooden knob. Lid closed on base. Full product on soft blush studio background, close three-quarter photograph showing glaze and ribs, no butter or other objects.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One navy glazed ceramic butter dish with a rectangular rounded-corner base tray and a ribbed domed rectangular lid with one small round natural wooden knob. Lid closed on base. Full product on soft blush studio background, close three-quarter photograph showing glaze and ribs, no butter or other objects.",
+    "variants": [
+      {
+        "id": "forest",
+        "name": "Forest green",
+        "hex": "#295342",
+        "change": "only navy ceramic glaze to forest green; keep natural wood knob"
+      },
+      {
+        "id": "ochre",
+        "name": "Ochre",
+        "hex": "#b78c3e",
+        "change": "only navy ceramic glaze to ochre; keep natural wood knob"
+      },
+      {
+        "id": "blush",
+        "name": "Blush pink",
+        "hex": "#c79a9c",
+        "change": "only navy ceramic glaze to blush pink; keep natural wood knob"
+      }
+    ]
+  },
+  {
+    "id": "flora-duvet",
+    "name": "FLORA Botanical Duvet Set",
+    "category": "bedroom",
+    "price": 145,
+    "finish": "Olive & cream",
+    "hex": "#6b7351",
+    "dimensions": "Duvet cover 200 x 220 cm; two pillowcases 50 x 75 cm",
+    "materials": "Printed cotton percale; duvet and pillow inserts excluded",
+    "scene": "One cotton percale duvet cover set with a delicate repeated olive-green botanical leaf print on a cream ground, shown loosely spread across the end of a simple cream bed with exactly two matching pillowcases above it. Natural bedroom light, full bedding arrangement visible with crop-safe margins, no other patterned textiles.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One cotton percale duvet cover set with a delicate repeated olive-green botanical leaf print on a cream ground, shown loosely spread across the end of a simple cream bed with exactly two matching pillowcases above it. Natural bedroom light, full bedding arrangement visible with crop-safe margins, no other patterned textiles.",
+    "variants": [
+      {
+        "id": "navy",
+        "name": "Navy & cream",
+        "hex": "#2c405c",
+        "change": "only olive printed leaves to navy; preserve every leaf shape, position and cream ground"
+      },
+      {
+        "id": "terracotta",
+        "name": "Terracotta & cream",
+        "hex": "#b87155",
+        "change": "only olive printed leaves to terracotta; preserve every leaf shape, position and cream ground"
+      },
+      {
+        "id": "dusty-blue",
+        "name": "Dusty blue & cream",
+        "hex": "#778d9f",
+        "change": "only olive printed leaves to dusty blue; preserve every leaf shape, position and cream ground"
+      }
+    ]
+  },
+  {
+    "id": "drum-bedside",
+    "name": "DRUM Metal Bedside Table",
+    "category": "bedroom",
+    "price": 149,
+    "finish": "Dusty blue",
+    "hex": "#71869b",
+    "dimensions": "38 diameter x 52 H cm",
+    "materials": "Powder-coated steel",
+    "scene": "One dusty-blue cylindrical open-front metal bedside table, round flat top, round lower shelf, curved C-shaped back panel, no drawer and no legs. Full product in clean warm-grey studio, three-quarter view clearly showing open shelf and folded metal edges, no styling props.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One dusty-blue cylindrical open-front metal bedside table, round flat top, round lower shelf, curved C-shaped back panel, no drawer and no legs. Full product in clean warm-grey studio, three-quarter view clearly showing open shelf and folded metal edges, no styling props.",
+    "variants": [
+      {
+        "id": "forest",
+        "name": "Forest green",
+        "hex": "#2c5544",
+        "change": "only the main product finish to Forest green"
+      },
+      {
+        "id": "charcoal",
+        "name": "Charcoal",
+        "hex": "#424449",
+        "change": "only the main product finish to Charcoal"
+      },
+      {
+        "id": "cream",
+        "name": "Cream",
+        "hex": "#e8dfce",
+        "change": "only the main product finish to Cream"
+      }
+    ]
+  },
+  {
+    "id": "scallop-mirror",
+    "name": "SCALLOP Oak Wall Mirror",
+    "category": "bedroom",
+    "price": 135,
+    "finish": "Natural oak",
+    "hex": "#ac885e",
+    "dimensions": "50 W x 3 D x 70 H cm",
+    "materials": "Solid oak frame, mirror glass, steel hanging hardware",
+    "scene": "One vertical rectangular wall mirror with a continuous scalloped natural-oak wooden frame, evenly rounded wave edges on all four sides. Full mirror straight-on against a pale taupe wall, clean neutral reflection without furniture or people.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One vertical rectangular wall mirror with a continuous scalloped natural-oak wooden frame, evenly rounded wave edges on all four sides. Full mirror straight-on against a pale taupe wall, clean neutral reflection without furniture or people.",
+    "variants": [
+      {
+        "id": "smoked",
+        "name": "Smoked oak",
+        "hex": "#77604a",
+        "change": "only the main product finish to Smoked oak"
+      },
+      {
+        "id": "white-oiled",
+        "name": "White-oiled oak",
+        "hex": "#d5c7a9",
+        "change": "only the main product finish to White-oiled oak"
+      },
+      {
+        "id": "ebonized",
+        "name": "Ebonized oak",
+        "hex": "#33322d",
+        "change": "only the main product finish to Ebonized oak"
+      }
+    ]
+  },
+  {
+    "id": "herringbone-coverlet",
+    "name": "HERRINGBONE Cotton Coverlet",
+    "category": "bedroom",
+    "price": 112,
+    "finish": "Taupe & cream",
+    "hex": "#9a8a78",
+    "dimensions": "220 W x 240 L cm",
+    "materials": "Cotton jacquard, short cotton fringe",
+    "scene": "One taupe and cream herringbone cotton jacquard bed coverlet folded in broad loose layers across a cream bed edge, clear small-scale zigzag weave and short fringed hem visible. Material-focused bedroom photograph with full folded coverlet and soft side daylight, no cushions or other patterned textiles.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One taupe and cream herringbone cotton jacquard bed coverlet folded in broad loose layers across a cream bed edge, clear small-scale zigzag weave and short fringed hem visible. Material-focused bedroom photograph with full folded coverlet and soft side daylight, no cushions or other patterned textiles.",
+    "variants": [
+      {
+        "id": "navy",
+        "name": "Navy & cream",
+        "hex": "#2b405c",
+        "change": "only taupe yarn to navy; keep cream yarn, exact weave and folds"
+      },
+      {
+        "id": "olive",
+        "name": "Olive & cream",
+        "hex": "#74774e",
+        "change": "only taupe yarn to olive; keep cream yarn, exact weave and folds"
+      },
+      {
+        "id": "burgundy",
+        "name": "Burgundy & cream",
+        "hex": "#742e42",
+        "change": "only taupe yarn to burgundy; keep cream yarn, exact weave and folds"
+      }
+    ]
+  },
+  {
+    "id": "hammam-towels",
+    "name": "HAMMAM Striped Towel Pair",
+    "category": "bathroom",
+    "price": 48,
+    "finish": "Navy & cream",
+    "hex": "#263d59",
+    "dimensions": "Bath towel 90 x 170 cm; hand towel 40 x 70 cm",
+    "materials": "Flat-woven cotton, hand-knotted fringe; set of two",
+    "scene": "Exactly two flat-woven navy and cream striped hammam towels, a large bath towel loosely folded below a smaller matching hand towel, short knotted fringe clearly visible. Entire folded set on a light stone bathroom bench with pale warm wall, close material-focused side-lit photo. Thin woven cotton, not terry.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. Exactly two flat-woven navy and cream striped hammam towels, a large bath towel loosely folded below a smaller matching hand towel, short knotted fringe clearly visible. Entire folded set on a light stone bathroom bench with pale warm wall, close material-focused side-lit photo. Thin woven cotton, not terry.",
+    "variants": [
+      {
+        "id": "forest",
+        "name": "Forest green & cream",
+        "hex": "#2e5846",
+        "change": "only navy woven stripes to forest green; keep cream stripes and fringe"
+      },
+      {
+        "id": "terracotta",
+        "name": "Terracotta & cream",
+        "hex": "#b66d50",
+        "change": "only navy woven stripes to terracotta; keep cream stripes and fringe"
+      },
+      {
+        "id": "ochre",
+        "name": "Ochre & cream",
+        "hex": "#b78e3e",
+        "change": "only navy woven stripes to ochre; keep cream stripes and fringe"
+      }
+    ]
+  },
+  {
+    "id": "reed-toothbrush-cup",
+    "name": "REED Ceramic Toothbrush Cup",
+    "category": "bathroom",
+    "price": 22,
+    "finish": "Terracotta",
+    "hex": "#b66c50",
+    "dimensions": "8 diameter x 11 H cm",
+    "materials": "Glazed stoneware",
+    "scene": "One terracotta ceramic toothbrush tumbler, tall straight cylindrical form with fine vertical fluting and softly rounded lip. Empty cup fully visible on a muted olive studio background, close three-quarter view, no toothbrushes or other items.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One terracotta ceramic toothbrush tumbler, tall straight cylindrical form with fine vertical fluting and softly rounded lip. Empty cup fully visible on a muted olive studio background, close three-quarter view, no toothbrushes or other items.",
+    "variants": [
+      {
+        "id": "forest",
+        "name": "Forest green",
+        "hex": "#2d5744",
+        "change": "only the main product finish to Forest green"
+      },
+      {
+        "id": "dusty-blue",
+        "name": "Dusty blue",
+        "hex": "#738c9f",
+        "change": "only the main product finish to Dusty blue"
+      },
+      {
+        "id": "cream",
+        "name": "Cream",
+        "hex": "#e7decb",
+        "change": "only the main product finish to Cream"
+      }
+    ]
+  },
+  {
+    "id": "frame-laundry-basket",
+    "name": "FRAME Canvas Laundry Basket",
+    "category": "bathroom",
+    "price": 79,
+    "finish": "Charcoal",
+    "hex": "#44454a",
+    "dimensions": "42 W x 34 D x 58 H cm",
+    "materials": "Cotton canvas, solid beech folding frame, leather carry loops",
+    "scene": "One charcoal cotton-canvas laundry hamper on a natural beech X-shaped folding frame, open rectangular bag mouth and two tan leather loop handles. Full empty hamper on pale stone bathroom floor against soft cream plaster, side daylight. No towels, clothes, lid or other objects.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One charcoal cotton-canvas laundry hamper on a natural beech X-shaped folding frame, open rectangular bag mouth and two tan leather loop handles. Full empty hamper on pale stone bathroom floor against soft cream plaster, side daylight. No towels, clothes, lid or other objects.",
+    "variants": [
+      {
+        "id": "navy",
+        "name": "Navy",
+        "hex": "#293e58",
+        "change": "only charcoal canvas bag to navy; keep beech frame and tan leather"
+      },
+      {
+        "id": "olive",
+        "name": "Olive",
+        "hex": "#777b52",
+        "change": "only charcoal canvas bag to olive; keep beech frame and tan leather"
+      },
+      {
+        "id": "taupe",
+        "name": "Taupe",
+        "hex": "#9a8977",
+        "change": "only charcoal canvas bag to taupe; keep beech frame and tan leather"
+      }
+    ]
+  },
+  {
+    "id": "waffle-wash-bag",
+    "name": "WAFFLE Cotton Wash Bag",
+    "category": "bathroom",
+    "price": 29,
+    "finish": "Blush pink",
+    "hex": "#c99aa0",
+    "dimensions": "26 W x 12 D x 17 H cm",
+    "materials": "Waffle-woven cotton, cotton lining, brass-finished zip",
+    "scene": "One blush pink waffle-weave cotton toiletry wash bag with a rounded rectangular boxy shape, brass top zipper, short matching cotton side handle and visible textured weave. Full closed bag on a deep burgundy vanity shelf, three-quarter editorial close-up, no bottles or labels.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One blush pink waffle-weave cotton toiletry wash bag with a rounded rectangular boxy shape, brass top zipper, short matching cotton side handle and visible textured weave. Full closed bag on a deep burgundy vanity shelf, three-quarter editorial close-up, no bottles or labels.",
+    "variants": [
+      {
+        "id": "navy",
+        "name": "Navy",
+        "hex": "#2d425f",
+        "change": "only the main product finish to Navy"
+      },
+      {
+        "id": "olive",
+        "name": "Olive",
+        "hex": "#777b51",
+        "change": "only the main product finish to Olive"
+      },
+      {
+        "id": "cream",
+        "name": "Cream",
+        "hex": "#e7dfce",
+        "change": "only the main product finish to Cream"
+      }
+    ]
+  },
+  {
+    "id": "ink-landscape",
+    "name": "HORIZON Landscape Print",
+    "category": "home-decor",
+    "price": 88,
+    "finish": "Navy & cream",
+    "hex": "#2d405b",
+    "dimensions": "50 W x 3 D x 70 H cm",
+    "materials": "Archival paper print, natural oak frame, acrylic glazing",
+    "scene": "One slim natural-oak framed landscape art print: three simple layered navy blue mountain silhouettes and a small warm cream moon on an ivory background, no words. Full vertical artwork straight-on leaning against pale warm plaster, entire frame visible, no other decorative objects.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One slim natural-oak framed landscape art print: three simple layered navy blue mountain silhouettes and a small warm cream moon on an ivory background, no words. Full vertical artwork straight-on leaning against pale warm plaster, entire frame visible, no other decorative objects.",
+    "variants": [
+      {
+        "id": "forest",
+        "name": "Forest green & cream",
+        "hex": "#2e5845",
+        "change": "only navy mountain shapes to forest green; keep exact mountain outlines, moon, cream ground and oak frame"
+      },
+      {
+        "id": "burgundy",
+        "name": "Burgundy & cream",
+        "hex": "#772f43",
+        "change": "only navy mountain shapes to burgundy; keep exact mountain outlines, moon, cream ground and oak frame"
+      },
+      {
+        "id": "charcoal",
+        "name": "Charcoal & cream",
+        "hex": "#424349",
+        "change": "only navy mountain shapes to charcoal; keep exact mountain outlines, moon, cream ground and oak frame"
+      }
+    ]
+  },
+  {
+    "id": "facet-glass-vase",
+    "name": "FACET Colored Glass Vase",
+    "category": "home-decor",
+    "price": 64,
+    "finish": "Forest green glass",
+    "hex": "#2b5847",
+    "dimensions": "15 diameter x 30 H cm",
+    "materials": "Colored glass; suitable for fresh or dried stems",
+    "scene": "One tall forest-green translucent glass vase with a hexagonal faceted tapering body, narrow hexagonal neck and thick base. Full empty vase on a blush-pink plinth against muted pink wall; directional studio light reveals facets and transparency. No flowers or other vases.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One tall forest-green translucent glass vase with a hexagonal faceted tapering body, narrow hexagonal neck and thick base. Full empty vase on a blush-pink plinth against muted pink wall; directional studio light reveals facets and transparency. No flowers or other vases.",
+    "variants": [
+      {
+        "id": "amber",
+        "name": "Amber glass",
+        "hex": "#b78b3a",
+        "change": "only the main product finish to Amber glass"
+      },
+      {
+        "id": "blush",
+        "name": "Blush glass",
+        "hex": "#c89aa4",
+        "change": "only the main product finish to Blush glass"
+      },
+      {
+        "id": "dusty-blue",
+        "name": "Dusty blue glass",
+        "hex": "#718aa1",
+        "change": "only the main product finish to Dusty blue glass"
+      }
+    ]
+  },
+  {
+    "id": "bridge-candleholder",
+    "name": "BRIDGE Metal Candle Holder",
+    "category": "home-decor",
+    "price": 52,
+    "finish": "Brushed brass",
+    "hex": "#b59355",
+    "dimensions": "24 W x 7 D x 18 H cm",
+    "materials": "Brass-finished steel; candles excluded",
+    "scene": "One sculptural double-arch metal taper candle holder in brushed brass: two elegant narrow U-shaped arches joined at base with exactly two cylindrical candle cups on top. Full empty holder on cool grey studio backdrop, three-quarter view emphasizing brushed metal. No candles or other objects.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One sculptural double-arch metal taper candle holder in brushed brass: two elegant narrow U-shaped arches joined at base with exactly two cylindrical candle cups on top. Full empty holder on cool grey studio backdrop, three-quarter view emphasizing brushed metal. No candles or other objects.",
+    "variants": [
+      {
+        "id": "steel",
+        "name": "Brushed steel",
+        "hex": "#a7afb0",
+        "change": "only the main product finish to Brushed steel"
+      },
+      {
+        "id": "bronze",
+        "name": "Dark bronze",
+        "hex": "#66513c",
+        "change": "only the main product finish to Dark bronze"
+      },
+      {
+        "id": "blackened",
+        "name": "Blackened steel",
+        "hex": "#333439",
+        "change": "only the main product finish to Blackened steel"
+      }
+    ]
+  },
+  {
+    "id": "orbit-wall-basket",
+    "name": "ORBIT Woven Wall Basket",
+    "category": "home-decor",
+    "price": 49,
+    "finish": "Natural & charcoal",
+    "hex": "#71634e",
+    "dimensions": "42 diameter x 7 D cm",
+    "materials": "Handwoven seagrass, dyed seagrass accents, hanging loop",
+    "scene": "One shallow round woven seagrass wall basket with natural straw ground and a bold charcoal concentric spiral pattern. Full circular basket hanging straight-on against warm off-white wall, visible fine woven texture and soft natural shadow. No other baskets or objects.",
+    "prompt": "Use case: product-mockup. Create ONE high-quality photorealistic homeware catalogue photo, landscape 3:2 at 1536 x 1024. Full main product visible with generous margins. Refined natural material detail and realistic product visibility. No branding, labels, watermarks, collage, screenshot, interface or text. One shallow round woven seagrass wall basket with natural straw ground and a bold charcoal concentric spiral pattern. Full circular basket hanging straight-on against warm off-white wall, visible fine woven texture and soft natural shadow. No other baskets or objects.",
+    "variants": [
+      {
+        "id": "smoked",
+        "name": "Natural & smoked",
+        "hex": "#8c765a",
+        "change": "only charcoal woven accents to smoked-brown seagrass; keep natural straw ground"
+      },
+      {
+        "id": "olive",
+        "name": "Natural & olive",
+        "hex": "#71794e",
+        "change": "only charcoal woven accents to olive-dyed seagrass; keep natural straw ground"
+      },
+      {
+        "id": "terracotta",
+        "name": "Natural & terracotta",
+        "hex": "#ad7053",
+        "change": "only charcoal woven accents to terracotta-dyed seagrass; keep natural straw ground"
+      }
+    ]
+  }
+]

@@ -1,226 +1,176 @@
+import { roomPhotography, bathroomRoom } from './page-imagery.js'
+import { kitchenCollection, kitchenRoom } from './kitchen.js'
+import { retainedProducts } from './retained-products.js'
+import { curatedProducts } from './curated-products.js'
+import { expandedProducts } from './expanded-products.js'
+import { additionalVariants } from './additional-variants.js'
+
+export const collections = [
+  ...[
+    {
+      id: 'nature-form',
+      name: 'Nature & Form',
+      image: '/images/collection/soft-living.png',
+      alt: 'Cream curved seating and olive accents around a travertine table in a natural sunlit living room',
+      description: 'Cream curves, grounded olive, and natural texture.',
+      tone: 'olive',
+    },
+    {
+      id: 'burgundy-butter',
+      name: 'Burgundy & Butter Cream',
+      image: '/images/burgundy/burgundy-living.png',
+      alt: 'Butter-cream curved sofa and burgundy leather chair beside a veined burgundy marble table, brass accents, and decorative branches',
+      description: 'Rich burgundy, soft cream, warm wood, and stone.',
+      tone: 'burgundy',
+    },
+  ],
+  kitchenCollection,
+]
 export const categories = [
   ['all', 'All products'],
-  ['seating', 'Seating'],
-  ['tables', 'Tables'],
-  ['storage', 'Storage'],
-  ['lighting', 'Lighting'],
-  ['decor', 'Accessories'],
+  ['living-room', 'Living Room'],
+  ['kitchen-dining', 'Kitchen & Dining'],
   ['bedroom', 'Bedroom'],
+  ['bathroom', 'Bathroom'],
+  ['home-decor', 'Home Decor'],
 ]
-
-const root = '/images/havlo/'
+export const categoryAliases = {
+  seating: 'living-room',
+  tables: 'living-room',
+  storage: 'living-room',
+  lighting: 'living-room',
+  rugs: 'living-room',
+  decor: 'home-decor',
+  art: 'home-decor',
+  plants: 'home-decor',
+  bedroom: 'bedroom',
+  'kitchen-dining': 'kitchen-dining',
+}
+export const retiredProducts = {
+  'cloud-pendant': 'living-room',
+  'grove-sideboard': 'living-room',
+  'haven-sectional': 'living-room',
+  'claret-chair': 'living-room',
+  'butter-sofa': 'living-room',
+  'merlot-table': 'living-room',
+  'creme-stool': 'living-room',
+  'glaze-lamp': 'living-room',
+  'pietra-bowl': 'home-decor',
+  'tavola-table': 'living-room',
+  'butter-dome': 'living-room',
+  'wine-art': 'home-decor',
+  'branch-vase': 'home-decor',
+  'reed-rattan-pendant': 'kitchen-dining',
+  'haven-linen-stool': 'kitchen-dining',
+  'grove-utensil-holder': 'kitchen-dining',
+  'terra-serving-bowls': 'kitchen-dining',
+  'terra-dinner-plates': 'kitchen-dining',
+  'terra-stoneware-mugs': 'kitchen-dining',
+  'curve-kitchen-vase': 'kitchen-dining',
+  'weave-seagrass-placemats': 'kitchen-dining',
+  'sprig-herb-planter': 'kitchen-dining',
+}
 export const rooms = [
-  {
-    id: 'living',
-    name: 'Living room',
-    title: 'Room for the moments in between.',
-    image: root + 'warm-living-room.png',
-    alt: 'Warm contemporary living room with a linen sofa, oak table, woven chair, and glowing floor lamp',
-    description:
-      'Layer soft seating with warm wood, tactile textiles, and light that invites you to stay a little longer.',
-    categories: ['seating', 'tables'],
-  },
-  {
-    id: 'bedroom',
-    name: 'Bedroom',
-    title: 'A softer start. A slower finish.',
-    image: root + 'bedroom-room.png',
-    alt: 'Scandinavian bedroom with an oak bed, linen bedding, blue throw, and softly lit bedside tables',
-    description:
-      'Keep your sleep space calm with natural textures, easy storage, and just the right amount of colour.',
-    categories: ['bedroom', 'decor'],
-  },
-  {
-    id: 'kitchen',
-    name: 'Kitchen',
-    title: 'Good company starts here.',
-    image: root + 'kitchen-room.png',
-    alt: 'Oak and blue kitchen with a round dining table, four chairs, warm pendant light, and ceramic accessories',
-    description:
-      'Bring people together with practical surfaces, a welcoming table, and little things that make everyday meals special.',
-    categories: ['tables', 'decor'],
-  },
-  {
-    id: 'office',
-    name: 'Home office',
-    title: 'A little focus. A lot of possibility.',
-    image: root + 'office-room.png',
-    alt: 'Bright home office with an oak desk, modern chair, open shelving, lamp, and houseplant',
-    description:
-      'Make space for your next idea with useful storage, a comfortable seat, and good light.',
-    categories: ['storage', 'lighting'],
-  },
+  ...[
+    {
+      id: 'soft-living',
+      name: 'Soft living',
+      title: 'Curves, calm, and conversation.',
+      image: '/images/collection/soft-living.png',
+      alt: 'Cream curved sofa and olive chairs around a travertine table with neutral art, textured rug, and sculptural lighting',
+      description:
+        'Balance cream curves with grounded olive seating, warm stone, and softly sculpted light.',
+      categories: ['living-room'],
+      collection: 'nature-form',
+    },
+    {
+      id: 'open-living',
+      name: 'Open-plan living',
+      title: 'Space to gather. Room to breathe.',
+      image: '/images/collection/open-living.png',
+      alt: 'Spacious double-height living room with a cream corner sofa, rounded stone table, layered rugs, and tall sunlit windows',
+      description:
+        'Deep modular seating and generous natural textures create an inviting centre for an open home.',
+      categories: ['living-room'],
+      collection: 'nature-form',
+    },
+    {
+      id: 'natural-entry',
+      name: 'Natural corners',
+      title: 'A quieter kind of welcome.',
+      image: '/images/collection/natural-entry.png',
+      alt: 'Wavy mirror, broad-leaf plant, dark fluted walnut sideboard, olive lamp, and ceramic vase in a warm interior corner',
+      description:
+        'Layer dark wood, organic reflections, ceramics, and leafy shapes for a corner with quiet character.',
+      categories: ['home-decor'],
+      collection: 'nature-form',
+    },
+    {
+      id: 'burgundy-living',
+      name: 'Burgundy living',
+      title: 'A richer shade of everyday.',
+      image: '/images/burgundy/burgundy-living.png',
+      alt: 'Butter-cream curved sofa and burgundy leather chair beside a veined burgundy marble table, brass accents, and decorative branches',
+      description:
+        'Balance butter-cream curves with rich leather, dark walnut, burgundy marble, and warm brass details.',
+      categories: ['living-room'],
+      collection: 'burgundy-butter',
+    },
+    {
+      id: 'burgundy-dining',
+      name: 'Warm dining',
+      title: 'Gather around warm stone.',
+      image: '/images/burgundy/burgundy-dining.png',
+      alt: 'Warm wood kitchen with cream upholstered stools, dome pendants, burgundy marble island, and round travertine dining table',
+      description:
+        'Layer cream upholstery, glowing domes, warm wood, and a generous round stone table for everyday gathering.',
+      categories: ['kitchen-dining'],
+      collection: 'burgundy-butter',
+    },
+    {
+      id: 'burgundy-bedroom',
+      name: 'Burgundy bedroom',
+      title: 'Slow evenings. Deeper colours.',
+      image: '/images/burgundy/burgundy-bedroom.png',
+      alt: 'Cream upholstered bed with burgundy linen bedding and cushions, dark walnut bedside tables, abstract art, and a glossy burgundy lamp',
+      description:
+        'Soften rich burgundy linen with warm cream, tactile velvet, and gentle evening light.',
+      categories: ['bedroom'],
+      collection: 'burgundy-butter',
+    },
+  ],
+  kitchenRoom,
+  bathroomRoom,
+].map((room) => ({ ...room, ...(roomPhotography[room.id] || {}) }))
+const catalogue = [
+  ...retainedProducts,
+  ...curatedProducts,
+  ...expandedProducts,
+].map((product) => ({
+  ...product,
+  variants: [...product.variants, ...(additionalVariants[product.id] || [])],
+}))
+const firstLooks = [
+  'arc-sofa',
+  'gem-goblets',
+  'hammam-towels',
+  'flora-duvet',
+  'facet-glass-vase',
+  'cadence-lumbar',
 ]
-
 export const products = [
-  {
-    id: 'sofa',
-    name: 'LINDEN Sofa',
-    price: 499,
-    category: 'seating',
-    image: 'sofa.jpg',
-    alt: 'Green upholstered sofa with slim wooden legs and a simple modern silhouette',
-    description:
-      'A comfortable place to settle into the everyday. The clean shape and rich green upholstery add character without overwhelming your space.',
-    dimensions: '180 W × 82 D × 78 H cm',
-    materials:
-      'Woven polyester upholstery, foam cushions, hardwood frame and legs',
-    room: 'living',
-    tag: 'A SOFTER LANDING',
-  },
-  {
-    id: 'chair',
-    name: 'FJELL Accent Chair',
-    price: 129,
-    category: 'seating',
-    image: 'chair.jpg',
-    alt: 'Ivory tufted accent chair with a rounded upholstered back and light legs',
-    description:
-      'An inviting seat for a quiet corner. The curved back and softly upholstered seat bring a little comfort to reading, relaxing, or catching up.',
-    dimensions: '65 W × 70 D × 88 H cm',
-    materials: 'Polyester upholstery, foam padding, painted hardwood frame',
-    room: 'living',
-  },
-  {
-    id: 'table',
-    name: 'DALEN Coffee Table',
-    price: 79,
-    category: 'tables',
-    image: 'coffee-table.jpg',
-    alt: 'Light wood coffee table with bentwood legs and an open lower shelf',
-    description:
-      'A useful surface for your everyday essentials, with an open shelf below for books and magazines. Soft curves keep the room feeling light.',
-    dimensions: '100 W × 55 D × 40 H cm',
-    materials: 'Oak-veneered plywood, clear protective finish',
-    room: 'living',
-    tag: 'THIS WEEK’S PICK',
-  },
-  {
-    id: 'shelving',
-    name: 'HOLM Open Shelf',
-    price: 149,
-    category: 'storage',
-    image: 'shelving.jpg',
-    alt: 'Natural wood open shelving arranged with books and home accessories',
-    description:
-      'Show off the things that tell your story. Open shelving makes room for books, collected objects, and baskets that keep smaller things together.',
-    dimensions: '80 W × 30 D × 180 H cm',
-    materials: 'Oak-effect veneered engineered wood, adjustable shelf supports',
-    room: 'office',
-  },
-  {
-    id: 'lamp',
-    name: 'LYSA Table Lamp',
-    price: 39,
-    category: 'lighting',
-    image: 'lamp.jpg',
-    alt: 'Dark grey contemporary task lamp with an adjustable angled shade',
-    description:
-      'A softer glow for slower evenings, or a focused pool of light for the task in front of you. A simple shape that fits easily into your day.',
-    dimensions: '18 W × 25 D × 45 H cm',
-    materials: 'Powder-coated steel shade and base, textile cable',
-    room: 'office',
-  },
-  {
-    id: 'ceramics',
-    name: 'FORMA Ceramic Plate Set',
-    price: 19,
-    category: 'decor',
-    image: 'ceramics.jpg',
-    alt: 'Blue and dark glazed ceramic plates stacked on wooden shelving',
-    description:
-      'A little colour for everyday meals and shared tables. A four-piece concept set with softly rounded edges and a tactile glazed finish.',
-    dimensions: '24 cm diameter × 2 H cm per plate',
-    materials: 'Glazed stoneware; four plates per set',
-    room: 'kitchen',
-  },
-  {
-    id: 'bed',
-    name: 'VIKA Oak Bed',
-    price: 349,
-    category: 'bedroom',
-    image: 'oak-bed.png',
-    alt: 'Minimal pale oak bed frame with a wooden headboard and ivory linen bedding',
-    description:
-      'Start and finish your day with clean lines and warm natural wood. A low frame makes your bedroom feel open and inviting. Bedding shown for styling.',
-    dimensions: '166 W × 210 D × 90 H cm; fits a 160 × 200 cm mattress',
-    materials:
-      'Oak-veneered frame, solid wood slats; mattress and bedding excluded',
-    room: 'bedroom',
-    tag: 'NEW POSSIBILITIES',
-  },
-  {
-    id: 'dining-table',
-    name: 'SORA Dining Table',
-    price: 199,
-    category: 'tables',
-    image: 'dining-table.png',
-    alt: 'Round pale oak dining table with a sculptural central pedestal base',
-    description:
-      'A round table makes conversation easy. The compact pedestal shape brings people together while leaving room to move around.',
-    dimensions: '110 cm diameter × 75 H cm',
-    materials: 'Oak-veneered engineered wood, solid wood pedestal',
-    room: 'kitchen',
-  },
-  {
-    id: 'sideboard',
-    name: 'NORD Low Sideboard',
-    price: 229,
-    category: 'storage',
-    image: 'sideboard.png',
-    alt: 'Low walnut sideboard with three doors, slim dark handles, and rounded feet',
-    description:
-      'Keep everyday things close and visual clutter out of sight. A warm walnut finish and quiet silhouette work in living, dining, or work spaces.',
-    dimensions: '150 W × 40 D × 70 H cm',
-    materials: 'Walnut-veneered engineered wood, metal handles, hardwood feet',
-    room: 'living',
-  },
-  {
-    id: 'rug',
-    name: 'LIND Woven Rug',
-    price: 59,
-    category: 'decor',
-    image: 'woven-rug.png',
-    alt: 'Rectangular natural jute rug with a fine woven texture and cream border',
-    description:
-      'An easy layer of warmth underfoot. Natural texture brings furniture together and helps define your favourite corner of a room.',
-    dimensions: '160 W × 230 L cm',
-    materials: 'Woven jute with a cotton border',
-    room: 'living',
-  },
-  {
-    id: 'pendant',
-    name: 'MILA Pendant Light',
-    price: 49,
-    category: 'lighting',
-    image: 'pendant-light.png',
-    alt: 'Sculptural cream paper pendant shade hanging from a dark cord',
-    description:
-      'Give the room a softer glow. A light, sculptural shade makes an inviting focal point over your dining table or in a quiet bedroom.',
-    dimensions: '45 cm diameter × 38 H cm; 150 cm cord',
-    materials:
-      'Paper shade, steel wire frame, textile-covered cable; bulb excluded',
-    room: 'bedroom',
-  },
-  {
-    id: 'vase',
-    name: 'FORM Stoneware Vase',
-    price: 24,
-    category: 'decor',
-    image: 'stoneware-vase.png',
-    alt: 'Warm ivory stoneware vase with a rounded sculptural body and narrow neck',
-    description:
-      'A small object with a little presence. Style it on a shelf, beside your favourite books, or at the centre of your table.',
-    dimensions: '16 cm diameter × 24 H cm',
-    materials: 'Matte-glazed stoneware',
-    room: 'kitchen',
-  },
-].map((product) => ({ ...product, image: root + product.image }))
-
+  ...firstLooks.map((id) => catalogue.find((product) => product.id === id)),
+  ...catalogue.filter((product) => !firstLooks.includes(product.id)),
+]
 export const money = (value) =>
   new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(
     value,
   )
-export const productURL = (id) => `/?page=product&id=${encodeURIComponent(id)}`
+export const productURL = (id) => '/?page=product&id=' + encodeURIComponent(id)
 export const categoryName = (id) =>
-  categories.find(([key]) => key === id)?.[1] || 'Furniture'
+  categories.find(([key]) => key === id)?.[1] || 'Homeware'
+export const collectionName = (id) =>
+  collections.find((collection) => collection.id === id)?.name ||
+  'The collection'
+export const getVariant = (product, id) =>
+  product.variants.find((variant) => variant.id === id) || product.variants[0]

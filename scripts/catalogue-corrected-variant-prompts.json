@@ -1,0 +1,10 @@
+{
+  "navy": {
+    "path": "C:\\Users\\morjm\\.codex\\generated_images\\01a19257-2fd9-7080-8fd0-5bbea2e33d62\\exec-ea3d174c-687e-4591-bac7-a637ddd8a85c.png",
+    "prompt": "Use case: precise-object-edit. Correct the colorway of ONLY the gingham cushion in this photo. Its final fabric must be navy-blue and cream ONLY. Replace ALL burgundy, red and pink yarn areas INSIDE THE CUSHION with navy-blue yarns (use lighter navy/cream woven mixtures where threads cross). No burgundy or red check squares may remain. Keep ivory/cream squares cream. Keep piping navy. Preserve the exact square grid positions, woven cotton texture, seams, cushion outline, angle, camera framing, lighting and pink background. Do not alter anything outside the cushion. Same product, same photographic composition. No text, logos or collage. Landscape 1536 x 1024."
+  },
+  "terracotta": {
+    "path": "C:\\Users\\morjm\\.codex\\generated_images\\01a19257-2fd9-7080-8fd0-5bbea2e33d62\\exec-b52c5085-b52b-425f-85a6-f3e1e7a17ce0.png",
+    "prompt": "Use case: precise-object-edit. Correct the colorway of ONLY the gingham cushion in this photo. Its final fabric must be burnt-orange terracotta and cream ONLY. Replace ALL burgundy, maroon, red and pink yarn areas INSIDE THE CUSHION with warm burnt-orange terracotta yarns (use lighter terracotta/cream woven mixtures where threads cross). No burgundy or maroon check squares may remain. Keep ivory/cream squares cream. Keep piping terracotta. Preserve the exact square grid positions, woven cotton texture, seams, cushion outline, angle, camera framing, lighting and pink background. Do not alter anything outside the cushion. Same product, same photographic composition. No text, logos or collage. Landscape 1536 x 1024."
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "waffle-wash-bag",
+    "keys": [
+      "waffle-wash-bag/angle",
+      "waffle-wash-bag/detail",
+      "waffle-wash-bag/lifestyle"
+    ],
+    "photos": [
+      {
+        "name": "Blush pink",
+        "path": "public/images/expansion/waffle-wash-bag-original.jpg"
+      },
+      {
+        "name": "Additional angle",
+        "path": "artifacts/page-imagery/waffle-wash-bag-angle.png"
+      },
+      {
+        "name": "Material detail",
+        "path": "artifacts/page-imagery/waffle-wash-bag-detail.png"
+      },
+      {
+        "name": "In a home",
+        "path": "artifacts/page-imagery/waffle-wash-bag-lifestyle.png"
+      }
+    ]
+  },
+  {
+    "id": "ink-landscape",
+    "keys": [
+      "ink-landscape/angle",
+      "ink-landscape/detail",
+      "ink-landscape/lifestyle"
+    ],
+    "photos": [
+      {
+        "name": "Navy & cream",
+        "path": "public/images/expansion/ink-landscape-original.jpg"
+      },
+      {
+        "name": "Additional angle",
+        "path": "artifacts/page-imagery/ink-landscape-angle.png"
+      },
+      {
+        "name": "Material detail",
+        "path": "artifacts/page-imagery/ink-landscape-detail.png"
+      },
+      {
+        "name": "In a home",
+        "path": "artifacts/page-imagery/ink-landscape-lifestyle.png"
+      }
+    ]
+  },
+  {
+    "id": "bridge-candleholder",
+    "keys": [
+      "bridge-candleholder/angle",
+      "bridge-candleholder/detail",
+      "bridge-candleholder/lifestyle"
+    ],
+    "photos": [
+      {
+        "name": "Brushed brass",
+        "path": "public/images/expansion/bridge-candleholder-original.jpg"
+      },
+      {
+        "name": "Additional angle",
+        "path": "artifacts/page-imagery/bridge-candleholder-angle.png"
+      },
+      {
+        "name": "Material detail",
+        "path": "artifacts/page-imagery/bridge-candleholder-detail.png"
+      },
+      {
+        "name": "In a home",
+        "path": "artifacts/page-imagery/bridge-candleholder-lifestyle.png"
+      }
+    ]
+  },
+  {
+    "id": "orbit-wall-basket",
+    "keys": [
+      "orbit-wall-basket/angle",
+      "orbit-wall-basket/detail",
+      "orbit-wall-basket/lifestyle"
+    ],
+    "photos": [
+      {
+        "name": "Natural & charcoal",
+        "path": "public/images/expansion/orbit-wall-basket-original.jpg"
+      },
+      {
+        "name": "Additional angle",
+        "path": "artifacts/page-imagery/orbit-wall-basket-angle.png"
+      },
+      {
+        "name": "Material detail",
+        "path": "artifacts/page-imagery/orbit-wall-basket-detail.png"
+      },
+      {
+        "name": "In a home",
+        "path": "artifacts/page-imagery/orbit-wall-basket-lifestyle.png"
+      }
+    ]
+  }
+]

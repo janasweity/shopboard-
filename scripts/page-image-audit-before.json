@@ -1,0 +1,143 @@
+{
+  "home": {
+    "hero": "/images/collection/soft-living.png",
+    "slider": [
+      "/images/collection/open-living.png",
+      "/images/burgundy/burgundy-living.png",
+      "/images/kitchen/kitchen-scene.png"
+    ]
+  },
+  "inspiration": [
+    {
+      "id": "soft-living",
+      "image": "/images/collection/soft-living.png"
+    },
+    {
+      "id": "open-living",
+      "image": "/images/collection/open-living.png"
+    },
+    {
+      "id": "natural-entry",
+      "image": "/images/collection/natural-entry.png"
+    },
+    {
+      "id": "burgundy-living",
+      "image": "/images/burgundy/burgundy-living.png"
+    },
+    {
+      "id": "burgundy-dining",
+      "image": "/images/burgundy/burgundy-dining.png"
+    },
+    {
+      "id": "burgundy-bedroom",
+      "image": "/images/burgundy/burgundy-bedroom.png"
+    },
+    {
+      "id": "ivory-kitchen",
+      "image": "/images/kitchen/kitchen-scene.png"
+    }
+  ],
+  "details": [
+    {
+      "id": "arc-sofa",
+      "repeatedRoom": "/images/collection/soft-living.png"
+    },
+    {
+      "id": "moss-chair",
+      "repeatedRoom": "/images/collection/soft-living.png"
+    },
+    {
+      "id": "dune-table",
+      "repeatedRoom": "/images/collection/soft-living.png"
+    },
+    {
+      "id": "fern-lamp",
+      "repeatedRoom": "/images/collection/natural-entry.png"
+    },
+    {
+      "id": "loom-rug",
+      "repeatedRoom": "/images/collection/open-living.png"
+    },
+    {
+      "id": "grain-oak-boards",
+      "repeatedRoom": "/images/kitchen/kitchen-scene.png"
+    },
+    {
+      "id": "flax-table-runner",
+      "repeatedRoom": "/images/kitchen/kitchen-scene.png"
+    },
+    {
+      "id": "rouge-bedding",
+      "repeatedRoom": "/images/burgundy/burgundy-bedroom.png"
+    },
+    {
+      "id": "ripple-mirror",
+      "repeatedRoom": "/images/collection/natural-entry.png"
+    },
+    {
+      "id": "velvet-cushion",
+      "repeatedRoom": "/images/burgundy/burgundy-bedroom.png"
+    },
+    {
+      "id": "earth-vase",
+      "repeatedRoom": "/images/collection/natural-entry.png"
+    },
+    {
+      "id": "contour-art",
+      "repeatedRoom": "/images/collection/natural-entry.png"
+    },
+    {
+      "id": "canopy-plant",
+      "repeatedRoom": "/images/collection/natural-entry.png"
+    },
+    {
+      "id": "glow-glass-candleholders",
+      "repeatedRoom": "/images/kitchen/kitchen-scene.png"
+    },
+    {
+      "id": "cobalt-bowls",
+      "repeatedRoom": "/images/kitchen/kitchen-scene.png"
+    },
+    {
+      "id": "petal-mugs",
+      "repeatedRoom": "/images/kitchen/kitchen-scene.png"
+    },
+    {
+      "id": "rill-glasses",
+      "repeatedRoom": "/images/kitchen/kitchen-scene.png"
+    },
+    {
+      "id": "lacquer-tray",
+      "repeatedRoom": "/images/kitchen/kitchen-scene.png"
+    },
+    {
+      "id": "pantry-jars",
+      "repeatedRoom": "/images/kitchen/kitchen-scene.png"
+    },
+    {
+      "id": "ochre-plates",
+      "repeatedRoom": "/images/kitchen/kitchen-scene.png"
+    },
+    {
+      "id": "nook-bedside",
+      "repeatedRoom": "/images/burgundy/burgundy-bedroom.png"
+    },
+    {
+      "id": "pleat-lamp",
+      "repeatedRoom": "/images/burgundy/burgundy-bedroom.png"
+    },
+    {
+      "id": "cove-blanket",
+      "repeatedRoom": "/images/burgundy/burgundy-bedroom.png"
+    },
+    {
+      "id": "check-cushion",
+      "repeatedRoom": "/images/burgundy/burgundy-bedroom.png"
+    },
+    {
+      "id": "reed-bench",
+      "repeatedRoom": "/images/burgundy/burgundy-bedroom.png"
+    }
+  ],
+  "about": []
+}

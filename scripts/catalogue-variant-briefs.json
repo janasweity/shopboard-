@@ -1,0 +1,992 @@
+[
+  {
+    "product": "arc-sofa",
+    "id": "terracotta",
+    "name": "Terracotta",
+    "hex": "#b66e52",
+    "source": "/images/catalogue/arc-sofa-original.jpg",
+    "change": "only the main product color or finish to Terracotta",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Terracotta. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "arc-sofa",
+    "id": "charcoal",
+    "name": "Charcoal",
+    "hex": "#43444a",
+    "source": "/images/catalogue/arc-sofa-original.jpg",
+    "change": "only the main product color or finish to Charcoal",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Charcoal. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "cobalt-bowls",
+    "id": "forest",
+    "name": "Forest green",
+    "hex": "#2c5744",
+    "source": "/images/catalogue/cobalt-bowls-original.jpg",
+    "change": "only the main product color or finish to Forest green",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Forest green. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "cobalt-bowls",
+    "id": "terracotta",
+    "name": "Terracotta",
+    "hex": "#b87153",
+    "source": "/images/catalogue/cobalt-bowls-original.jpg",
+    "change": "only the main product color or finish to Terracotta",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Terracotta. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "cobalt-bowls",
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e7dfcd",
+    "source": "/images/catalogue/cobalt-bowls-original.jpg",
+    "change": "only the main product color or finish to Cream",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Cream. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "clay-towels",
+    "id": "dusty-blue",
+    "name": "Dusty blue",
+    "hex": "#778da1",
+    "source": "/images/catalogue/clay-towels-original.jpg",
+    "change": "only the main product color or finish to Dusty blue",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Dusty blue. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "clay-towels",
+    "id": "navy",
+    "name": "Navy",
+    "hex": "#2b405c",
+    "source": "/images/catalogue/clay-towels-original.jpg",
+    "change": "only the main product color or finish to Navy",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Navy. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "clay-towels",
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e6ddca",
+    "source": "/images/catalogue/clay-towels-original.jpg",
+    "change": "only the main product color or finish to Cream",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Cream. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "check-cushion",
+    "id": "olive",
+    "name": "Olive & cream",
+    "hex": "#737a4e",
+    "source": "/images/catalogue/check-cushion-original.jpg",
+    "change": "only pink check squares to cream and burgundy squares and piping to olive; preserve every check boundary and seam",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only pink check squares to cream and burgundy squares and piping to olive; preserve every check boundary and seam. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "check-cushion",
+    "id": "navy",
+    "name": "Navy & cream",
+    "hex": "#2c425f",
+    "source": "/images/catalogue/check-cushion-original.jpg",
+    "change": "only pink check squares to cream and burgundy squares and piping to navy; preserve every check boundary and seam",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only pink check squares to cream and burgundy squares and piping to navy; preserve every check boundary and seam. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "check-cushion",
+    "id": "terracotta",
+    "name": "Terracotta & cream",
+    "hex": "#b77053",
+    "source": "/images/catalogue/check-cushion-original.jpg",
+    "change": "only pink check squares to cream and burgundy squares and piping to terracotta; preserve every check boundary and seam",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only pink check squares to cream and burgundy squares and piping to terracotta; preserve every check boundary and seam. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "tempo-clock",
+    "id": "forest",
+    "name": "Forest green & cream",
+    "hex": "#2b5643",
+    "source": "/images/catalogue/tempo-clock-original.jpg",
+    "change": "only ochre clock face to forest green and burgundy hands and tick marks to cream; preserve exact clock geometry and time",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ochre clock face to forest green and burgundy hands and tick marks to cream; preserve exact clock geometry and time. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "tempo-clock",
+    "id": "navy",
+    "name": "Navy & cream",
+    "hex": "#2c415e",
+    "source": "/images/catalogue/tempo-clock-original.jpg",
+    "change": "only ochre clock face to navy and burgundy hands and tick marks to cream; preserve exact clock geometry and time",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ochre clock face to navy and burgundy hands and tick marks to cream; preserve exact clock geometry and time. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "tempo-clock",
+    "id": "charcoal",
+    "name": "Charcoal & brass",
+    "hex": "#45454a",
+    "source": "/images/catalogue/tempo-clock-original.jpg",
+    "change": "only ochre clock face to charcoal and burgundy hands and tick marks to brushed brass; preserve exact clock geometry and time",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ochre clock face to charcoal and burgundy hands and tick marks to brushed brass; preserve exact clock geometry and time. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "orbit-side-table",
+    "id": "clear-chrome",
+    "name": "Clear glass & chrome",
+    "hex": "#b8c8ca",
+    "source": "/images/catalogue/orbit-side-table-original.jpg",
+    "change": "only smoked glass top to clear transparent glass; keep chrome base",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only smoked glass top to clear transparent glass; keep chrome base. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "orbit-side-table",
+    "id": "amber-chrome",
+    "name": "Amber glass & chrome",
+    "hex": "#b08b4a",
+    "source": "/images/catalogue/orbit-side-table-original.jpg",
+    "change": "only smoked glass top to transparent amber; keep chrome base",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only smoked glass top to transparent amber; keep chrome base. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "orbit-side-table",
+    "id": "smoked-brass",
+    "name": "Smoked glass & brushed brass",
+    "hex": "#ae8e4b",
+    "source": "/images/catalogue/orbit-side-table-original.jpg",
+    "change": "only chrome metal base to brushed brass-finished steel; keep smoked glass top",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only chrome metal base to brushed brass-finished steel; keep smoked glass top. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "moss-chair",
+    "id": "dusty-blue",
+    "name": "Dusty blue",
+    "hex": "#71889b",
+    "source": "/images/catalogue/moss-chair-original.jpg",
+    "change": "only the main product color or finish to Dusty blue",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Dusty blue. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "moss-chair",
+    "id": "ochre",
+    "name": "Ochre",
+    "hex": "#b58c3b",
+    "source": "/images/catalogue/moss-chair-original.jpg",
+    "change": "only the main product color or finish to Ochre",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Ochre. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "dune-table",
+    "id": "silver",
+    "name": "Silver travertine",
+    "hex": "#9e9d95",
+    "source": "/images/catalogue/dune-table-original.jpg",
+    "change": "only the main product color or finish to Silver travertine",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Silver travertine. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "dune-table",
+    "id": "mocha",
+    "name": "Mocha travertine",
+    "hex": "#8b715c",
+    "source": "/images/catalogue/dune-table-original.jpg",
+    "change": "only the main product color or finish to Mocha travertine",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Mocha travertine. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "fern-lamp",
+    "id": "navy",
+    "name": "Navy",
+    "hex": "#2a3d59",
+    "source": "/images/catalogue/fern-lamp-original.jpg",
+    "change": "only the main product color or finish to Navy",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Navy. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "fern-lamp",
+    "id": "terracotta",
+    "name": "Terracotta",
+    "hex": "#b86e51",
+    "source": "/images/catalogue/fern-lamp-original.jpg",
+    "change": "only the main product color or finish to Terracotta",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Terracotta. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "fern-lamp",
+    "id": "forest",
+    "name": "Forest green",
+    "hex": "#2f5845",
+    "source": "/images/catalogue/fern-lamp-original.jpg",
+    "change": "only the main product color or finish to Forest green",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Forest green. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "loom-rug",
+    "id": "charcoal",
+    "name": "Charcoal",
+    "hex": "#4d4d50",
+    "source": "/images/catalogue/loom-rug-original.jpg",
+    "change": "only the main product color or finish to Charcoal",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Charcoal. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "loom-rug",
+    "id": "dusty-blue",
+    "name": "Dusty blue",
+    "hex": "#7a8c9c",
+    "source": "/images/catalogue/loom-rug-original.jpg",
+    "change": "only the main product color or finish to Dusty blue",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Dusty blue. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "grain-oak-boards",
+    "id": "smoked",
+    "name": "Smoked oak",
+    "hex": "#79634d",
+    "source": "/images/catalogue/grain-oak-boards-original.jpg",
+    "change": "only the main product color or finish to Smoked oak",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Smoked oak. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "grain-oak-boards",
+    "id": "white-oiled",
+    "name": "White-oiled oak",
+    "hex": "#d2c3a6",
+    "source": "/images/catalogue/grain-oak-boards-original.jpg",
+    "change": "only the main product color or finish to White-oiled oak",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to White-oiled oak. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "grain-oak-boards",
+    "id": "ebonized",
+    "name": "Ebonized oak",
+    "hex": "#37342e",
+    "source": "/images/catalogue/grain-oak-boards-original.jpg",
+    "change": "only the main product color or finish to Ebonized oak",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Ebonized oak. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "flax-table-runner",
+    "id": "burgundy",
+    "name": "Burgundy",
+    "hex": "#773146",
+    "source": "/images/catalogue/flax-table-runner-original.jpg",
+    "change": "only the main product color or finish to Burgundy",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Burgundy. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "flax-table-runner",
+    "id": "olive",
+    "name": "Olive",
+    "hex": "#77794f",
+    "source": "/images/catalogue/flax-table-runner-original.jpg",
+    "change": "only the main product color or finish to Olive",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Olive. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "flax-table-runner",
+    "id": "dusty-blue",
+    "name": "Dusty blue",
+    "hex": "#778d9f",
+    "source": "/images/catalogue/flax-table-runner-original.jpg",
+    "change": "only the main product color or finish to Dusty blue",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Dusty blue. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "rouge-bedding",
+    "id": "navy",
+    "name": "Navy",
+    "hex": "#2c3e5b",
+    "source": "/images/catalogue/rouge-bedding-original.jpg",
+    "change": "only the main product color or finish to Navy",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Navy. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "rouge-bedding",
+    "id": "blush",
+    "name": "Blush pink",
+    "hex": "#cca0a3",
+    "source": "/images/catalogue/rouge-bedding-original.jpg",
+    "change": "only the main product color or finish to Blush pink",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Blush pink. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "ripple-mirror",
+    "id": "steel",
+    "name": "Brushed steel frame",
+    "hex": "#a8afae",
+    "source": "/images/catalogue/ripple-mirror-original.jpg",
+    "change": "only the main product color or finish to Brushed steel frame",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Brushed steel frame. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "ripple-mirror",
+    "id": "black",
+    "name": "Matte black frame",
+    "hex": "#333539",
+    "source": "/images/catalogue/ripple-mirror-original.jpg",
+    "change": "only the main product color or finish to Matte black frame",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Matte black frame. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "velvet-cushion",
+    "id": "forest",
+    "name": "Forest green",
+    "hex": "#2b5542",
+    "source": "/images/catalogue/velvet-cushion-original.jpg",
+    "change": "only the main product color or finish to Forest green",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Forest green. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "velvet-cushion",
+    "id": "navy",
+    "name": "Navy",
+    "hex": "#2c405c",
+    "source": "/images/catalogue/velvet-cushion-original.jpg",
+    "change": "only the main product color or finish to Navy",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Navy. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "earth-vase",
+    "id": "terracotta",
+    "name": "Terracotta",
+    "hex": "#b76c50",
+    "source": "/images/catalogue/earth-vase-original.jpg",
+    "change": "only the main product color or finish to Terracotta",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Terracotta. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "earth-vase",
+    "id": "charcoal",
+    "name": "Charcoal",
+    "hex": "#44464a",
+    "source": "/images/catalogue/earth-vase-original.jpg",
+    "change": "only the main product color or finish to Charcoal",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Charcoal. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "contour-art",
+    "id": "dusty-blue",
+    "name": "Dusty blue & ivory",
+    "hex": "#798da0",
+    "source": "/images/catalogue/contour-art-original.jpg",
+    "change": "only olive abstract shapes to dusty blue and beige shapes to warm ivory; keep exact artwork geometry, paper and oak frame",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only olive abstract shapes to dusty blue and beige shapes to warm ivory; keep exact artwork geometry, paper and oak frame. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "contour-art",
+    "id": "charcoal",
+    "name": "Charcoal & taupe",
+    "hex": "#44464b",
+    "source": "/images/catalogue/contour-art-original.jpg",
+    "change": "only olive abstract shapes to charcoal and beige shapes to taupe; keep exact artwork geometry, paper and oak frame",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only olive abstract shapes to charcoal and beige shapes to taupe; keep exact artwork geometry, paper and oak frame. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "canopy-plant",
+    "id": "terracotta",
+    "name": "Terracotta planter",
+    "hex": "#b46e52",
+    "source": "/images/catalogue/canopy-plant-original.jpg",
+    "change": "only ceramic planter to terracotta; preserve all green foliage, leaf placement and stems",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ceramic planter to terracotta; preserve all green foliage, leaf placement and stems. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "canopy-plant",
+    "id": "charcoal",
+    "name": "Charcoal planter",
+    "hex": "#44454a",
+    "source": "/images/catalogue/canopy-plant-original.jpg",
+    "change": "only ceramic planter to charcoal; preserve all green foliage, leaf placement and stems",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ceramic planter to charcoal; preserve all green foliage, leaf placement and stems. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "glow-glass-candleholders",
+    "id": "smoked",
+    "name": "Smoked glass",
+    "hex": "#848b8a",
+    "source": "/images/catalogue/glow-glass-candleholders-original.jpg",
+    "change": "only clear ribbed glass to transparent smoky grey; keep ivory candles and glass ridges",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only clear ribbed glass to transparent smoky grey; keep ivory candles and glass ridges. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "glow-glass-candleholders",
+    "id": "amber",
+    "name": "Amber glass",
+    "hex": "#b58a3c",
+    "source": "/images/catalogue/glow-glass-candleholders-original.jpg",
+    "change": "only clear ribbed glass to transparent amber; keep ivory candles and glass ridges",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only clear ribbed glass to transparent amber; keep ivory candles and glass ridges. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "glow-glass-candleholders",
+    "id": "olive",
+    "name": "Olive glass",
+    "hex": "#788354",
+    "source": "/images/catalogue/glow-glass-candleholders-original.jpg",
+    "change": "only clear ribbed glass to transparent olive; keep ivory candles and glass ridges",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only clear ribbed glass to transparent olive; keep ivory candles and glass ridges. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "patch-cushion",
+    "id": "burgundy",
+    "name": "Burgundy, blue & ivory",
+    "hex": "#773147",
+    "source": "/images/catalogue/patch-cushion-original.jpg",
+    "change": "only ochre geometric fabric block to burgundy; keep exact blue and ivory blocks, seams and chair",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ochre geometric fabric block to burgundy; keep exact blue and ivory blocks, seams and chair. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "patch-cushion",
+    "id": "forest",
+    "name": "Forest green, blue & ivory",
+    "hex": "#2d5846",
+    "source": "/images/catalogue/patch-cushion-original.jpg",
+    "change": "only ochre geometric fabric block to forest green; keep exact blue and ivory blocks, seams and chair",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ochre geometric fabric block to forest green; keep exact blue and ivory blocks, seams and chair. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "patch-cushion",
+    "id": "terracotta",
+    "name": "Terracotta, blue & ivory",
+    "hex": "#b97053",
+    "source": "/images/catalogue/patch-cushion-original.jpg",
+    "change": "only ochre geometric fabric block to terracotta; keep exact blue and ivory blocks, seams and chair",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ochre geometric fabric block to terracotta; keep exact blue and ivory blocks, seams and chair. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "tide-throw",
+    "id": "navy",
+    "name": "Navy & ivory",
+    "hex": "#293f5d",
+    "source": "/images/catalogue/tide-throw-original.jpg",
+    "change": "only muted-blue stripes to navy; keep ivory stripes, fringe, folds and chair",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only muted-blue stripes to navy; keep ivory stripes, fringe, folds and chair. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "tide-throw",
+    "id": "forest",
+    "name": "Forest green & ivory",
+    "hex": "#2c5745",
+    "source": "/images/catalogue/tide-throw-original.jpg",
+    "change": "only muted-blue stripes to forest green; keep ivory stripes, fringe, folds and chair",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only muted-blue stripes to forest green; keep ivory stripes, fringe, folds and chair. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "tide-throw",
+    "id": "terracotta",
+    "name": "Terracotta & ivory",
+    "hex": "#b56d52",
+    "source": "/images/catalogue/tide-throw-original.jpg",
+    "change": "only muted-blue stripes to terracotta; keep ivory stripes, fringe, folds and chair",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only muted-blue stripes to terracotta; keep ivory stripes, fringe, folds and chair. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "petal-mugs",
+    "id": "navy",
+    "name": "Navy",
+    "hex": "#2b405b",
+    "source": "/images/catalogue/petal-mugs-original.jpg",
+    "change": "only the main product color or finish to Navy",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Navy. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "petal-mugs",
+    "id": "forest",
+    "name": "Forest green",
+    "hex": "#2c5744",
+    "source": "/images/catalogue/petal-mugs-original.jpg",
+    "change": "only the main product color or finish to Forest green",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Forest green. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "petal-mugs",
+    "id": "ochre",
+    "name": "Ochre",
+    "hex": "#b68c3c",
+    "source": "/images/catalogue/petal-mugs-original.jpg",
+    "change": "only the main product color or finish to Ochre",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Ochre. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "rill-glasses",
+    "id": "smoked",
+    "name": "Smoked glass",
+    "hex": "#838c8c",
+    "source": "/images/catalogue/rill-glasses-original.jpg",
+    "change": "only the main product color or finish to Smoked glass",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Smoked glass. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "rill-glasses",
+    "id": "amber",
+    "name": "Amber glass",
+    "hex": "#b68a38",
+    "source": "/images/catalogue/rill-glasses-original.jpg",
+    "change": "only the main product color or finish to Amber glass",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Amber glass. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "rill-glasses",
+    "id": "forest",
+    "name": "Forest green glass",
+    "hex": "#2f624e",
+    "source": "/images/catalogue/rill-glasses-original.jpg",
+    "change": "only the main product color or finish to Forest green glass",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Forest green glass. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "lacquer-tray",
+    "id": "forest",
+    "name": "Forest green lacquer",
+    "hex": "#2c5542",
+    "source": "/images/catalogue/lacquer-tray-original.jpg",
+    "change": "only the main product color or finish to Forest green lacquer",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Forest green lacquer. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "lacquer-tray",
+    "id": "navy",
+    "name": "Navy lacquer",
+    "hex": "#2a405a",
+    "source": "/images/catalogue/lacquer-tray-original.jpg",
+    "change": "only the main product color or finish to Navy lacquer",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Navy lacquer. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "lacquer-tray",
+    "id": "cream",
+    "name": "Cream lacquer",
+    "hex": "#e7dfcd",
+    "source": "/images/catalogue/lacquer-tray-original.jpg",
+    "change": "only the main product color or finish to Cream lacquer",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Cream lacquer. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "pantry-jars",
+    "id": "smoked",
+    "name": "Glass & smoked acacia",
+    "hex": "#75604a",
+    "source": "/images/catalogue/pantry-jars-original.jpg",
+    "change": "only natural acacia lids to smoked acacia finish; keep all glass jars clear and unchanged",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only natural acacia lids to smoked acacia finish; keep all glass jars clear and unchanged. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "pantry-jars",
+    "id": "white-oiled",
+    "name": "Glass & white-oiled acacia",
+    "hex": "#d4c4a9",
+    "source": "/images/catalogue/pantry-jars-original.jpg",
+    "change": "only natural acacia lids to white-oiled acacia finish; keep all glass jars clear and unchanged",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only natural acacia lids to white-oiled acacia finish; keep all glass jars clear and unchanged. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "pantry-jars",
+    "id": "ebonized",
+    "name": "Glass & ebonized acacia",
+    "hex": "#37342e",
+    "source": "/images/catalogue/pantry-jars-original.jpg",
+    "change": "only natural acacia lids to ebonized acacia finish; keep all glass jars clear and unchanged",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only natural acacia lids to ebonized acacia finish; keep all glass jars clear and unchanged. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "ochre-plates",
+    "id": "forest",
+    "name": "Forest green & rust",
+    "hex": "#2d5845",
+    "source": "/images/catalogue/ochre-plates-original.jpg",
+    "change": "only ochre ceramic glaze to forest green; keep thin rust-red rim circles",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ochre ceramic glaze to forest green; keep thin rust-red rim circles. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "ochre-plates",
+    "id": "terracotta",
+    "name": "Terracotta & rust",
+    "hex": "#b76f50",
+    "source": "/images/catalogue/ochre-plates-original.jpg",
+    "change": "only ochre ceramic glaze to terracotta; keep thin rust-red rim circles",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ochre ceramic glaze to terracotta; keep thin rust-red rim circles. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "ochre-plates",
+    "id": "dusty-blue",
+    "name": "Dusty blue & rust",
+    "hex": "#768c9f",
+    "source": "/images/catalogue/ochre-plates-original.jpg",
+    "change": "only ochre ceramic glaze to dusty blue; keep thin rust-red rim circles",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only ochre ceramic glaze to dusty blue; keep thin rust-red rim circles. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "nook-bedside",
+    "id": "smoked",
+    "name": "Smoked walnut",
+    "hex": "#654f3e",
+    "source": "/images/catalogue/nook-bedside-original.jpg",
+    "change": "only the main product color or finish to Smoked walnut",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Smoked walnut. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "nook-bedside",
+    "id": "white-oiled",
+    "name": "White-oiled walnut",
+    "hex": "#baa88a",
+    "source": "/images/catalogue/nook-bedside-original.jpg",
+    "change": "only the main product color or finish to White-oiled walnut",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to White-oiled walnut. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "nook-bedside",
+    "id": "ebonized",
+    "name": "Ebonized walnut",
+    "hex": "#35332f",
+    "source": "/images/catalogue/nook-bedside-original.jpg",
+    "change": "only the main product color or finish to Ebonized walnut",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Ebonized walnut. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "pleat-lamp",
+    "id": "terracotta",
+    "name": "Terracotta & ivory",
+    "hex": "#b56c50",
+    "source": "/images/catalogue/pleat-lamp-original.jpg",
+    "change": "only muted-blue ceramic lamp base to terracotta; keep ivory pleated shade, cable and nightstand",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only muted-blue ceramic lamp base to terracotta; keep ivory pleated shade, cable and nightstand. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "pleat-lamp",
+    "id": "forest",
+    "name": "Forest green & ivory",
+    "hex": "#2e5745",
+    "source": "/images/catalogue/pleat-lamp-original.jpg",
+    "change": "only muted-blue ceramic lamp base to forest green; keep ivory pleated shade, cable and nightstand",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only muted-blue ceramic lamp base to forest green; keep ivory pleated shade, cable and nightstand. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "pleat-lamp",
+    "id": "taupe",
+    "name": "Taupe & ivory",
+    "hex": "#9e8e7b",
+    "source": "/images/catalogue/pleat-lamp-original.jpg",
+    "change": "only muted-blue ceramic lamp base to taupe; keep ivory pleated shade, cable and nightstand",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only muted-blue ceramic lamp base to taupe; keep ivory pleated shade, cable and nightstand. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "cove-blanket",
+    "id": "navy",
+    "name": "Navy",
+    "hex": "#2d415f",
+    "source": "/images/catalogue/cove-blanket-original.jpg",
+    "change": "only the main product color or finish to Navy",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Navy. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "cove-blanket",
+    "id": "olive",
+    "name": "Olive",
+    "hex": "#797c52",
+    "source": "/images/catalogue/cove-blanket-original.jpg",
+    "change": "only the main product color or finish to Olive",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Olive. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "cove-blanket",
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e6ddca",
+    "source": "/images/catalogue/cove-blanket-original.jpg",
+    "change": "only the main product color or finish to Cream",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Cream. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "reed-bench",
+    "id": "smoked",
+    "name": "Smoked oak & natural cord",
+    "hex": "#78614a",
+    "source": "/images/catalogue/reed-bench-original.jpg",
+    "change": "only oak frame to smoked oak; keep natural paper-cord seat unchanged",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only oak frame to smoked oak; keep natural paper-cord seat unchanged. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "reed-bench",
+    "id": "white-oiled",
+    "name": "White-oiled oak & natural cord",
+    "hex": "#d0c1a5",
+    "source": "/images/catalogue/reed-bench-original.jpg",
+    "change": "only oak frame to white-oiled oak; keep natural paper-cord seat unchanged",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only oak frame to white-oiled oak; keep natural paper-cord seat unchanged. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "reed-bench",
+    "id": "ebonized",
+    "name": "Ebonized oak & natural cord",
+    "hex": "#35332d",
+    "source": "/images/catalogue/reed-bench-original.jpg",
+    "change": "only oak frame to ebonized oak; keep natural paper-cord seat unchanged",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only oak frame to ebonized oak; keep natural paper-cord seat unchanged. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "arch-bath-mat",
+    "id": "dusty-blue",
+    "name": "Dusty blue & ivory",
+    "hex": "#778c9f",
+    "source": "/images/catalogue/arch-bath-mat-original.jpg",
+    "change": "only olive tufts to dusty blue; keep exact ivory arch stripes",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only olive tufts to dusty blue; keep exact ivory arch stripes. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "arch-bath-mat",
+    "id": "navy",
+    "name": "Navy & ivory",
+    "hex": "#2d425f",
+    "source": "/images/catalogue/arch-bath-mat-original.jpg",
+    "change": "only olive tufts to navy; keep exact ivory arch stripes",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only olive tufts to navy; keep exact ivory arch stripes. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "arch-bath-mat",
+    "id": "terracotta",
+    "name": "Terracotta & ivory",
+    "hex": "#b77053",
+    "source": "/images/catalogue/arch-bath-mat-original.jpg",
+    "change": "only olive tufts to terracotta; keep exact ivory arch stripes",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only olive tufts to terracotta; keep exact ivory arch stripes. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "drop-dispenser",
+    "id": "forest",
+    "name": "Forest green",
+    "hex": "#2e5845",
+    "source": "/images/catalogue/drop-dispenser-original.jpg",
+    "change": "only blue ceramic body to forest green; keep brushed steel pump",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only blue ceramic body to forest green; keep brushed steel pump. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "drop-dispenser",
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e6decb",
+    "source": "/images/catalogue/drop-dispenser-original.jpg",
+    "change": "only blue ceramic body to cream; keep brushed steel pump",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only blue ceramic body to cream; keep brushed steel pump. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "drop-dispenser",
+    "id": "charcoal",
+    "name": "Charcoal",
+    "hex": "#45464b",
+    "source": "/images/catalogue/drop-dispenser-original.jpg",
+    "change": "only blue ceramic body to charcoal; keep brushed steel pump",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only blue ceramic body to charcoal; keep brushed steel pump. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "vein-vanity-tray",
+    "id": "black",
+    "name": "Black marble",
+    "hex": "#333638",
+    "source": "/images/catalogue/vein-vanity-tray-original.jpg",
+    "change": "only the main product color or finish to Black marble",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Black marble. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "vein-vanity-tray",
+    "id": "white",
+    "name": "White marble",
+    "hex": "#e8e8e1",
+    "source": "/images/catalogue/vein-vanity-tray-original.jpg",
+    "change": "only the main product color or finish to White marble",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to White marble. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "vein-vanity-tray",
+    "id": "pink",
+    "name": "Rose marble",
+    "hex": "#c9a19d",
+    "source": "/images/catalogue/vein-vanity-tray-original.jpg",
+    "change": "only the main product color or finish to Rose marble",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Rose marble. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "braid-baskets",
+    "id": "smoked",
+    "name": "Smoked seagrass",
+    "hex": "#79644e",
+    "source": "/images/catalogue/braid-baskets-original.jpg",
+    "change": "only the main product color or finish to Smoked seagrass",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Smoked seagrass. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "braid-baskets",
+    "id": "whitewashed",
+    "name": "Whitewashed seagrass",
+    "hex": "#d1c5ad",
+    "source": "/images/catalogue/braid-baskets-original.jpg",
+    "change": "only the main product color or finish to Whitewashed seagrass",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Whitewashed seagrass. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "braid-baskets",
+    "id": "charcoal",
+    "name": "Charcoal-dyed seagrass",
+    "hex": "#47433b",
+    "source": "/images/catalogue/braid-baskets-original.jpg",
+    "change": "only the main product color or finish to Charcoal-dyed seagrass",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Charcoal-dyed seagrass. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "stone-brush",
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e5ddca",
+    "source": "/images/catalogue/stone-brush-original.jpg",
+    "change": "only grey ceramic holder to cream; keep steel handle unchanged",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only grey ceramic holder to cream; keep steel handle unchanged. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "stone-brush",
+    "id": "charcoal",
+    "name": "Charcoal",
+    "hex": "#45474b",
+    "source": "/images/catalogue/stone-brush-original.jpg",
+    "change": "only grey ceramic holder to charcoal; keep steel handle unchanged",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only grey ceramic holder to charcoal; keep steel handle unchanged. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "stone-brush",
+    "id": "forest",
+    "name": "Forest green",
+    "hex": "#2d5644",
+    "source": "/images/catalogue/stone-brush-original.jpg",
+    "change": "only grey ceramic holder to forest green; keep steel handle unchanged",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only grey ceramic holder to forest green; keep steel handle unchanged. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "fold-tissue-box",
+    "id": "navy",
+    "name": "Navy",
+    "hex": "#2e415e",
+    "source": "/images/catalogue/fold-tissue-box-original.jpg",
+    "change": "only pink metal box to navy; keep white tissue",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only pink metal box to navy; keep white tissue. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "fold-tissue-box",
+    "id": "cream",
+    "name": "Cream",
+    "hex": "#e7deca",
+    "source": "/images/catalogue/fold-tissue-box-original.jpg",
+    "change": "only pink metal box to cream; keep white tissue",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only pink metal box to cream; keep white tissue. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "fold-tissue-box",
+    "id": "charcoal",
+    "name": "Charcoal",
+    "hex": "#45464b",
+    "source": "/images/catalogue/fold-tissue-box-original.jpg",
+    "change": "only pink metal box to charcoal; keep white tissue",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only pink metal box to charcoal; keep white tissue. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "stripe-shower-curtain",
+    "id": "navy",
+    "name": "Navy & ivory",
+    "hex": "#2c415d",
+    "source": "/images/catalogue/stripe-shower-curtain-original.jpg",
+    "change": "only blue curtain stripes to navy; keep ivory stripes, folds and rail",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only blue curtain stripes to navy; keep ivory stripes, folds and rail. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "stripe-shower-curtain",
+    "id": "olive",
+    "name": "Olive & ivory",
+    "hex": "#757b51",
+    "source": "/images/catalogue/stripe-shower-curtain-original.jpg",
+    "change": "only blue curtain stripes to olive; keep ivory stripes, folds and rail",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only blue curtain stripes to olive; keep ivory stripes, folds and rail. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "stripe-shower-curtain",
+    "id": "terracotta",
+    "name": "Terracotta & ivory",
+    "hex": "#b76e50",
+    "source": "/images/catalogue/stripe-shower-curtain-original.jpg",
+    "change": "only blue curtain stripes to terracotta; keep ivory stripes, folds and rail",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only blue curtain stripes to terracotta; keep ivory stripes, folds and rail. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "balance-bookends",
+    "id": "sand",
+    "name": "Sand travertine",
+    "hex": "#c0ab8d",
+    "source": "/images/catalogue/balance-bookends-original.jpg",
+    "change": "only the main product color or finish to Sand travertine",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Sand travertine. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "balance-bookends",
+    "id": "ivory",
+    "name": "Ivory travertine",
+    "hex": "#dfd6c2",
+    "source": "/images/catalogue/balance-bookends-original.jpg",
+    "change": "only the main product color or finish to Ivory travertine",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Ivory travertine. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "balance-bookends",
+    "id": "silver",
+    "name": "Silver travertine",
+    "hex": "#9e9c91",
+    "source": "/images/catalogue/balance-bookends-original.jpg",
+    "change": "only the main product color or finish to Silver travertine",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Silver travertine. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "ribbon-object",
+    "id": "amber",
+    "name": "Amber glass",
+    "hex": "#b58c3d",
+    "source": "/images/catalogue/ribbon-object-original.jpg",
+    "change": "only the main product color or finish to Amber glass",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Amber glass. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "ribbon-object",
+    "id": "navy",
+    "name": "Navy glass",
+    "hex": "#324c70",
+    "source": "/images/catalogue/ribbon-object-original.jpg",
+    "change": "only the main product color or finish to Navy glass",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Navy glass. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "ribbon-object",
+    "id": "forest",
+    "name": "Forest green glass",
+    "hex": "#32614d",
+    "source": "/images/catalogue/ribbon-object-original.jpg",
+    "change": "only the main product color or finish to Forest green glass",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only the main product color or finish to Forest green glass. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "kinetic-mobile",
+    "id": "steel-navy",
+    "name": "Brushed steel & navy",
+    "hex": "#8e999c",
+    "source": "/images/catalogue/kinetic-mobile-original.jpg",
+    "change": "only brass rods and brass ovals to brushed steel and burgundy discs to navy; preserve exact number, arrangement and balance",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only brass rods and brass ovals to brushed steel and burgundy discs to navy; preserve exact number, arrangement and balance. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "kinetic-mobile",
+    "id": "black-ochre",
+    "name": "Blackened steel & ochre",
+    "hex": "#49463d",
+    "source": "/images/catalogue/kinetic-mobile-original.jpg",
+    "change": "only brass rods and brass ovals to blackened steel and burgundy discs to ochre; preserve exact number, arrangement and balance",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only brass rods and brass ovals to blackened steel and burgundy discs to ochre; preserve exact number, arrangement and balance. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  },
+  {
+    "product": "kinetic-mobile",
+    "id": "bronze-cream",
+    "name": "Bronze & cream",
+    "hex": "#897149",
+    "source": "/images/catalogue/kinetic-mobile-original.jpg",
+    "change": "only brass rods and brass ovals to dark bronze-finished steel and burgundy discs to cream; preserve exact number, arrangement and balance",
+    "prompt": "Use case: precise-object-edit. Edit the attached product photograph. Change only brass rods and brass ovals to dark bronze-finished steel and burgundy discs to cream; preserve exact number, arrangement and balance. Preserve EXACTLY the same product design, silhouette, proportions, materials, construction, stitch/rib/weave patterns, grain or veining detail, object count, camera angle, perspective, crop, lighting, background and all other objects. Treat this as one real product offered in another photographed finish. Do not invent a different object or change the composition. Maintain realistic material reflections and transparency. No text, logos, watermark, interface or collage. Landscape 1536 x 1024, full product with original margins."
+  }
+]

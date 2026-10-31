@@ -1,0 +1,57 @@
+[
+  {
+    "id": "home-hero",
+    "purpose": "Home hero",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. A newly photographed refined contemporary home, low cream linen sofa, asymmetrical walnut coffee table, a large circular window at the far right looking toward greenery, olive textile and one muted-blue cushion, hand-trowelled warm plaster wall with diagonal late-morning light, pale oak floor. Quiet left third with soft architectural shadow for an existing text overlay. Wide architectural composition from a slightly low seated viewpoint, airy but tactile. No other images as reference; invent a genuinely new room. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "room-soft-living",
+    "purpose": "Soft living room",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. A compact urban living room photographed side-on from the doorway on an overcast afternoon: olive straight modular sofa, two terracotta cushions, round oak coffee table, slim brass floor lamp, off-white textured rug, tall narrow sash windows and framed small art. Cozy intimate scale, honest soft grey daylight and plaster walls, no circular window. New room scene, wide perspective. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "room-open-living",
+    "purpose": "Open-plan living room",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. An airy open-plan loft photographed diagonally from behind a charcoal linen sofa, dusty-blue large woven rug, pale stone low square tables, double-height steel-framed windows, open oak shelving and a small kitchen glimpse far behind. Crisp clear morning light, generous architectural depth, touches of ochre. Different architecture and viewpoint from a front-on furniture vignette. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "room-natural-entry",
+    "purpose": "Entry and home details",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. A natural home entry corner viewed obliquely toward a stair: slender walnut bench, peg rail with a taupe linen coat, tall narrow bronze mirror, sculptural terracotta vase, woven shoe basket, pale stone floor and warm grey-green limewash wall. Strong late afternoon sunlight from the left, close architectural composition but complete entry vignette. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "room-burgundy-living",
+    "purpose": "Evening living room",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. An intimate evening reading room with a burgundy leather lounge chair, taupe upholstered two-seat sofa, warm walnut bookcases, an ivory pleated floor lamp and a navy-and-cream striped rug. A small black metal side table holds a closed book. Camera from the room corner, warm lamps balanced with cool blue twilight through a bay window, layered lived-in styling. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "room-bedroom",
+    "purpose": "Bedroom inspiration",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. A serene bedroom photographed from a high diagonal corner near a tall linen-curtained window: low cream upholstered bed, burgundy washed-linen bedding, a navy folded blanket, blush small cushions, light-oak floating bedside shelves, simple ceramic bedside lighting. Soft sunrise light from the right, pale dusty rose plaster wall, calm asymmetric architecture, distinct new room and layout. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "room-dining",
+    "purpose": "Dining room inspiration",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. A separate dining room with an oval warm-oak dining table, four forest-green upholstered dining chairs, cream linen runner, amber stemmed glasses and a single white ceramic bowl, broad woven pendant above. French doors to a leafy courtyard in the background, late summer afternoon sidelight. Elevated three-quarter view from the room entrance, pale grey plaster and patterned terracotta floor, no kitchen island. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "room-kitchen",
+    "purpose": "Kitchen inspiration",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. A newly photographed kitchen with forest-green lower cabinets, warm ivory open upper shelves, pale stone counters, an oak freestanding preparation island, ochre ceramic bowls, natural woven pendant and two pale-wood stools. View along the island toward a large side pantry window; bright clean midday light and gentle green shadows, handmade tile backsplash. Wide real interior composition unlike a front-on ivory shaker kitchen. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "room-bathroom",
+    "purpose": "Bathroom inspiration",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. A quiet contemporary bathroom with dusty-blue vertical shower tiles, soft pink limewash walls, light stone basin on a walnut vanity, an oval bronze-framed mirror, forest-green towels, a low woven stool and a glass shower screen. Wide view from the doorway with gentle diffuse late-day window light, honest stone and tile texture, complete room with no people. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "about-materials",
+    "purpose": "About materials",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. Editorial still life about home materials on a dark walnut work surface: a small folded cream linen sample, one olive wool swatch, a pale travertine offcut with a chamfered edge, a curved piece of clear glass and a brushed brass strip. High oblique camera, cool morning window light contrasting with warm wood grain. Objects arranged loosely and deliberately, tactile detail, no products posing as a store catalogue, no labels or text. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  },
+  {
+    "id": "about-craft",
+    "purpose": "About craftsmanship",
+    "prompt": "Use case: photorealistic-natural. Create ONE new landscape 3:2 editorial photograph, 1536 x 1024, for a refined warm-neutral contemporary home store. Close editorial photograph of a craftsperson hands gently fitting an unfinished oak mortise-and-tenon joint at a real wood workbench, tiny fresh shavings, a hand plane and folded dusty-blue cloth in soft background. Focus on wood end grain, careful joinery and hands; warm low afternoon light. No face, no workshop branding, no marketing text, no dangerous machinery, no finished furniture repeated from the catalogue. Cohesive natural materials, balanced quiet composition and tasteful accents. Photorealistic architectural/editorial photography, not a render or collage. No words, logos, watermarks, screenshot, interface, photo borders or embedded text."
+  }
+]

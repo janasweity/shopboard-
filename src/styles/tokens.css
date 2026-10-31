@@ -1,18 +1,25 @@
 ﻿:root {
   color-scheme: light;
-  --color-bg: #ffffff;
-  --color-ink: #17232d;
-  --color-muted: #57636a;
-  --color-primary: #1548c7;
-  --color-primary-dark: #103693;
-  --color-yellow: #ffe000;
-  --color-panel: #f3f5f5;
-  --color-line: #d9dfe2;
-  --space-1: 0.5rem;
-  --space-2: 1rem;
-  --space-3: 1.5rem;
-  --space-4: 2rem;
-  --space-5: 3rem;
-  --space-6: 5rem;
+  --soft-black: #171614;
+  --charcoal-brown: #302923;
+  --warm-slate: #4d4b47;
+  --graphite-grey: #62605b;
+  --stone-grey: #88857d;
+  --warm-greige: #b6ac9d;
+  --taupe-brown: #9a826d;
+  --silver-mist: #d1c8bc;
+  --warm-ivory: #eee5d5;
+  --soft-white: #faf8f1;
+  --color-bg: var(--soft-white);
+  --color-ink: var(--charcoal-brown);
+  --color-muted: var(--warm-slate);
+  --color-primary: var(--charcoal-brown);
+  --color-primary-dark: var(--soft-black);
+  --color-panel: var(--silver-mist);
+  --color-line: var(--stone-grey);
+  --color-sand: var(--warm-ivory);
   --font-body: 'Helvetica Neue', Arial, sans-serif;
+  --font-heading:
+    'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  --gutter: 1.25rem;
 }

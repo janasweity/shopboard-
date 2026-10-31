@@ -1,0 +1,827 @@
+{
+  "note": "Preserved overlapping kitchen records before consolidating the active catalogue.",
+  "products": [
+    {
+      "id": "reed-rattan-pendant",
+      "name": "REED Rattan Pendant",
+      "photo": "woven-pendant",
+      "finish": "Natural rattan",
+      "hex": "#b49365",
+      "price": 89,
+      "alt": "Bell-shaped woven rattan pendant with a black hanging cable and a softly glowing shade",
+      "description": "Woven warmth above your kitchen island. A bell-shaped natural rattan shade filters the light through its basket texture for a gentle, welcoming glow.",
+      "dimensions": "38 cm diameter x 34 H cm; 150 cm adjustable cable",
+      "materials": "Natural rattan, steel frame, textile cable; bulb excluded",
+      "care": "Dust with a soft dry brush. Switch off power before cleaning; use indoors in dry areas.",
+      "tag": "WOVEN WARMTH",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/woven-pendant.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural rattan",
+          "hex": "#b49365",
+          "image": "/images/kitchen/woven-pendant.png",
+          "alt": "Bell-shaped woven rattan pendant with a black hanging cable and a softly glowing shade",
+          "price": 89,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Natural rattan, steel frame, textile cable; bulb excluded",
+          "description": "Woven warmth above your kitchen island. A bell-shaped natural rattan shade filters the light through its basket texture for a gentle, welcoming glow."
+        }
+      ]
+    },
+    {
+      "id": "haven-linen-stool",
+      "name": "HAVEN Upholstered Bar Stool",
+      "photo": "linen-stool",
+      "finish": "Warm beige",
+      "hex": "#c5b499",
+      "price": 129,
+      "alt": "Beige linen-look bar stool with a curved channel-stitched back, black legs, and a footrest",
+      "description": "A softer place at the kitchen island. The curved padded back, comfortable seat, and dark metal legs balance warm upholstery with a clean architectural line.",
+      "dimensions": "48 W x 52 D x 96 H cm; seat height 65 cm",
+      "materials": "Beige woven polyester upholstery, foam, plywood shell, black powder-coated steel legs",
+      "care": "Vacuum gently and spot-clean upholstery with a lightly damp cloth. Dry metal legs promptly.",
+      "alternative": {
+        "id": "taupe",
+        "name": "Warm taupe",
+        "hex": "#94806b",
+        "photo": "linen-stool-taupe",
+        "alt": "Taupe linen-look bar stool with the same curved channel-stitched back, black legs, and footrest",
+        "materials": "Taupe woven polyester upholstery, foam, plywood shell, black powder-coated steel legs",
+        "description": "The HAVEN island stool in a deeper warm taupe. Its curved padded back and dark legs keep the same softly architectural silhouette."
+      },
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/linen-stool.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Warm beige",
+          "hex": "#c5b499",
+          "image": "/images/kitchen/linen-stool.png",
+          "alt": "Beige linen-look bar stool with a curved channel-stitched back, black legs, and a footrest",
+          "price": 129,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Beige woven polyester upholstery, foam, plywood shell, black powder-coated steel legs",
+          "description": "A softer place at the kitchen island. The curved padded back, comfortable seat, and dark metal legs balance warm upholstery with a clean architectural line."
+        },
+        {
+          "id": "taupe",
+          "name": "Warm taupe",
+          "hex": "#94806b",
+          "image": "/images/kitchen/linen-stool-taupe.png",
+          "alt": "Taupe linen-look bar stool with the same curved channel-stitched back, black legs, and footrest",
+          "price": 129,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Taupe woven polyester upholstery, foam, plywood shell, black powder-coated steel legs",
+          "description": "The HAVEN island stool in a deeper warm taupe. Its curved padded back and dark legs keep the same softly architectural silhouette.",
+          "photo": "linen-stool-taupe"
+        }
+      ]
+    },
+    {
+      "id": "grain-oak-boards",
+      "name": "GRAIN Oak Cutting Board Set",
+      "photo": "oak-boards",
+      "finish": "Natural oak",
+      "hex": "#b99667",
+      "price": 39,
+      "alt": "Two oak cutting boards with rounded shoulders, integral handles, and hanging holes",
+      "description": "Useful on the counter and beautiful on display. Two handled oak boards bring warm grain to everyday prep and casual serving.",
+      "dimensions": "Large: 24 W x 42 L x 1.8 D cm; small: 19 W x 32 L x 1.8 D cm",
+      "materials": "Solid oak with a food-contact mineral-oil finish; set of two",
+      "care": "Hand wash briefly and dry upright. Do not soak or dishwash; re-oil with food-safe board oil as needed.",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/oak-boards.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural oak",
+          "hex": "#b99667",
+          "image": "/images/kitchen/oak-boards.png",
+          "alt": "Two oak cutting boards with rounded shoulders, integral handles, and hanging holes",
+          "price": 39,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Solid oak with a food-contact mineral-oil finish; set of two",
+          "description": "Useful on the counter and beautiful on display. Two handled oak boards bring warm grain to everyday prep and casual serving."
+        }
+      ]
+    },
+    {
+      "id": "grove-utensil-holder",
+      "name": "GROVE Wooden Utensil Set",
+      "photo": "utensil-pot",
+      "finish": "Natural oak",
+      "hex": "#bf9b6c",
+      "price": 29,
+      "alt": "Fluted oak utensil holder containing a wooden spoon, spatula, and slotted spoon",
+      "description": "Keep the tools you reach for close at hand. A softly fluted wooden pot and three everyday cooking utensils make a warm, useful kitchen detail.",
+      "dimensions": "Holder: 12 cm diameter x 17 H cm; utensils: approximately 30 L cm",
+      "materials": "Oak holder, beech utensils, food-contact oil finish; holder and three utensils",
+      "care": "Hand wash utensils and dry promptly. Wipe the holder clean; do not soak or put in a dishwasher.",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/utensil-pot.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural oak",
+          "hex": "#bf9b6c",
+          "image": "/images/kitchen/utensil-pot.png",
+          "alt": "Fluted oak utensil holder containing a wooden spoon, spatula, and slotted spoon",
+          "price": 29,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Oak holder, beech utensils, food-contact oil finish; holder and three utensils",
+          "description": "Keep the tools you reach for close at hand. A softly fluted wooden pot and three everyday cooking utensils make a warm, useful kitchen detail."
+        }
+      ]
+    },
+    {
+      "id": "terra-serving-bowls",
+      "name": "TERRA Ceramic Serving Bowls",
+      "photo": "ceramic-bowls",
+      "finish": "Speckled ivory",
+      "hex": "#eee5d5",
+      "price": 34,
+      "alt": "Two nested warm ivory ceramic serving bowls with rounded rims and a lightly speckled glaze",
+      "description": "Soft shapes for meals made to share. Two nesting stoneware bowls add quiet texture to the table and tuck neatly together between gatherings.",
+      "dimensions": "Large: 24 cm diameter x 9 H cm; small: 18 cm diameter x 7 H cm",
+      "materials": "Food-contact glazed stoneware; set of two",
+      "care": "Wash with mild detergent. Avoid sudden temperature changes and abrasive scouring pads.",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/ceramic-bowls.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Speckled ivory",
+          "hex": "#eee5d5",
+          "image": "/images/kitchen/ceramic-bowls.png",
+          "alt": "Two nested warm ivory ceramic serving bowls with rounded rims and a lightly speckled glaze",
+          "price": 34,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Food-contact glazed stoneware; set of two",
+          "description": "Soft shapes for meals made to share. Two nesting stoneware bowls add quiet texture to the table and tuck neatly together between gatherings."
+        }
+      ]
+    },
+    {
+      "id": "terra-dinner-plates",
+      "name": "TERRA Stoneware Dinner Plates",
+      "photo": "dining-plates",
+      "finish": "Speckled ivory",
+      "hex": "#eee5d5",
+      "price": 48,
+      "alt": "Four stacked ivory stoneware dinner plates with softly raised organic rims and fine speckles",
+      "description": "The everyday table, beautifully simple. Four gently rounded dinner plates bring an easy, coordinated foundation to breakfast, dinner, and everything between.",
+      "dimensions": "26 cm diameter x 2.5 H cm per plate",
+      "materials": "Food-contact glazed stoneware; set of four",
+      "care": "Wash with mild detergent. Avoid abrupt temperature changes and abrasive cleaners.",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/dining-plates.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Speckled ivory",
+          "hex": "#eee5d5",
+          "image": "/images/kitchen/dining-plates.png",
+          "alt": "Four stacked ivory stoneware dinner plates with softly raised organic rims and fine speckles",
+          "price": 48,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Food-contact glazed stoneware; set of four",
+          "description": "The everyday table, beautifully simple. Four gently rounded dinner plates bring an easy, coordinated foundation to breakfast, dinner, and everything between."
+        }
+      ]
+    },
+    {
+      "id": "terra-stoneware-mugs",
+      "name": "TERRA Everyday Mug Pair",
+      "photo": "stoneware-mugs",
+      "finish": "Warm ivory",
+      "hex": "#eee5d5",
+      "price": 24,
+      "alt": "Two rounded ivory stoneware mugs with generous curved handles and subtle natural speckles",
+      "description": "For the first coffee and the last cup of tea. A pair of softly rounded mugs with generous handles brings a slower moment to the everyday.",
+      "dimensions": "9 cm diameter x 9 H cm; 330 ml each",
+      "materials": "Food-contact glazed stoneware; set of two",
+      "care": "Wash with mild detergent and avoid sudden temperature changes.",
+      "alternative": {
+        "id": "taupe",
+        "name": "Warm taupe",
+        "hex": "#9a826d",
+        "photo": "stoneware-mugs-taupe",
+        "alt": "Two warm taupe stoneware mugs with rounded bodies, generous curved handles, and a lightly speckled glaze",
+        "materials": "Warm taupe food-contact glazed stoneware; set of two",
+        "description": "The same softly rounded everyday mug pair in a warm taupe glaze. A grounded accent for a natural kitchen palette."
+      },
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/stoneware-mugs.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Warm ivory",
+          "hex": "#eee5d5",
+          "image": "/images/kitchen/stoneware-mugs.png",
+          "alt": "Two rounded ivory stoneware mugs with generous curved handles and subtle natural speckles",
+          "price": 24,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Food-contact glazed stoneware; set of two",
+          "description": "For the first coffee and the last cup of tea. A pair of softly rounded mugs with generous handles brings a slower moment to the everyday."
+        },
+        {
+          "id": "taupe",
+          "name": "Warm taupe",
+          "hex": "#9a826d",
+          "image": "/images/kitchen/stoneware-mugs-taupe.png",
+          "alt": "Two warm taupe stoneware mugs with rounded bodies, generous curved handles, and a lightly speckled glaze",
+          "price": 24,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Warm taupe food-contact glazed stoneware; set of two",
+          "description": "The same softly rounded everyday mug pair in a warm taupe glaze. A grounded accent for a natural kitchen palette.",
+          "photo": "stoneware-mugs-taupe"
+        }
+      ]
+    },
+    {
+      "id": "curve-kitchen-vase",
+      "name": "CURVE Ivory Ceramic Vase",
+      "photo": "kitchen-vase",
+      "finish": "Warm ivory",
+      "hex": "#eee5d5",
+      "price": 32,
+      "alt": "Empty cream ceramic vase with a rounded body, narrow neck, and gently irregular glazed texture",
+      "description": "A small sculptural pause on a busy counter. The rounded body and narrow neck look equally considered with a few stems or standing on their own.",
+      "dimensions": "20 cm diameter x 26 H cm",
+      "materials": "Glazed ceramic with a protective base pad",
+      "care": "Wipe with a soft damp cloth. Use a liner for fresh stems and protect delicate wood surfaces from moisture.",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/kitchen-vase.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Warm ivory",
+          "hex": "#eee5d5",
+          "image": "/images/kitchen/kitchen-vase.png",
+          "alt": "Empty cream ceramic vase with a rounded body, narrow neck, and gently irregular glazed texture",
+          "price": 32,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Glazed ceramic with a protective base pad",
+          "description": "A small sculptural pause on a busy counter. The rounded body and narrow neck look equally considered with a few stems or standing on their own."
+        }
+      ]
+    },
+    {
+      "id": "weave-seagrass-placemats",
+      "name": "WEAVE Seagrass Placemat Pair",
+      "photo": "woven-placemats",
+      "finish": "Natural seagrass",
+      "hex": "#b69a70",
+      "price": 18,
+      "alt": "Two round honey-coloured woven seagrass placemats with neatly braided edges",
+      "description": "Bring a little natural texture to the table. Two round woven mats frame everyday tableware and soften an oak or ivory tabletop.",
+      "dimensions": "35 cm diameter per mat",
+      "materials": "Handwoven seagrass; set of two",
+      "care": "Brush off crumbs and wipe spills promptly. Keep dry; do not soak or machine wash.",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/woven-placemats.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural seagrass",
+          "hex": "#b69a70",
+          "image": "/images/kitchen/woven-placemats.png",
+          "alt": "Two round honey-coloured woven seagrass placemats with neatly braided edges",
+          "price": 18,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Handwoven seagrass; set of two",
+          "description": "Bring a little natural texture to the table. Two round woven mats frame everyday tableware and soften an oak or ivory tabletop."
+        }
+      ]
+    },
+    {
+      "id": "flax-table-runner",
+      "name": "FLAX Natural Table Runner",
+      "photo": "linen-runner",
+      "finish": "Natural flax",
+      "hex": "#c9b99f",
+      "price": 36,
+      "alt": "Natural flax-coloured woven linen runner loosely folded to show its long shape and short fringed ends",
+      "description": "An easy layer for shared meals. A narrow linen runner adds soft texture without hiding the grain of your table.",
+      "dimensions": "40 W x 180 L cm",
+      "materials": "Linen-cotton blend, fringed ends",
+      "care": "Gentle cool wash with similar colours. Reshape while damp and air dry; follow the sewn-in care label.",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/linen-runner.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural flax",
+          "hex": "#c9b99f",
+          "image": "/images/kitchen/linen-runner.png",
+          "alt": "Natural flax-coloured woven linen runner loosely folded to show its long shape and short fringed ends",
+          "price": 36,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Linen-cotton blend, fringed ends",
+          "description": "An easy layer for shared meals. A narrow linen runner adds soft texture without hiding the grain of your table."
+        }
+      ]
+    },
+    {
+      "id": "glow-glass-candleholders",
+      "name": "GLOW Ribbed Glass Candle Holders",
+      "photo": "glass-candles",
+      "finish": "Clear glass",
+      "hex": "#d1c8bc",
+      "price": 28,
+      "alt": "Two clear ribbed glass candle holders in different heights, each containing an unlit ivory pillar candle",
+      "description": "Small pools of warmth for slower evenings. A pair of vertically ribbed glass holders catches the light along the island or dining table.",
+      "dimensions": "Small: 9 cm diameter x 12 H cm; large: 9 cm diameter x 17 H cm",
+      "materials": "Ribbed clear glass; set of two with ivory pillar candles",
+      "care": "Hand wash glass when cool. Keep lit candles away from greenery and textiles, and never leave flames unattended.",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/glass-candles.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Clear glass",
+          "hex": "#d1c8bc",
+          "image": "/images/kitchen/glass-candles.png",
+          "alt": "Two clear ribbed glass candle holders in different heights, each containing an unlit ivory pillar candle",
+          "price": 28,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Ribbed clear glass; set of two with ivory pillar candles",
+          "description": "Small pools of warmth for slower evenings. A pair of vertically ribbed glass holders catches the light along the island or dining table."
+        }
+      ]
+    },
+    {
+      "id": "sprig-herb-planter",
+      "name": "SPRIG Kitchen Herb Planter",
+      "photo": "herb-planter",
+      "finish": "Warm ivory",
+      "hex": "#eee5d5",
+      "price": 26,
+      "alt": "Small rosemary plant in a warm ivory textured ceramic planter with a matching saucer",
+      "description": "A little greenery beside the window. A textured pot and matching saucer make a considered home for your favourite kitchen herb; the rosemary shown is included in this concept set.",
+      "dimensions": "Pot: 14 cm diameter x 13 H cm; plant approximately 30 H cm overall",
+      "materials": "Glazed ceramic pot and saucer, live rosemary plant",
+      "care": "Place in bright light and water when the top soil begins to dry. Drain excess water into the saucer and protect worktops from moisture.",
+      "category": "kitchen-dining",
+      "collection": "kitchen-dining",
+      "room": "ivory-kitchen",
+      "image": "/images/kitchen/herb-planter.png",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Warm ivory",
+          "hex": "#eee5d5",
+          "image": "/images/kitchen/herb-planter.png",
+          "alt": "Small rosemary plant in a warm ivory textured ceramic planter with a matching saucer",
+          "price": 26,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Glazed ceramic pot and saucer, live rosemary plant",
+          "description": "A little greenery beside the window. A textured pot and matching saucer make a considered home for your favourite kitchen herb; the rosemary shown is included in this concept set."
+        }
+      ]
+    },
+    {
+      "id": "weave-pendant",
+      "name": "WEAVE Rattan Pendant",
+      "category": "lighting",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 149,
+      "image": "/images/kitchen/weave-pendant.png",
+      "alt": "Natural rattan bell pendant with an open woven shade and slender dark suspension cord",
+      "description": "Bring a warm woven glow to everyday gathering. The bell-shaped rattan shade adds natural texture above a counter or dining table.",
+      "dimensions": "38 cm diameter x 40 H cm; 150 cm adjustable cable",
+      "materials": "Natural rattan, steel fitting, textile cable; bulb excluded",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural rattan",
+          "hex": "#bb8c51",
+          "image": "/images/kitchen/weave-pendant.png",
+          "alt": "Natural rattan bell pendant with an open woven shade and slender dark suspension cord",
+          "price": 149,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Natural rattan, steel fitting, textile cable; bulb excluded",
+          "description": "Bring a warm woven glow to everyday gathering. The bell-shaped rattan shade adds natural texture above a counter or dining table."
+        }
+      ]
+    },
+    {
+      "id": "linen-counter-stool",
+      "name": "LINEN Beige Counter Stool",
+      "category": "seating",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 189,
+      "image": "/images/kitchen/linen-counter-stool.png",
+      "alt": "Beige upholstered counter stool with a curved padded back, dark wood legs, and metal footrest",
+      "description": "A comfortable place for coffee and conversation. Soft beige upholstery sits on a slim dark frame that tucks neatly beside a kitchen island.",
+      "dimensions": "50 W x 53 D x 93 H cm; 65 cm seat height",
+      "materials": "Beige polyester upholstery, foam padding, dark-stained wood, steel footrest",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Warm beige",
+          "hex": "#d2c2aa",
+          "image": "/images/kitchen/linen-counter-stool.png",
+          "alt": "Beige upholstered counter stool with a curved padded back, dark wood legs, and metal footrest",
+          "price": 189,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Beige polyester upholstery, foam padding, dark-stained wood, steel footrest",
+          "description": "A comfortable place for coffee and conversation. Soft beige upholstery sits on a slim dark frame that tucks neatly beside a kitchen island."
+        }
+      ]
+    },
+    {
+      "id": "grain-boards",
+      "name": "GRAIN Oak Cutting Board Pair",
+      "category": "kitchen-dining",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 49,
+      "image": "/images/kitchen/grain-boards.png",
+      "alt": "Pair of natural oak cutting boards with rounded edges, including a paddle board and an oval board",
+      "description": "Natural wood for everyday preparation and serving. Two softly rounded shapes work together on the counter or stand neatly against the backsplash.",
+      "dimensions": "Large board 38 x 25 cm; small board 30 x 20 cm; 2 cm thick",
+      "materials": "Solid oak, food-contact mineral oil finish; two boards",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural oak",
+          "hex": "#bc9568",
+          "image": "/images/kitchen/grain-boards.png",
+          "alt": "Pair of natural oak cutting boards with rounded edges, including a paddle board and an oval board",
+          "price": 49,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Solid oak, food-contact mineral oil finish; two boards",
+          "description": "Natural wood for everyday preparation and serving. Two softly rounded shapes work together on the counter or stand neatly against the backsplash."
+        }
+      ]
+    },
+    {
+      "id": "oak-utensil-holder",
+      "name": "STEM Oak Utensil Set",
+      "category": "kitchen-dining",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 39,
+      "image": "/images/kitchen/oak-utensil-holder.png",
+      "alt": "Cylindrical oak utensil holder containing matching wooden spoons and spatulas",
+      "description": "Keep the useful things close. A warm oak holder and simple wooden utensils bring a little order and texture to your cooking space.",
+      "dimensions": "Holder 12 cm diameter x 16 H cm; utensils up to 30 cm long",
+      "materials": "Solid oak holder, wooden spoons and spatulas; six-piece set",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural oak",
+          "hex": "#bc9568",
+          "image": "/images/kitchen/oak-utensil-holder.png",
+          "alt": "Cylindrical oak utensil holder containing matching wooden spoons and spatulas",
+          "price": 39,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Solid oak holder, wooden spoons and spatulas; six-piece set",
+          "description": "Keep the useful things close. A warm oak holder and simple wooden utensils bring a little order and texture to your cooking space."
+        }
+      ]
+    },
+    {
+      "id": "oat-bowls",
+      "name": "OAT Ceramic Bowl Set",
+      "category": "kitchen-dining",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 36,
+      "image": "/images/kitchen/oat-bowls.png",
+      "alt": "Four stacked ivory speckled ceramic bowls with rounded rims",
+      "description": "A quiet foundation for everyday meals. Four softly glazed bowls bring warm texture to breakfast, shared sides, and slower suppers.",
+      "dimensions": "16 cm diameter x 7 H cm per bowl; four bowls",
+      "materials": "Glazed stoneware; four bowls",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Speckled ivory",
+          "hex": "#e9dfce",
+          "image": "/images/kitchen/oat-bowls.png",
+          "alt": "Four stacked ivory speckled ceramic bowls with rounded rims",
+          "price": 36,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Glazed stoneware; four bowls",
+          "description": "A quiet foundation for everyday meals. Four softly glazed bowls bring warm texture to breakfast, shared sides, and slower suppers."
+        }
+      ]
+    },
+    {
+      "id": "hearth-plates",
+      "name": "HEARTH Ceramic Plate Set",
+      "category": "kitchen-dining",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 44,
+      "image": "/images/kitchen/hearth-plates.png",
+      "alt": "Four stacked ivory speckled ceramic dinner plates with gently raised rims",
+      "description": "Simple shapes for a welcoming table. Subtle speckles and softly raised rims make these four plates easy to layer with wood and woven textures.",
+      "dimensions": "26 cm diameter x 2 H cm per plate; four plates",
+      "materials": "Glazed stoneware; four plates",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Speckled ivory",
+          "hex": "#e9dfce",
+          "image": "/images/kitchen/hearth-plates.png",
+          "alt": "Four stacked ivory speckled ceramic dinner plates with gently raised rims",
+          "price": 44,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Glazed stoneware; four plates",
+          "description": "Simple shapes for a welcoming table. Subtle speckles and softly raised rims make these four plates easy to layer with wood and woven textures."
+        }
+      ]
+    },
+    {
+      "id": "morning-mugs",
+      "name": "MORNING Ceramic Mug Pair",
+      "category": "kitchen-dining",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 24,
+      "image": "/images/kitchen/morning-mugs.png",
+      "alt": "Two ivory speckled ceramic mugs with rounded handles",
+      "description": "Make a little room for your morning ritual. A softly rounded shape and comfortable handle give these everyday mugs a gentle presence.",
+      "dimensions": "9 cm diameter x 10 H cm; 350 ml each; two mugs",
+      "materials": "Glazed stoneware; two mugs",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Speckled ivory",
+          "hex": "#e9dfce",
+          "image": "/images/kitchen/morning-mugs.png",
+          "alt": "Two ivory speckled ceramic mugs with rounded handles",
+          "price": 24,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Glazed stoneware; two mugs",
+          "description": "Make a little room for your morning ritual. A softly rounded shape and comfortable handle give these everyday mugs a gentle presence."
+        }
+      ]
+    },
+    {
+      "id": "meadow-vase",
+      "name": "MEADOW Textured Ceramic Vase",
+      "category": "decor",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 42,
+      "image": "/images/kitchen/meadow-vase.png",
+      "alt": "Tall warm ivory ceramic vase with a rounded body and subtle vertical texture",
+      "description": "An easy finishing touch for a kitchen shelf or dining table. The gently textured ivory surface complements fresh stems, dried branches, or a simple arrangement.",
+      "dimensions": "15 cm diameter x 27 H cm",
+      "materials": "Glazed ceramic with textured exterior",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Warm ivory",
+          "hex": "#e5d9c3",
+          "image": "/images/kitchen/meadow-vase.png",
+          "alt": "Tall warm ivory ceramic vase with a rounded body and subtle vertical texture",
+          "price": 42,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Glazed ceramic with textured exterior",
+          "description": "An easy finishing touch for a kitchen shelf or dining table. The gently textured ivory surface complements fresh stems, dried branches, or a simple arrangement."
+        }
+      ]
+    },
+    {
+      "id": "woven-placemats",
+      "name": "ROUND Seagrass Placemat Pair",
+      "category": "kitchen-dining",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 22,
+      "image": "/images/kitchen/woven-placemats.png",
+      "alt": "Two round natural seagrass placemats with detailed concentric weave",
+      "description": "Set the table with an easy layer of natural texture. Two round woven mats frame everyday ceramics and warm wood beautifully.",
+      "dimensions": "38 cm diameter each; two placemats",
+      "materials": "Woven natural seagrass",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural seagrass",
+          "hex": "#bda373",
+          "image": "/images/kitchen/woven-placemats.png",
+          "alt": "Two round natural seagrass placemats with detailed concentric weave",
+          "price": 22,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Woven natural seagrass",
+          "description": "Set the table with an easy layer of natural texture. Two round woven mats frame everyday ceramics and warm wood beautifully."
+        }
+      ]
+    },
+    {
+      "id": "flax-runner",
+      "name": "FLAX Natural Table Runner",
+      "category": "kitchen-dining",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 34,
+      "image": "/images/kitchen/flax-runner.png",
+      "alt": "Folded natural flax table runner with woven texture and short fringed ends",
+      "description": "A soft natural layer for everyday gathering. The tactile weave and short fringe work with ivory ceramics, woven placemats, and oak surfaces.",
+      "dimensions": "35 W x 180 L cm",
+      "materials": "Linen and jute blend",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Natural flax",
+          "hex": "#c4b28f",
+          "image": "/images/kitchen/flax-runner.png",
+          "alt": "Folded natural flax table runner with woven texture and short fringed ends",
+          "price": 34,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Linen and jute blend",
+          "description": "A soft natural layer for everyday gathering. The tactile weave and short fringe work with ivory ceramics, woven placemats, and oak surfaces."
+        }
+      ]
+    },
+    {
+      "id": "amber-candle-holder",
+      "name": "GLOW Ribbed Glass Candle Holder",
+      "category": "decor",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 29,
+      "image": "/images/kitchen/amber-candle-holder.png",
+      "alt": "Ribbed amber glass hurricane holder with an unlit ivory pillar candle",
+      "description": "Bring a softer evening mood to the table. Ribbed amber glass catches the light with a gentle rhythm. Includes one ivory pillar candle.",
+      "dimensions": "12 cm diameter x 18 H cm",
+      "materials": "Ribbed amber glass, wax pillar candle; never leave a lit candle unattended",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Warm amber",
+          "hex": "#be925a",
+          "image": "/images/kitchen/amber-candle-holder.png",
+          "alt": "Ribbed amber glass hurricane holder with an unlit ivory pillar candle",
+          "price": 29,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Ribbed amber glass, wax pillar candle; never leave a lit candle unattended",
+          "description": "Bring a softer evening mood to the table. Ribbed amber glass catches the light with a gentle rhythm. Includes one ivory pillar candle."
+        }
+      ]
+    },
+    {
+      "id": "herb-planter",
+      "name": "LEAF Ceramic Herb Planter",
+      "category": "plants",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "price": 32,
+      "image": "/images/kitchen/herb-planter.png",
+      "alt": "Ivory ribbed ceramic planter containing a lifelike faux leafy herb plant",
+      "description": "A little greenery for a shelf or windowsill. Lifelike leaves bring freshness without a watering routine, held in a softly ribbed ivory pot.",
+      "dimensions": "13 cm planter diameter x 30 H cm including foliage",
+      "materials": "Ivory glazed ceramic planter, artificial fabric foliage",
+      "room": "kitchen-gathering",
+      "collection": "kitchen-dining",
+      "variants": [
+        {
+          "id": "original",
+          "name": "Ivory planter",
+          "hex": "#e5d9c3",
+          "image": "/images/kitchen/herb-planter.png",
+          "alt": "Ivory ribbed ceramic planter containing a lifelike faux leafy herb plant",
+          "price": 32,
+          "available": true,
+          "availability": "In stock",
+          "materials": "Ivory glazed ceramic planter, artificial fabric foliage",
+          "description": "A little greenery for a shelf or windowsill. Lifelike leaves bring freshness without a watering routine, held in a softly ribbed ivory pot."
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "ivory-kitchen",
+      "name": "Kitchen & Dining",
+      "title": "Warm light. Everyday gathering.",
+      "image": "/images/kitchen/kitchen-scene.png",
+      "alt": "Warm ivory kitchen with oak countertops, a fluted island, woven rattan pendants, beige bar stools, ceramics, and greenery",
+      "description": "Bring warm ivory cabinetry, natural wood, woven pendants, softly upholstered stools, and tactile tableware together for a kitchen that feels like the heart of home.",
+      "categories": [
+        "kitchen-dining"
+      ],
+      "collection": "kitchen-dining"
+    },
+    {
+      "id": "kitchen-gathering",
+      "name": "Kitchen & Dining",
+      "title": "Warm materials. Everyday rituals.",
+      "image": "/images/kitchen/kitchen-gathering.png",
+      "alt": "Wide ivory kitchen with oak counters, a fluted island, woven rattan pendants, beige counter stools, ceramics, wood accessories, candles, and greenery",
+      "description": "Gather around natural wood, woven light, softly glazed ceramics, and warm ivory cabinetry.",
+      "categories": [
+        "kitchen-dining",
+        "lighting"
+      ],
+      "collection": "kitchen-dining"
+    }
+  ],
+  "collections": [
+    {
+      "id": "kitchen-dining",
+      "name": "Kitchen & Dining",
+      "image": "/images/kitchen/kitchen-scene.png",
+      "alt": "Warm ivory kitchen with oak countertops, a fluted island, woven rattan pendants, beige bar stools, ceramics, and greenery",
+      "description": "Ivory, oak, woven light, and everyday rituals around the table.",
+      "tone": "ivory"
+    },
+    {
+      "id": "kitchen-dining",
+      "name": "Kitchen & Dining",
+      "image": "/images/kitchen/kitchen-gathering.png",
+      "alt": "Wide ivory kitchen with oak counters, a fluted island, woven rattan pendants, beige counter stools, ceramics, wood accessories, candles, and greenery",
+      "description": "Woven light, warm wood, and everyday ceramics.",
+      "tone": "neutral"
+    }
+  ]
+}

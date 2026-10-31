@@ -1,0 +1,766 @@
+[
+  {
+    "source": "artifacts/page-imagery/home-hero.png",
+    "target": "public/images/editorial/home-hero.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/room-soft-living.png",
+    "target": "public/images/editorial/room-soft-living.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/room-open-living.png",
+    "target": "public/images/editorial/room-open-living.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/room-natural-entry.png",
+    "target": "public/images/editorial/room-natural-entry.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/room-burgundy-living.png",
+    "target": "public/images/editorial/room-burgundy-living.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/room-bedroom.png",
+    "target": "public/images/editorial/room-bedroom.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/room-dining.png",
+    "target": "public/images/editorial/room-dining.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/room-kitchen.png",
+    "target": "public/images/editorial/room-kitchen.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/room-bathroom.png",
+    "target": "public/images/editorial/room-bathroom.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/about-materials.png",
+    "target": "public/images/editorial/about-materials.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/about-craft.png",
+    "target": "public/images/editorial/about-craft.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/arc-sofa-angle.png",
+    "target": "public/images/galleries/arc-sofa-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/arc-sofa-detail.png",
+    "target": "public/images/galleries/arc-sofa-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/arc-sofa-lifestyle.png",
+    "target": "public/images/galleries/arc-sofa-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/gem-goblets-angle.png",
+    "target": "public/images/galleries/gem-goblets-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/gem-goblets-detail.png",
+    "target": "public/images/galleries/gem-goblets-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/gem-goblets-lifestyle.png",
+    "target": "public/images/galleries/gem-goblets-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/hammam-towels-angle.png",
+    "target": "public/images/galleries/hammam-towels-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/hammam-towels-detail.png",
+    "target": "public/images/galleries/hammam-towels-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/hammam-towels-lifestyle.png",
+    "target": "public/images/galleries/hammam-towels-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/flora-duvet-angle.png",
+    "target": "public/images/galleries/flora-duvet-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/flora-duvet-detail.png",
+    "target": "public/images/galleries/flora-duvet-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/flora-duvet-lifestyle.png",
+    "target": "public/images/galleries/flora-duvet-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/facet-glass-vase-angle.png",
+    "target": "public/images/galleries/facet-glass-vase-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/facet-glass-vase-detail.png",
+    "target": "public/images/galleries/facet-glass-vase-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/facet-glass-vase-lifestyle.png",
+    "target": "public/images/galleries/facet-glass-vase-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/cadence-lumbar-angle.png",
+    "target": "public/images/galleries/cadence-lumbar-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/cadence-lumbar-detail.png",
+    "target": "public/images/galleries/cadence-lumbar-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/cadence-lumbar-lifestyle.png",
+    "target": "public/images/galleries/cadence-lumbar-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/moss-chair-angle.png",
+    "target": "public/images/galleries/moss-chair-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/moss-chair-detail.png",
+    "target": "public/images/galleries/moss-chair-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/moss-chair-lifestyle.png",
+    "target": "public/images/galleries/moss-chair-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/dune-table-angle.png",
+    "target": "public/images/galleries/dune-table-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/dune-table-detail.png",
+    "target": "public/images/galleries/dune-table-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/dune-table-lifestyle.png",
+    "target": "public/images/galleries/dune-table-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/fern-lamp-angle.png",
+    "target": "public/images/galleries/fern-lamp-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/fern-lamp-detail.png",
+    "target": "public/images/galleries/fern-lamp-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/fern-lamp-lifestyle.png",
+    "target": "public/images/galleries/fern-lamp-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/loom-rug-angle.png",
+    "target": "public/images/galleries/loom-rug-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/loom-rug-detail.png",
+    "target": "public/images/galleries/loom-rug-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/loom-rug-lifestyle.png",
+    "target": "public/images/galleries/loom-rug-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/grain-oak-boards-angle.png",
+    "target": "public/images/galleries/grain-oak-boards-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/grain-oak-boards-detail.png",
+    "target": "public/images/galleries/grain-oak-boards-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/grain-oak-boards-lifestyle.png",
+    "target": "public/images/galleries/grain-oak-boards-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/flax-table-runner-angle.png",
+    "target": "public/images/galleries/flax-table-runner-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/flax-table-runner-detail.png",
+    "target": "public/images/galleries/flax-table-runner-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/flax-table-runner-lifestyle.png",
+    "target": "public/images/galleries/flax-table-runner-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/rouge-bedding-angle.png",
+    "target": "public/images/galleries/rouge-bedding-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/rouge-bedding-detail.png",
+    "target": "public/images/galleries/rouge-bedding-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/rouge-bedding-lifestyle.png",
+    "target": "public/images/galleries/rouge-bedding-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ripple-mirror-angle.png",
+    "target": "public/images/galleries/ripple-mirror-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ripple-mirror-detail.png",
+    "target": "public/images/galleries/ripple-mirror-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ripple-mirror-lifestyle.png",
+    "target": "public/images/galleries/ripple-mirror-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/velvet-cushion-angle.png",
+    "target": "public/images/galleries/velvet-cushion-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/velvet-cushion-detail.png",
+    "target": "public/images/galleries/velvet-cushion-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/velvet-cushion-lifestyle.png",
+    "target": "public/images/galleries/velvet-cushion-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/earth-vase-angle.png",
+    "target": "public/images/galleries/earth-vase-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/earth-vase-detail.png",
+    "target": "public/images/galleries/earth-vase-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/earth-vase-lifestyle.png",
+    "target": "public/images/galleries/earth-vase-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/canopy-plant-angle.png",
+    "target": "public/images/galleries/canopy-plant-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/canopy-plant-detail.png",
+    "target": "public/images/galleries/canopy-plant-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/canopy-plant-lifestyle.png",
+    "target": "public/images/galleries/canopy-plant-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/contour-art-angle.png",
+    "target": "public/images/galleries/contour-art-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/contour-art-detail.png",
+    "target": "public/images/galleries/contour-art-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/contour-art-lifestyle.png",
+    "target": "public/images/galleries/contour-art-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/glow-glass-candleholders-angle.png",
+    "target": "public/images/galleries/glow-glass-candleholders-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/glow-glass-candleholders-detail.png",
+    "target": "public/images/galleries/glow-glass-candleholders-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/glow-glass-candleholders-lifestyle.png",
+    "target": "public/images/galleries/glow-glass-candleholders-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/patch-cushion-angle.png",
+    "target": "public/images/galleries/patch-cushion-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/patch-cushion-detail.png",
+    "target": "public/images/galleries/patch-cushion-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/patch-cushion-lifestyle.png",
+    "target": "public/images/galleries/patch-cushion-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/tide-throw-angle.png",
+    "target": "public/images/galleries/tide-throw-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/tide-throw-detail.png",
+    "target": "public/images/galleries/tide-throw-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/tide-throw-lifestyle.png",
+    "target": "public/images/galleries/tide-throw-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/orbit-side-table-angle.png",
+    "target": "public/images/galleries/orbit-side-table-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/orbit-side-table-detail.png",
+    "target": "public/images/galleries/orbit-side-table-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/orbit-side-table-lifestyle.png",
+    "target": "public/images/galleries/orbit-side-table-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/cobalt-bowls-angle.png",
+    "target": "public/images/galleries/cobalt-bowls-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/cobalt-bowls-detail.png",
+    "target": "public/images/galleries/cobalt-bowls-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/cobalt-bowls-lifestyle.png",
+    "target": "public/images/galleries/cobalt-bowls-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/petal-mugs-angle.png",
+    "target": "public/images/galleries/petal-mugs-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/petal-mugs-detail.png",
+    "target": "public/images/galleries/petal-mugs-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/petal-mugs-lifestyle.png",
+    "target": "public/images/galleries/petal-mugs-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/rill-glasses-angle.png",
+    "target": "public/images/galleries/rill-glasses-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/rill-glasses-detail.png",
+    "target": "public/images/galleries/rill-glasses-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/rill-glasses-lifestyle.png",
+    "target": "public/images/galleries/rill-glasses-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/lacquer-tray-angle.png",
+    "target": "public/images/galleries/lacquer-tray-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/lacquer-tray-detail.png",
+    "target": "public/images/galleries/lacquer-tray-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/lacquer-tray-lifestyle.png",
+    "target": "public/images/galleries/lacquer-tray-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/pantry-jars-angle.png",
+    "target": "public/images/galleries/pantry-jars-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/pantry-jars-detail.png",
+    "target": "public/images/galleries/pantry-jars-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/pantry-jars-lifestyle.png",
+    "target": "public/images/galleries/pantry-jars-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ochre-plates-angle.png",
+    "target": "public/images/galleries/ochre-plates-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ochre-plates-detail.png",
+    "target": "public/images/galleries/ochre-plates-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ochre-plates-lifestyle.png",
+    "target": "public/images/galleries/ochre-plates-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/nook-bedside-angle.png",
+    "target": "public/images/galleries/nook-bedside-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/nook-bedside-detail.png",
+    "target": "public/images/galleries/nook-bedside-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/nook-bedside-lifestyle.png",
+    "target": "public/images/galleries/nook-bedside-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/pleat-lamp-angle.png",
+    "target": "public/images/galleries/pleat-lamp-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/pleat-lamp-detail.png",
+    "target": "public/images/galleries/pleat-lamp-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/pleat-lamp-lifestyle.png",
+    "target": "public/images/galleries/pleat-lamp-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/cove-blanket-angle.png",
+    "target": "public/images/galleries/cove-blanket-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/cove-blanket-detail.png",
+    "target": "public/images/galleries/cove-blanket-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/cove-blanket-lifestyle.png",
+    "target": "public/images/galleries/cove-blanket-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/check-cushion-angle.png",
+    "target": "public/images/galleries/check-cushion-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/check-cushion-detail.png",
+    "target": "public/images/galleries/check-cushion-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/check-cushion-lifestyle.png",
+    "target": "public/images/galleries/check-cushion-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/reed-bench-angle.png",
+    "target": "public/images/galleries/reed-bench-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/reed-bench-detail.png",
+    "target": "public/images/galleries/reed-bench-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/reed-bench-lifestyle.png",
+    "target": "public/images/galleries/reed-bench-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/clay-towels-angle.png",
+    "target": "public/images/galleries/clay-towels-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/clay-towels-detail.png",
+    "target": "public/images/galleries/clay-towels-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/clay-towels-lifestyle.png",
+    "target": "public/images/galleries/clay-towels-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/arch-bath-mat-angle.png",
+    "target": "public/images/galleries/arch-bath-mat-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/arch-bath-mat-detail.png",
+    "target": "public/images/galleries/arch-bath-mat-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/arch-bath-mat-lifestyle.png",
+    "target": "public/images/galleries/arch-bath-mat-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/drop-dispenser-angle.png",
+    "target": "public/images/galleries/drop-dispenser-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/drop-dispenser-detail.png",
+    "target": "public/images/galleries/drop-dispenser-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/drop-dispenser-lifestyle.png",
+    "target": "public/images/galleries/drop-dispenser-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/vein-vanity-tray-angle.png",
+    "target": "public/images/galleries/vein-vanity-tray-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/vein-vanity-tray-detail.png",
+    "target": "public/images/galleries/vein-vanity-tray-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/vein-vanity-tray-lifestyle.png",
+    "target": "public/images/galleries/vein-vanity-tray-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/braid-baskets-angle.png",
+    "target": "public/images/galleries/braid-baskets-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/braid-baskets-detail.png",
+    "target": "public/images/galleries/braid-baskets-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/braid-baskets-lifestyle.png",
+    "target": "public/images/galleries/braid-baskets-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/stone-brush-angle.png",
+    "target": "public/images/galleries/stone-brush-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/stone-brush-detail.png",
+    "target": "public/images/galleries/stone-brush-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/stone-brush-lifestyle.png",
+    "target": "public/images/galleries/stone-brush-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/fold-tissue-box-angle.png",
+    "target": "public/images/galleries/fold-tissue-box-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/fold-tissue-box-detail.png",
+    "target": "public/images/galleries/fold-tissue-box-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/fold-tissue-box-lifestyle.png",
+    "target": "public/images/galleries/fold-tissue-box-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/stripe-shower-curtain-angle.png",
+    "target": "public/images/galleries/stripe-shower-curtain-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/stripe-shower-curtain-detail.png",
+    "target": "public/images/galleries/stripe-shower-curtain-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/stripe-shower-curtain-lifestyle.png",
+    "target": "public/images/galleries/stripe-shower-curtain-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/tempo-clock-angle.png",
+    "target": "public/images/galleries/tempo-clock-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/tempo-clock-detail.png",
+    "target": "public/images/galleries/tempo-clock-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/tempo-clock-lifestyle.png",
+    "target": "public/images/galleries/tempo-clock-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/balance-bookends-angle.png",
+    "target": "public/images/galleries/balance-bookends-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/balance-bookends-detail.png",
+    "target": "public/images/galleries/balance-bookends-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/balance-bookends-lifestyle.png",
+    "target": "public/images/galleries/balance-bookends-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/kinetic-mobile-angle.png",
+    "target": "public/images/galleries/kinetic-mobile-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/kinetic-mobile-detail.png",
+    "target": "public/images/galleries/kinetic-mobile-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/kinetic-mobile-lifestyle.png",
+    "target": "public/images/galleries/kinetic-mobile-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ribbon-object-angle.png",
+    "target": "public/images/galleries/ribbon-object-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ribbon-object-detail.png",
+    "target": "public/images/galleries/ribbon-object-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ribbon-object-lifestyle.png",
+    "target": "public/images/galleries/ribbon-object-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/beam-task-lamp-angle.png",
+    "target": "public/images/galleries/beam-task-lamp-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/beam-task-lamp-detail.png",
+    "target": "public/images/galleries/beam-task-lamp-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/beam-task-lamp-lifestyle.png",
+    "target": "public/images/galleries/beam-task-lamp-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/channel-ottoman-angle.png",
+    "target": "public/images/galleries/channel-ottoman-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/channel-ottoman-detail.png",
+    "target": "public/images/galleries/channel-ottoman-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/channel-ottoman-lifestyle.png",
+    "target": "public/images/galleries/channel-ottoman-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/mosaic-platter-angle.png",
+    "target": "public/images/galleries/mosaic-platter-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/mosaic-platter-detail.png",
+    "target": "public/images/galleries/mosaic-platter-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/mosaic-platter-lifestyle.png",
+    "target": "public/images/galleries/mosaic-platter-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/folio-rack-angle.png",
+    "target": "public/images/galleries/folio-rack-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/folio-rack-detail.png",
+    "target": "public/images/galleries/folio-rack-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/folio-rack-lifestyle.png",
+    "target": "public/images/galleries/folio-rack-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/weft-tray-angle.png",
+    "target": "public/images/galleries/weft-tray-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/weft-tray-detail.png",
+    "target": "public/images/galleries/weft-tray-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/weft-tray-lifestyle.png",
+    "target": "public/images/galleries/weft-tray-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/hearth-butter-dish-angle.png",
+    "target": "public/images/galleries/hearth-butter-dish-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/hearth-butter-dish-detail.png",
+    "target": "public/images/galleries/hearth-butter-dish-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/hearth-butter-dish-lifestyle.png",
+    "target": "public/images/galleries/hearth-butter-dish-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/drum-bedside-angle.png",
+    "target": "public/images/galleries/drum-bedside-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/drum-bedside-detail.png",
+    "target": "public/images/galleries/drum-bedside-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/drum-bedside-lifestyle.png",
+    "target": "public/images/galleries/drum-bedside-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/scallop-mirror-angle.png",
+    "target": "public/images/galleries/scallop-mirror-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/scallop-mirror-detail.png",
+    "target": "public/images/galleries/scallop-mirror-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/scallop-mirror-lifestyle.png",
+    "target": "public/images/galleries/scallop-mirror-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/herringbone-coverlet-angle.png",
+    "target": "public/images/galleries/herringbone-coverlet-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/herringbone-coverlet-detail.png",
+    "target": "public/images/galleries/herringbone-coverlet-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/herringbone-coverlet-lifestyle.png",
+    "target": "public/images/galleries/herringbone-coverlet-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/reed-toothbrush-cup-angle.png",
+    "target": "public/images/galleries/reed-toothbrush-cup-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/reed-toothbrush-cup-detail.png",
+    "target": "public/images/galleries/reed-toothbrush-cup-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/reed-toothbrush-cup-lifestyle.png",
+    "target": "public/images/galleries/reed-toothbrush-cup-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/frame-laundry-basket-angle.png",
+    "target": "public/images/galleries/frame-laundry-basket-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/frame-laundry-basket-detail.png",
+    "target": "public/images/galleries/frame-laundry-basket-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/frame-laundry-basket-lifestyle.png",
+    "target": "public/images/galleries/frame-laundry-basket-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/waffle-wash-bag-angle.png",
+    "target": "public/images/galleries/waffle-wash-bag-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/waffle-wash-bag-detail.png",
+    "target": "public/images/galleries/waffle-wash-bag-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/waffle-wash-bag-lifestyle.png",
+    "target": "public/images/galleries/waffle-wash-bag-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ink-landscape-angle.png",
+    "target": "public/images/galleries/ink-landscape-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ink-landscape-detail.png",
+    "target": "public/images/galleries/ink-landscape-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/ink-landscape-lifestyle.png",
+    "target": "public/images/galleries/ink-landscape-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/bridge-candleholder-angle.png",
+    "target": "public/images/galleries/bridge-candleholder-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/bridge-candleholder-detail.png",
+    "target": "public/images/galleries/bridge-candleholder-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/bridge-candleholder-lifestyle.png",
+    "target": "public/images/galleries/bridge-candleholder-lifestyle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/orbit-wall-basket-angle.png",
+    "target": "public/images/galleries/orbit-wall-basket-angle.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/orbit-wall-basket-detail.png",
+    "target": "public/images/galleries/orbit-wall-basket-detail.jpg"
+  },
+  {
+    "source": "artifacts/page-imagery/orbit-wall-basket-lifestyle.png",
+    "target": "public/images/galleries/orbit-wall-basket-lifestyle.jpg"
+  }
+]
