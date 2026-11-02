@@ -13,7 +13,7 @@ export default defineConfig([
     '.husky/_/**',
   ]),
   {
-    files: ['**/*.{js,mjs,cjs}'],
+    files: ['**/*.{js,mjs,cjs}', 'src/main.ts'],
     extends: [js.configs.recommended],
     languageOptions: { ecmaVersion: 'latest' },
   },
