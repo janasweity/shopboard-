@@ -32,7 +32,7 @@ for (const width of [360, 768, 1280]) {
     const image = page.locator('.room-slider figure > img')
     await expect(image).toHaveAttribute(
       'src',
-      '/images/kitchen/kitchen-scene.png',
+      '/images/kitchen/kitchen-scene.webp',
     )
     await image.evaluate((image) => image.decode())
     expect(

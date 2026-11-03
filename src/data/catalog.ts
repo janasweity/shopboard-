@@ -16,7 +16,7 @@ export const collections: Collection[] = [
   {
     id: 'nature-form',
     name: 'Nature & Form',
-    image: '/images/collection/soft-living.png',
+    image: '/images/collection/soft-living.webp',
     alt: 'Cream curved seating and olive accents around a travertine table in a natural sunlit living room',
     description: 'Cream curves, grounded olive, and natural texture.',
     tone: 'olive',
@@ -24,7 +24,7 @@ export const collections: Collection[] = [
   {
     id: 'burgundy-butter',
     name: 'Burgundy & Butter Cream',
-    image: '/images/burgundy/burgundy-living.png',
+    image: '/images/burgundy/burgundy-living.webp',
     alt: 'Butter-cream curved sofa and burgundy leather chair beside a veined burgundy marble table, brass accents, and decorative branches',
     description: 'Rich burgundy, soft cream, warm wood, and stone.',
     tone: 'burgundy',
@@ -80,7 +80,7 @@ const roomData: Room[] = [
     id: 'soft-living',
     name: 'Soft living',
     title: 'Curves, calm, and conversation.',
-    image: '/images/collection/soft-living.png',
+    image: '/images/collection/soft-living.webp',
     alt: 'Cream curved sofa and olive chairs around a travertine table with neutral art, textured rug, and sculptural lighting',
     description:
       'Balance cream curves with grounded olive seating, warm stone, and softly sculpted light.',
@@ -91,7 +91,7 @@ const roomData: Room[] = [
     id: 'open-living',
     name: 'Open-plan living',
     title: 'Space to gather. Room to breathe.',
-    image: '/images/collection/open-living.png',
+    image: '/images/collection/open-living.webp',
     alt: 'Spacious double-height living room with a cream corner sofa, rounded stone table, layered rugs, and tall sunlit windows',
     description:
       'Deep modular seating and generous natural textures create an inviting centre for an open home.',
@@ -102,7 +102,7 @@ const roomData: Room[] = [
     id: 'natural-entry',
     name: 'Natural corners',
     title: 'A quieter kind of welcome.',
-    image: '/images/collection/natural-entry.png',
+    image: '/images/collection/natural-entry.webp',
     alt: 'Wavy mirror, broad-leaf plant, dark fluted walnut sideboard, olive lamp, and ceramic vase in a warm interior corner',
     description:
       'Layer dark wood, organic reflections, ceramics, and leafy shapes for a corner with quiet character.',
@@ -113,7 +113,7 @@ const roomData: Room[] = [
     id: 'burgundy-living',
     name: 'Burgundy living',
     title: 'A richer shade of everyday.',
-    image: '/images/burgundy/burgundy-living.png',
+    image: '/images/burgundy/burgundy-living.webp',
     alt: 'Butter-cream curved sofa and burgundy leather chair beside a veined burgundy marble table, brass accents, and decorative branches',
     description:
       'Balance butter-cream curves with rich leather, dark walnut, burgundy marble, and warm brass details.',
@@ -124,7 +124,7 @@ const roomData: Room[] = [
     id: 'burgundy-dining',
     name: 'Warm dining',
     title: 'Gather around warm stone.',
-    image: '/images/burgundy/burgundy-dining.png',
+    image: '/images/burgundy/burgundy-dining.webp',
     alt: 'Warm wood kitchen with cream upholstered stools, dome pendants, burgundy marble island, and round travertine dining table',
     description:
       'Layer cream upholstery, glowing domes, warm wood, and a generous round stone table for everyday gathering.',
@@ -135,7 +135,7 @@ const roomData: Room[] = [
     id: 'burgundy-bedroom',
     name: 'Burgundy bedroom',
     title: 'Slow evenings. Deeper colours.',
-    image: '/images/burgundy/burgundy-bedroom.png',
+    image: '/images/burgundy/burgundy-bedroom.webp',
     alt: 'Cream upholstered bed with burgundy linen bedding and cushions, dark walnut bedside tables, abstract art, and a glossy burgundy lamp',
     description:
       'Soften rich burgundy linen with warm cream, tactile velvet, and gentle evening light.',

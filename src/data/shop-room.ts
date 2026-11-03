@@ -1,5 +1,5 @@
 export const shopRoom = {
-  image: '/images/collection/shop-the-room.png',
+  image: '/images/collection/shop-the-room.webp',
   alt: 'RAHA living room with the ARC cream curved sofa, MOSS olive accent chair, DUNE oval travertine coffee table, and FERN olive mushroom lamp beside a sunlit window',
   items: [
     { id: 'arc-sofa', color: 'original', label: 'Sofa', x: 45, y: 52 },

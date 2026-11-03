@@ -8,7 +8,7 @@ export const inspirationRooms: InspirationRoom[] = [
     title: 'Soft curves. Space for everyday life.',
     description:
       'Cream boucle, olive upholstery and sand travertine bring a quiet warmth to a compact living room. Leave comfortable space between the seating and coffee table.',
-    image: '/images/inspiration/living-room.png',
+    image: '/images/inspiration/living-room.webp',
     alt: 'Cream ARC curved sofa, sand travertine DUNE coffee table and olive MOSS chair in a modest daylight living room',
     items: [
       { id: 'arc-sofa', color: 'original' },
@@ -22,7 +22,7 @@ export const inspirationRooms: InspirationRoom[] = [
     title: 'Rich linen. A slower start.',
     description:
       'Burgundy washed linen meets warm walnut and a muted blue bedside lamp. Keep the bedside surface simple and allow room to move around the bed.',
-    image: '/images/inspiration/bedroom.png',
+    image: '/images/inspiration/bedroom.webp',
     alt: 'Burgundy ROUGE linen bedding beside a walnut NOOK bedside table and blue and ivory PLEAT lamp in a simple daylight bedroom',
     items: [
       { id: 'rouge-bedding', color: 'original' },
@@ -36,7 +36,7 @@ export const inspirationRooms: InspirationRoom[] = [
     title: 'Useful things. A little morning colour.',
     description:
       'Natural oak boards, clear storage jars and soft pink mugs make an everyday kitchen corner feel considered. Keep your worktop clear for preparing and serving.',
-    image: '/images/inspiration/kitchen.png',
+    image: '/images/inspiration/kitchen.webp',
     alt: 'Two natural oak GRAIN cutting boards, three clear PANTRY jars with acacia lids and two soft pink PETAL mugs on a naturally lit kitchen worktop',
     items: [
       { id: 'grain-oak-boards', color: 'original' },

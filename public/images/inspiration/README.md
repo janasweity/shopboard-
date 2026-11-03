@@ -2,7 +2,7 @@
 
 Created using the built-in image generation tool with actual local catalogue photographs supplied as references. These three assets belong only to Room Inspiration. Original catalogue images remain unchanged.
 
-## living-room.png
+## living-room.webp
 
 References: `../catalogue/arc-sofa-original.jpg`, `../catalogue/dune-table-original.jpg`, `../catalogue/moss-chair-original.jpg`.
 
@@ -10,7 +10,7 @@ Prompt:
 
 Create ONE photorealistic natural furniture catalogue photograph, landscape 3:2, for RAHA Room Inspiration. The three supplied product photographs are mandatory exact visual references, not loose style inspiration. Reference 1 ARC cream boucle curved sofa 238W x104D x76H cm: preserve low continuous kidney-shaped seat, continuous curved wraparound back and arms, rounded plinth, no visible legs, exact cream boucle. Reference 2 DUNE sand travertine coffee table 110W x65D x35H cm: preserve long rounded oval slab, two thick cylindrical stone legs, stone pores and exact sand color. Reference 3 MOSS olive woven swivel chair 84W x82D x74H cm: preserve tub shell, separate thick seat cushion, seam structure and low circular plinth. Place these exact three products, each once, in a practical modest 4 x 4 metre apartment living room, 2.6m ceiling, ordinary rectangular window, warm white walls, plain light oak floor. Sofa against back wall, table in front with practical clearance, chair to right facing slightly inward, all fully visible with no cropping. Match reference shapes, relative physical sizes, proportions, materials and selected colors precisely. Only one small book on table allowed. No other furniture, no rug, no decor collection, no luxury architecture, no arches, no cinematic light. Soft diffused natural daylight, believable fine texture, normal 40mm lens at seated eye level. No text, labels or collage. If unable to preserve exact products do not replace with similar furniture.
 
-## bedroom.png
+## bedroom.webp
 
 References: `../catalogue/rouge-bedding-original.jpg`, `../catalogue/nook-bedside-original.jpg`, `../catalogue/pleat-lamp-original.jpg`.
 
@@ -18,7 +18,7 @@ Prompt:
 
 Create ONE photorealistic natural furniture catalogue photograph landscape 3:2 for RAHA Room Inspiration. Input photos are strict product identity references. Reference 1 ROUGE burgundy washed linen duvet and two pillowcases: exact deep burgundy hue, fabric weave, plain solid linen and folded edge seams. Lay this bedding naturally on a simple standard double bed 140x200cm, with no decorative cushions or blankets. Plain bed frame is only necessary staging and should be visually quiet, no ornate design. Reference 2 NOOK walnut bedside table 45W x38D x52H cm: exact rectangular case, ONE drawer with central round brass knob, open rectangular cubby below, FOUR tapered splayed legs, original warm walnut. Reference 3 PLEAT lamp 28cm diameter x42cm high: exact muted blue ribbed round ceramic base, small brass neck, tapered pleated ivory cotton shade and slim shade rims. Put this exact lamp on the exact NOOK table. Preserve each featured product shape, proportions, selected colors, materials with no substitute. Modest 3x3.5 metre bedroom, ordinary 2.6m ceiling, warm white walls, simple rectangular window, oak floor, practical circulation beside bed. Bed on left, bedside table to right fully visible including all legs and drawer/cubby; lamp unlit to show blue and ivory accurately. Soft diffused natural daylight, restrained simple furniture catalogue styling, normal lens no distortion. No other furniture, rug, art or decoration, no mansion, no arches, no cinematic light, no text. Clear product identity more important than styling.
 
-## kitchen.png
+## kitchen.webp
 
 References: `../catalogue/grain-oak-boards-original.jpg`, `../catalogue/pantry-jars-original.jpg`, `../catalogue/petal-mugs-original.jpg`.
 

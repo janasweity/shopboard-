@@ -5,7 +5,7 @@ const root = '/images/kitchen/'
 export const kitchenCollection: Collection = {
   id: 'kitchen-dining',
   name: 'Kitchen & Dining',
-  image: root + 'kitchen-scene.png',
+  image: root + 'kitchen-scene.webp',
   alt: 'Warm ivory kitchen with oak countertops, a fluted island, woven rattan pendants, beige bar stools, ceramics, and greenery',
   description:
     'Ivory, oak, woven light, and everyday rituals around the table.',

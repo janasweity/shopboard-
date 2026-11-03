@@ -9,7 +9,7 @@ export const heroSlides = [
     cta: 'Explore the collection',
     href: '/?page=products&category=living-room',
     room: {
-      image: '/images/collection/open-living.png',
+      image: '/images/collection/open-living.webp',
       alt: 'Cream corner sofa and layered neutral textures in a spacious double-height living room',
     },
   },
@@ -24,7 +24,7 @@ export const heroSlides = [
     cta: 'Explore the collection',
     href: '/?page=products&collection=burgundy-butter',
     room: {
-      image: '/images/burgundy/burgundy-living.png',
+      image: '/images/burgundy/burgundy-living.webp',
       alt: 'Butter-cream curved sofa and burgundy leather chair with burgundy marble and brass details',
     },
   },
@@ -38,7 +38,7 @@ export const heroSlides = [
     cta: 'Explore the look',
     href: '/?page=products&collection=kitchen-dining&category=kitchen-dining',
     room: {
-      image: '/images/kitchen/kitchen-scene.png',
+      image: '/images/kitchen/kitchen-scene.webp',
       alt: 'Warm ivory kitchen with fluted island, oak counters, woven pendants and beige stools',
     },
   },
