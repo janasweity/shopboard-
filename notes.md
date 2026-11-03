@@ -2,6 +2,6 @@
 
 ## Default values
 
-- بالبداية جاوبت 10 لأني فهمت السؤال غلط.
-- بعد التوضيح فهمت إن النتيجة 0 لأن السعر موجود.
-- القيمة الافتراضية تُستخدم فقط إذا الخاصية مش موجودة أو قيمتها undefined.
+- I initially predicted `10` because I misunderstood the question.
+- I ran the code in the browser console and got `0` because `price` was already set to `0`.
+- I learned that a destructuring default is used only when the property is missing or its value is `undefined`.

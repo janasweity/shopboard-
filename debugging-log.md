@@ -31,7 +31,8 @@ The preview server is started separately for tests because the previous session 
 
 ## Breakpoint practice
 
-- وضعت نقطة توقف داخل calculateCart على سطر حساب سعر المنتج × الكمية.
-- راقبت السعر وكان 1695، والكمية كانت 1.
-- نفّذت السطر باستخدام Step over، وكانت النتيجة 1695.
-- هذه تجربة لفهم التنفيذ، وليست خطأ في الحساب.
+## Breakpoint practice
+
+- I set a breakpoint in `calculateCart` on the line that multiplies the unit price by the quantity.
+- I checked the values in the debugger. The unit price was `1695` and the quantity was `1`.
+- I used Step Over and confirmed that the line total was `1695`.
