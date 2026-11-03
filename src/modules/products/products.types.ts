@@ -1,5 +1,6 @@
 export type Category =
   'living-room' | 'kitchen-dining' | 'bedroom' | 'bathroom' | 'home-decor'
+
 export type CollectionId = 'nature-form' | 'burgundy-butter' | 'kitchen-dining'
 
 export interface ProductVariant {
@@ -64,6 +65,7 @@ export interface RoomProduct {
   id: string
   color: string
 }
+
 export interface InspirationRoom {
   id: string
   name: string
@@ -73,18 +75,21 @@ export interface InspirationRoom {
   alt: string
   items: RoomProduct[]
 }
+
 export interface GalleryImage {
   id: string
   label: string
   image: string
   alt: string
 }
+
 export interface ProductGallery {
   finish: string
   views: GalleryImage[]
 }
 
 export type PriceSort = 'default' | 'price-asc' | 'price-desc'
+
 export interface ProductSelection {
   query?: string
   category?: string
