@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import console from 'node:console'
-import { products } from '../src/data/catalog.js'
+import { products } from '../src/data/catalog.ts'
 
 const read = (path) => JSON.parse(fs.readFileSync(path, 'utf8'))
 const review = read('scripts/page-image-review.json')
@@ -43,8 +43,8 @@ const order = ['angle', 'detail', 'lifestyle']
 for (const gallery of Object.values(galleries))
   gallery.views.sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id))
 fs.writeFileSync(
-  'src/data/product-gallery-images.js',
-  '// Reviewed product-specific views; each set is tied to its photographed finish.\nexport const productGalleryImages = ' +
+  'src/data/product-gallery-images.ts',
+  "import type { ProductGallery } from '../modules/products/products.types.ts'\n\n// Reviewed product-specific views; each set is tied to its photographed finish.\nexport const productGalleryImages: Partial<Record<string, ProductGallery>> = " +
     JSON.stringify(galleries, null, 2) +
     '\n',
 )

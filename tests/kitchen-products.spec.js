@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-import { products, money } from '../src/data/catalog.js'
+import { products, money } from '../src/data/catalog.ts'
 const kitchenProducts = products.filter(
   (product) => product.category === 'kitchen-dining',
 )

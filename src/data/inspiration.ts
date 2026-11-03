@@ -1,5 +1,7 @@
+import type { InspirationRoom } from '../modules/products/products.types.ts'
+
 // Dedicated to Room Inspiration; other pages retain their own photography.
-export const inspirationRooms = [
+export const inspirationRooms: InspirationRoom[] = [
   {
     id: 'living-room',
     name: 'Living room',

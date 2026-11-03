@@ -1,6 +1,8 @@
+import type { Collection, Room } from '../modules/products/products.types.ts'
+
 const root = '/images/kitchen/'
 
-export const kitchenCollection = {
+export const kitchenCollection: Collection = {
   id: 'kitchen-dining',
   name: 'Kitchen & Dining',
   image: root + 'kitchen-scene.png',
@@ -10,7 +12,7 @@ export const kitchenCollection = {
   tone: 'ivory',
 }
 
-export const kitchenRoom = {
+export const kitchenRoom: Room = {
   id: 'ivory-kitchen',
   name: 'Kitchen & Dining',
   title: 'Warm light. Everyday gathering.',

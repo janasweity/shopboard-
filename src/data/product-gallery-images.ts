@@ -1,5 +1,7 @@
+import type { ProductGallery } from '../modules/products/products.types.ts'
+
 // Reviewed product-specific views; each set is tied to its photographed finish.
-export const productGalleryImages = {
+export const productGalleryImages: Partial<Record<string, ProductGallery>> = {
   'arc-sofa': {
     finish: 'original',
     views: [

@@ -1,43 +1,44 @@
-import { products } from './data.js'
-
-export function selectProducts(
-  source,
-  { query = '', category = 'all', sort = 'default' } = {},
-) {
-  const search = query.trim().toLowerCase()
-  const filtered = source.filter(
-    (product) =>
-      (category === 'all' ||
-        category === product.category ||
-        product.categories?.includes(category) ||
-        category === 'collection:' + product.collection) &&
-      product.name.toLowerCase().includes(search),
-  )
-  // Sorting a copy preserves both the source and the filtered order.
-  const sorted = [...filtered]
-  if (sort === 'price-asc') sorted.sort((a, b) => a.price - b.price)
-  if (sort === 'price-desc') sorted.sort((a, b) => b.price - a.price)
-  return sorted
-}
-
-export const calculateRoomArea = (width, length) => width * length
+import { products } from '../../data.ts'
+import type {
+  Cart,
+  CartItem,
+  CartLine,
+  CartSummary,
+  ResolvedCartItem,
+} from './cart.types.ts'
 
 const catalog = new Map(products.map((product) => [product.id, product]))
-export const cartKey = (productId, variantId) => productId + '::' + variantId
+export const cartKey = (productId: string, variantId: string): string =>
+  productId + '::' + variantId
 
-export function resolveCartItem(entry) {
-  const product = catalog.get(entry?.productId)
-  const variant = product?.variants.find(
+export function resolveCartItem(entry: unknown): ResolvedCartItem | null {
+  if (
+    !isRecord(entry) ||
+    typeof entry.productId !== 'string' ||
+    typeof entry.variantId !== 'string'
+  )
+    return null
+  const product = catalog.get(entry.productId)
+  if (!product) return null
+  const variant = product.variants.find(
     (option) => option.id === entry.variantId,
   )
   return variant?.available ? { product, variant } : null
 }
 
-export function normalizeCart(saved) {
-  const entries = new Map()
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === 'object' && value !== null
+}
+
+export function normalizeCart(saved: unknown): Cart {
+  const entries: Cart = new Map()
   if (!Array.isArray(saved)) return entries
   for (const entry of saved) {
     if (
+      !isRecord(entry) ||
+      typeof entry.productId !== 'string' ||
+      typeof entry.variantId !== 'string' ||
+      typeof entry.quantity !== 'number' ||
       !resolveCartItem(entry) ||
       !Number.isSafeInteger(entry.quantity) ||
       entry.quantity < 1
@@ -55,8 +56,8 @@ export function normalizeCart(saved) {
   return entries
 }
 
-export function calculateCart(entries) {
-  const items = []
+export function calculateCart(entries: Iterable<CartItem>): CartSummary {
+  const items: CartLine[] = []
   let quantity = 0
   let subtotal = 0
   for (const entry of entries) {

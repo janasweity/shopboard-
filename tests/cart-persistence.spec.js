@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-import { products, money } from '../src/data/catalog.js'
+import { products, money } from '../src/data/catalog.ts'
 
 const product = products[0]
 const [first, second] = product.variants.filter((variant) => variant.available)
@@ -66,7 +66,7 @@ test('cart preserves colors, quantities, count and current prices through refres
     { productId: other.id, variantId: otherVariant.id, quantity: 1 },
     { productId: product.id, variantId: second.id, quantity: 1 },
   ])
-  await page.evaluate(async () => (await import('/src/state.js')).clearCart())
+  await page.evaluate(async () => (await import('/src/state.ts')).clearCart())
   await page.reload()
   await expect(page.locator('#cart-count')).toHaveText('0')
   expect(

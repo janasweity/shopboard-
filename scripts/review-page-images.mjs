@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import console from 'node:console'
-import { products } from '../src/data/catalog.js'
+import { products } from '../src/data/catalog.ts'
 
 const read = (path) => JSON.parse(fs.readFileSync(path, 'utf8'))
 const review = read('scripts/page-image-review.json')

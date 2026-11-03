@@ -1,5 +1,7 @@
+import type { ProductVariant } from '../modules/products/products.types.ts'
+
 // Only individually reviewed, locally saved finish photographs are offered.
-export const additionalVariants = {
+export const additionalVariants: Partial<Record<string, ProductVariant[]>> = {
   'arc-sofa': [
     {
       id: 'terracotta',

@@ -1,9 +1,9 @@
 import { URL } from 'node:url'
 import console from 'node:console'
 import fs from 'node:fs'
-import { retainedProducts } from '../src/data/retained-products.js'
-import { curatedProducts } from '../src/data/curated-products.js'
-import { expandedProducts } from '../src/data/expanded-products.js'
+import { retainedProducts } from '../src/data/retained-products.ts'
+import { curatedProducts } from '../src/data/curated-products.ts'
+import { expandedProducts } from '../src/data/expanded-products.ts'
 
 const read = (path) =>
   JSON.parse(fs.readFileSync(new URL(path, import.meta.url), 'utf8'))
@@ -71,8 +71,8 @@ for (const job of jobs) {
   photos.push({ source, target: 'public' + variant.image })
 }
 fs.writeFileSync(
-  new URL('../src/data/additional-variants.js', import.meta.url),
-  '// Only individually reviewed, locally saved finish photographs are offered.\nexport const additionalVariants = ' +
+  new URL('../src/data/additional-variants.ts', import.meta.url),
+  "import type { ProductVariant } from '../modules/products/products.types.ts'\n\n// Only individually reviewed, locally saved finish photographs are offered.\nexport const additionalVariants: Partial<Record<string, ProductVariant[]>> = " +
     JSON.stringify(additionalVariants, null, 2) +
     '\n',
 )

@@ -1,3 +1,10 @@
+import type { UIDependencies, UIState } from './app.types.ts'
+import type {
+  Product,
+  ProductVariant,
+} from './modules/products/products.types.ts'
+import { isPriceSort } from './modules/products/products.logic.ts'
+import { findElement, requireElement, findElements } from './dom.ts'
 import {
   getVariant,
   categories,
@@ -6,12 +13,12 @@ import {
   collections,
   money,
   productURL,
-} from './data.js'
-import { heroSlides } from './data/hero-slides.js'
-import { getPage, card, galleryOptions } from './pages.js'
-import { getProductGallery } from './product-gallery.js'
+} from './data.ts'
+import { heroSlides } from './data/hero-slides.ts'
+import { getPage, card, galleryOptions } from './pages.ts'
+import { getProductGallery } from './product-gallery.ts'
 
-// Browser interactions are initialized once by main.js.
+// Browser interactions are initialized once by main.ts.
 export function initializeUI({
   products,
   selectProducts,
@@ -22,11 +29,16 @@ export function initializeUI({
   changeCartItem,
   clearCart,
   claimEntranceSession,
-}) {
+}: UIDependencies): void {
   // Entrance animation and cleanup.
-  let cleanup = () => {}
+  const state: UIState = {
+    cleanup: () => {},
+    initialized: false,
+    activeHotspot: null,
+    pointerInteraction: false,
+  }
   function stopEntrance() {
-    cleanup()
+    state.cleanup()
   }
 
   function startEntrance() {
@@ -46,24 +58,29 @@ export function initializeUI({
     intro.setAttribute('aria-labelledby', 'intro-title')
     intro.innerHTML =
       '<div class="intro-brand"><p class="intro-kicker">MAKE ROOM FOR LIVING</p><p id="intro-title">RAHA<span>HOME &amp; LIVING</span></p><span class="intro-line" aria-hidden="true"></span></div><button type="button" class="skip-intro">Skip intro <span aria-hidden="true">↗</span></button>'
-    const targets = []
-    const mark = (element, className, delay) => {
+    const targets: [HTMLElement, string][] = []
+    const mark = (
+      element: HTMLElement | null,
+      className: string,
+      delay: number,
+    ) => {
       if (!element) return
       element.classList.add(className)
       element.style.setProperty('--entrance-delay', `${delay}ms`)
       targets.push([element, className])
     }
-    const onMotionChange = (event) => {
+    const onMotionChange = (event: MediaQueryListEvent) => {
       if (event.matches) stopEntrance()
     }
-    const onEscape = (event) => {
+    const onEscape = (event: KeyboardEvent) => {
       if (event.key === 'Escape') stopEntrance()
     }
-    const onFocus = (event) => {
-      if (!intro.contains(event.target)) stopEntrance()
+    const onFocus = (event: FocusEvent) => {
+      if (event.target instanceof Node && !intro.contains(event.target))
+        stopEntrance()
     }
     const timer = window.setTimeout(stopEntrance, 3750)
-    cleanup = () => {
+    state.cleanup = () => {
       window.clearTimeout(timer)
       const restoreFocus = intro.contains(document.activeElement)
       targets.forEach(([element, className]) => {
@@ -75,91 +92,96 @@ export function initializeUI({
       reducedMotion.removeEventListener('change', onMotionChange)
       document.removeEventListener('keydown', onEscape)
       document.removeEventListener('focusin', onFocus)
-      cleanup = () => {}
+      state.cleanup = () => {}
       if (restoreFocus)
-        document.querySelector('#main-content').focus({ preventScroll: true })
+        requireElement('#main-content', HTMLElement).focus({
+          preventScroll: true,
+        })
     }
-    intro.querySelector('.skip-intro').addEventListener('click', stopEntrance)
+    requireElement('.skip-intro', HTMLButtonElement, intro).addEventListener(
+      'click',
+      stopEntrance,
+    )
     reducedMotion.addEventListener('change', onMotionChange)
     document.addEventListener('keydown', onEscape)
     mark(
-      document.querySelector('.home-hero figure > img'),
+      findElement('.home-hero figure > img', HTMLImageElement),
       'entrance-hero',
       2100,
     )
-    mark(document.querySelector('#page-view h1'), 'entrance-copy', 2350)
+    mark(findElement('#page-view h1', HTMLElement), 'entrance-copy', 2350)
     mark(
-      document.querySelector('#page-view .search-field'),
+      findElement('#page-view .search-field', HTMLElement),
       'entrance-search',
       2450,
     )
-    document
-      .querySelectorAll('#page-view .product-card')
-      .forEach((card, index) =>
+    findElements('#page-view .product-card', HTMLElement).forEach(
+      (card, index) =>
         mark(card, 'entrance-card', 2550 + Math.min(index, 11) * 50),
-      )
+    )
     document.documentElement.dataset.entrance = 'playing'
     document.body.append(intro)
     intro.classList.add('is-playing')
-    intro.querySelector('.skip-intro').focus({ preventScroll: true })
+    requireElement('.skip-intro', HTMLButtonElement, intro).focus({
+      preventScroll: true,
+    })
     document.addEventListener('focusin', onFocus)
   }
 
   // Manual room slider.
 
-  let initialized = false
-
   function initializeHeroSlider() {
-    if (initialized) return
-    initialized = true
+    if (state.initialized) return
+    state.initialized = true
     // Manual controls avoid unexpected motion and leave the visitor in control.
     document.addEventListener('click', (event) => {
-      const button = event.target.closest('button[data-hero-slide]')
+      const target = event.target
+      if (!(target instanceof Element)) return
+      const button = target.closest<HTMLButtonElement>(
+        'button[data-hero-slide]',
+      )
       if (!button) return
       const hero = button.closest('.room-slider')
       const slide = heroSlides.find(
         (slide) => slide.id === button.dataset.heroSlide,
       )
-      if (!hero || !slide) return
+      if (!(hero instanceof HTMLElement) || !slide) return
       hero.dataset.slide = slide.id
-      hero.querySelector('h2').innerHTML = slide.title
-      hero.querySelector('.eyebrow').textContent = slide.eyebrow
-      hero.querySelector('.hero-description').textContent = slide.description
-      const link = hero.querySelector('.hero-cta')
+      requireElement('h2', HTMLElement, hero).innerHTML = slide.title
+      requireElement('.eyebrow', HTMLElement, hero).textContent = slide.eyebrow
+      requireElement('.hero-description', HTMLElement, hero).textContent =
+        slide.description
+      const link = requireElement('.hero-cta', HTMLAnchorElement, hero)
       link.href = slide.href
       link.innerHTML =
         'Explore the look' + ' <span aria-hidden="true">&nearr;</span>'
-      const image = hero.querySelector('figure > img')
+      const image = requireElement('figure > img', HTMLImageElement, hero)
       image.src = slide.room.image
       image.alt = slide.room.alt
       image.width = slide.id === 'kitchen' ? 1672 : 1536
       image.height = slide.id === 'kitchen' ? 941 : 1024
-      hero.querySelector('figcaption').textContent =
+      requireElement('figcaption', HTMLElement, hero).textContent =
         slide.label.toUpperCase() + ' / RAHA'
-      hero
-        .querySelectorAll('[data-hero-slide]')
-        .forEach((control) =>
-          control.setAttribute('aria-pressed', String(control === button)),
-        )
-      hero.querySelector('.hero-slide-status').textContent =
+      findElements('[data-hero-slide]', HTMLElement, hero).forEach((control) =>
+        control.setAttribute('aria-pressed', String(control === button)),
+      )
+      requireElement('.hero-slide-status', HTMLElement, hero).textContent =
         slide.label + ' inspiration selected.'
     })
   }
 
   // Accessible shop-the-room panel.
 
-  let activeHotspot = null
-  let pointerInteraction = false
-  const panel = () => document.querySelector('#shop-room-panel')
+  const panel = () => findElement('#shop-room-panel', HTMLElement)
 
   function closeShopRoom(restoreFocus = true) {
-    const trigger = activeHotspot
+    const trigger = state.activeHotspot
     const current = panel()
     if (current) current.hidden = true
-    activeHotspot = null
-    document
-      .querySelectorAll('[data-room-hotspot]')
-      .forEach((button) => button.setAttribute('aria-expanded', 'false'))
+    state.activeHotspot = null
+    findElements('[data-room-hotspot]', HTMLElement).forEach((button) =>
+      button.setAttribute('aria-expanded', 'false'),
+    )
     if (
       restoreFocus &&
       trigger?.isConnected &&
@@ -169,7 +191,7 @@ export function initializeUI({
     }
   }
 
-  function openShopRoom(trigger) {
+  function openShopRoom(trigger: HTMLButtonElement) {
     const current = panel()
     const product = products.find(
       (item) => item.id === trigger.dataset.roomHotspot,
@@ -178,60 +200,67 @@ export function initializeUI({
       (item) => item.id === trigger.dataset.roomColor,
     )
     if (!current || !product || !variant) return
-    if (trigger === activeHotspot && !current.hidden) {
+    if (trigger === state.activeHotspot && !current.hidden) {
       closeShopRoom()
       return
     }
     closeShopRoom(false)
-    activeHotspot = trigger
-    const image = current.querySelector('img')
+    state.activeHotspot = trigger
+    const image = requireElement('img', HTMLImageElement, current)
     image.src = variant.image
     image.alt = variant.alt
-    current.querySelector('h3').textContent = product.name
-    current.querySelector('.room-panel-color').textContent = variant.name
-    current.querySelector('.room-panel-price').textContent = money(
-      variant.price,
-    )
-    current.querySelector('a').href =
+    requireElement('h3', HTMLElement, current).textContent = product.name
+    requireElement('.room-panel-color', HTMLElement, current).textContent =
+      variant.name
+    requireElement('.room-panel-price', HTMLElement, current).textContent =
+      money(variant.price)
+    requireElement('a', HTMLAnchorElement, current).href =
       productURL(product.id) + '&color=' + encodeURIComponent(variant.id)
     current.hidden = false
     trigger.setAttribute('aria-expanded', 'true')
-    current.querySelector('[data-room-close]').focus({ preventScroll: true })
+    requireElement('[data-room-close]', HTMLButtonElement, current).focus({
+      preventScroll: true,
+    })
   }
 
   function initializeShopRoom() {
     document.addEventListener('pointerdown', () => {
-      pointerInteraction = true
+      state.pointerInteraction = true
     })
     document.addEventListener('pointercancel', () => {
-      pointerInteraction = false
+      state.pointerInteraction = false
     })
     document.addEventListener('click', (event) => {
-      pointerInteraction = false
-      const trigger = event.target.closest('button[data-room-hotspot]')
+      const target = event.target
+      if (!(target instanceof Element)) return
+      state.pointerInteraction = false
+      const trigger = target.closest<HTMLButtonElement>(
+        'button[data-room-hotspot]',
+      )
       if (trigger) {
         openShopRoom(trigger)
         return
       }
       const current = panel()
       if (!current || current.hidden) return
-      if (event.target.closest('[data-room-close]')) closeShopRoom()
-      else if (!current.contains(event.target)) {
-        const focusable = event.target.closest(
+      if (target.closest('[data-room-close]')) closeShopRoom()
+      else if (!current.contains(target)) {
+        const focusable = target.closest(
           'a[href], button, input, select, textarea, [tabindex]:not([tabindex="-1"])',
         )
         closeShopRoom(!focusable)
       }
     })
     document.addEventListener('keydown', (event) => {
-      pointerInteraction = false
+      state.pointerInteraction = false
       const current = panel()
       if (
         event.key === 'Tab' &&
         event.shiftKey &&
         current &&
         !current.hidden &&
-        document.activeElement === current.querySelector('[data-room-close]')
+        document.activeElement ===
+          requireElement('[data-room-close]', HTMLButtonElement, current)
       ) {
         event.preventDefault()
         closeShopRoom()
@@ -244,14 +273,16 @@ export function initializeUI({
     })
     // This is a non-modal panel: Tab may leave it, without trapping focus.
     document.addEventListener('focusin', (event) => {
+      const target = event.target
+      if (!(target instanceof Element)) return
       // Let a pointer click finish before deciding whether focus should return.
-      if (pointerInteraction) return
+      if (state.pointerInteraction) return
       const current = panel()
       if (
         current &&
         !current.hidden &&
-        !current.contains(event.target) &&
-        event.target !== activeHotspot
+        !current.contains(target) &&
+        target !== state.activeHotspot
       )
         closeShopRoom(false)
     })
@@ -260,19 +291,19 @@ export function initializeUI({
       .addEventListener('change', (event) => {
         const current = panel()
         if (event.matches || !current || current.hidden) return
-        const id = activeHotspot?.dataset.roomHotspot
+        const id = state.activeHotspot?.dataset.roomHotspot
         closeShopRoom(false)
         if (id)
-          document
-            .querySelector(`[data-room-link="${id}"]`)
-            ?.focus({ preventScroll: true })
+          findElement(`[data-room-link="${id}"]`, HTMLAnchorElement)?.focus({
+            preventScroll: true,
+          })
       })
   }
 
   // Cart rendering.
   function renderCart() {
     const { items, quantity, subtotal } = calculateCart(getCart())
-    const cartItems = document.querySelector('#cart-items')
+    const cartItems = requireElement('#cart-items', HTMLElement)
     cartItems.replaceChildren()
     for (const {
       key,
@@ -321,7 +352,7 @@ export function initializeUI({
         )
         control.textContent = text
         control.setAttribute('aria-label', label)
-        if (action !== 'quantity') {
+        if (control instanceof HTMLButtonElement) {
           control.type = 'button'
           control.dataset.action = action
           control.dataset.key = key
@@ -333,27 +364,32 @@ export function initializeUI({
       item.append(image, detail)
       cartItems.append(item)
     }
-    document.querySelector('#cart-count').textContent = String(quantity)
-    document.querySelector('#cart-total').textContent = money(subtotal)
-    document.querySelector('#cart-empty').hidden = quantity !== 0
-    document.querySelector('#clear-cart').disabled = quantity === 0
+    requireElement('#cart-count', HTMLElement).textContent = String(quantity)
+    requireElement('#cart-total', HTMLElement).textContent = money(subtotal)
+    requireElement('#cart-empty', HTMLElement).hidden = quantity !== 0
+    requireElement('#clear-cart', HTMLButtonElement).disabled = quantity === 0
     return quantity
   }
 
   // Page rendering, routes, forms, and delegated interaction handlers.
   const catalog = new Map(products.map((product) => [product.id, product]))
-  const view = document.querySelector('#page-view')
-  const registration = document.querySelector('#registration-dialog')
-  const reopen = document.querySelector('.reopen-button')
-  const registrationStatus = document.querySelector('#registration-status')
-  registration.querySelector('form').addEventListener('submit', (event) => {
-    event.preventDefault()
-    registration.close()
-    registrationStatus.textContent =
-      'Successful demo validation only. No account was created; no details were sent or stored.'
-  })
+  const view = requireElement('#page-view', HTMLElement)
+  const registration = requireElement('#registration-dialog', HTMLDialogElement)
+  const reopen = requireElement('.reopen-button', HTMLButtonElement)
+  const registrationStatus = requireElement('#registration-status', HTMLElement)
+  requireElement('form', HTMLFormElement, registration).addEventListener(
+    'submit',
+    (event) => {
+      const target = event.target
+      if (!(target instanceof HTMLFormElement)) return
+      event.preventDefault()
+      registration.close()
+      registrationStatus.textContent =
+        'Successful demo validation only. No account was created; no details were sent or stored.'
+    },
+  )
   registration.addEventListener('close', () => {
-    registration.querySelector('form').reset()
+    requireElement('form', HTMLFormElement, registration).reset()
     reopen.hidden = false
     reopen.focus()
   })
@@ -361,72 +397,86 @@ export function initializeUI({
     registrationStatus.textContent = ''
     registration.show()
     reopen.hidden = true
-    document.querySelector('#email').focus()
+    requireElement('#email', HTMLInputElement).focus()
   })
-  const cartDialog = document.querySelector('#cart-dialog')
-  const cartToggle = document.querySelector('.cart-toggle')
-  const cartItems = document.querySelector('#cart-items')
+  const cartDialog = requireElement('#cart-dialog', HTMLDialogElement)
+  const cartToggle = requireElement('.cart-toggle', HTMLButtonElement)
+  const cartItems = requireElement('#cart-items', HTMLElement)
 
   cartToggle.addEventListener('click', () => cartDialog.showModal())
   cartDialog.addEventListener('close', () => cartToggle.focus())
-  document
-    .querySelector('#continue-shopping')
-    .addEventListener('click', () => cartDialog.close())
+  requireElement('#continue-shopping', HTMLButtonElement).addEventListener(
+    'click',
+    () => cartDialog.close(),
+  )
   cartDialog.addEventListener('click', (event) => {
-    if (event.target.closest('#clear-cart:not(:disabled)')) {
+    const target = event.target
+    if (!(target instanceof Element)) return
+    if (target.closest('#clear-cart:not(:disabled)')) {
       clearCart()
       renderCart()
-      document.querySelector('#continue-shopping').focus()
+      requireElement('#continue-shopping', HTMLButtonElement).focus()
       return
     }
-    const button = event.target.closest('button[data-action]')
+    const button = target.closest<HTMLButtonElement>('button[data-action]')
     if (!button) return
     const { key, action } = button.dataset
+    if (
+      !key ||
+      (action !== 'remove' && action !== 'increase' && action !== 'decrease')
+    )
+      return
     changeCartItem(key, action)
     renderCart()
     const replacement = [...cartItems.querySelectorAll('button')].find(
       (control) =>
         control.dataset.key === key && control.dataset.action === action,
     )
-    ;(replacement || document.querySelector('.close-cart')).focus()
+    ;(replacement || requireElement('.close-cart', HTMLButtonElement)).focus()
   })
 
-  function showGalleryPhoto(product, variant, id = 'product') {
+  function showGalleryPhoto(
+    product: Product,
+    variant: ProductVariant,
+    id = 'product',
+  ) {
     const photo = getProductGallery(product, variant).find(
       (photo) => photo.id === id,
     )
     if (!photo) return
-    const image = document.querySelector('#gallery-image')
+    const image = requireElement('#gallery-image', HTMLImageElement)
     image.src = photo.image
     image.alt = photo.alt
-    document.querySelector('#gallery-caption').textContent = photo.caption
-    view
-      .querySelectorAll('[data-gallery]')
-      .forEach((button) =>
-        button.setAttribute(
-          'aria-pressed',
-          String(button.dataset.gallery === id),
-        ),
-      )
+    requireElement('#gallery-caption', HTMLElement).textContent = photo.caption
+    findElements('[data-gallery]', HTMLElement, view).forEach((button) =>
+      button.setAttribute(
+        'aria-pressed',
+        String(button.dataset.gallery === id),
+      ),
+    )
   }
 
-  function selectColor(product, variant) {
-    view.querySelectorAll('button[data-color]').forEach((button) => {
+  function selectColor(product: Product, variant: ProductVariant) {
+    findElements('button[data-color]', HTMLElement, view).forEach((button) => {
       const selected = button.dataset.color === variant.id
       button.setAttribute('aria-pressed', String(selected))
-      button.querySelector('.swatch-check').hidden = !selected
+      requireElement('.swatch-check', HTMLElement, button).hidden = !selected
     })
-    document.querySelector('#selected-color strong').textContent = variant.name
-    document.querySelector('.detail-price').textContent = money(variant.price)
-    document.querySelector('#variant-availability').textContent =
+    requireElement('#selected-color strong', HTMLElement).textContent =
+      variant.name
+    requireElement('.detail-price', HTMLElement).textContent = money(
+      variant.price,
+    )
+    requireElement('#variant-availability', HTMLElement).textContent =
       variant.availability
-    document.querySelector('.detail-description').textContent =
+    requireElement('.detail-description', HTMLElement).textContent =
       variant.description
-    document.querySelector('#variant-materials').textContent = variant.materials
-    const add = document.querySelector('.detail-add')
+    requireElement('#variant-materials', HTMLElement).textContent =
+      variant.materials
+    const add = requireElement('.detail-add', HTMLButtonElement)
     add.dataset.variant = variant.id
     add.disabled = !variant.available
-    document.querySelector('#gallery-options').innerHTML = galleryOptions(
+    requireElement('#gallery-options', HTMLElement).innerHTML = galleryOptions(
       product,
       variant,
     )
@@ -437,13 +487,15 @@ export function initializeUI({
   }
 
   function renderProducts(syncURL = true) {
-    const search = document.querySelector('#product-search')
-    const categorySelect = document.querySelector('#category-filter')
-    const sortSelect = document.querySelector('#price-sort')
-    const grid = document.querySelector('#catalog-grid')
+    const search = findElement('#product-search', HTMLInputElement)
+    const categorySelect = findElement('#category-filter', HTMLSelectElement)
+    const sortSelect = findElement('#price-sort', HTMLSelectElement)
+    const grid = findElement('#catalog-grid', HTMLElement)
     if (!search || !categorySelect || !sortSelect || !grid) return
     const activeCategory = categorySelect.value
-    const activeSort = sortSelect.value
+    const activeSort = isPriceSort(sortSelect.value)
+      ? sortSelect.value
+      : 'default'
     const sortedProducts = selectProducts(products, {
       query: search.value,
       category: activeCategory,
@@ -451,10 +503,10 @@ export function initializeUI({
     })
     grid.innerHTML = sortedProducts.map((product) => card(product)).join('')
     const visible = sortedProducts.length
-    document.querySelector('#product-count').textContent =
+    requireElement('#product-count', HTMLElement).textContent =
       `${visible} of ${products.length} products`
-    document.querySelector('#empty-products').hidden = visible !== 0
-    document.querySelector('#clear-search').hidden = !search.value
+    requireElement('#empty-products', HTMLElement).hidden = visible !== 0
+    requireElement('#clear-search', HTMLElement).hidden = !search.value
     if (syncURL) {
       const url = new URL(location.href)
       url.searchParams.delete('collection')
@@ -493,23 +545,28 @@ export function initializeUI({
     }
     if (
       page === 'product' &&
-      Object.hasOwn(retiredProducts, params.get('id'))
+      params.get('id') !== null &&
+      Object.hasOwn(retiredProducts, params.get('id') || '')
     ) {
-      params.set('category', retiredProducts[params.get('id')])
+      const retiredCategory = retiredProducts[params.get('id') || '']
+      if (retiredCategory) params.set('category', retiredCategory)
       params.delete('id')
       params.delete('color')
       params.set('page', 'products')
       page = 'products'
     }
     const selectedCategory = params.get('category')
-    if (Object.hasOwn(categoryAliases, selectedCategory))
-      params.set('category', categoryAliases[selectedCategory])
+    const alias =
+      selectedCategory && Object.hasOwn(categoryAliases, selectedCategory)
+        ? categoryAliases[selectedCategory]
+        : undefined
+    if (alias) params.set('category', alias)
     if (params.toString() !== new URLSearchParams(location.search).toString())
       history.replaceState(null, '', '/?' + params + location.hash)
     const result = getPage(page, params.get('id'), params.get('color'))
     view.innerHTML = result.markup
     document.title = `${result.title} — RAHA`
-    document.querySelectorAll('[data-page]').forEach((link) => {
+    findElements('[data-page]', HTMLElement).forEach((link) => {
       const active =
         link.dataset.page === (page === 'product' ? 'products' : page)
       link.classList.toggle('active', active)
@@ -519,28 +576,27 @@ export function initializeUI({
     if (page === 'products') {
       const category = params.get('category')
       const collection = params.get('collection')
-      document.querySelector('#category-filter').value = categories.some(
-        ([id]) => id === category,
+      requireElement('#category-filter', HTMLSelectElement).value =
+        categories.some(([id]) => id === category)
+          ? category || 'all'
+          : collections.some(({ id }) => id === collection)
+            ? 'collection:' + collection
+            : collections.some(({ id }) => 'collection:' + id === category)
+              ? category || 'all'
+              : 'all'
+      requireElement('#price-sort', HTMLSelectElement).value = isPriceSort(
+        params.get('sort'),
       )
-        ? category
-        : collections.some(({ id }) => id === collection)
-          ? 'collection:' + collection
-          : collections.some(({ id }) => 'collection:' + id === category)
-            ? category
-            : 'all'
-      document.querySelector('#price-sort').value = [
-        'price-asc',
-        'price-desc',
-      ].includes(params.get('sort'))
-        ? params.get('sort')
+        ? params.get('sort') || 'default'
         : 'default'
-      document.querySelector('#product-search').value = params.get('q') || ''
+      requireElement('#product-search', HTMLInputElement).value =
+        params.get('q') || ''
       renderProducts(false)
     }
-    document.querySelector('#registration').hidden = page !== 'home'
-    registration.querySelector('form').reset()
+    requireElement('#registration', HTMLElement).hidden = page !== 'home'
+    requireElement('form', HTMLFormElement, registration).reset()
     registrationStatus.textContent = ''
-    document.querySelector('#cart-status').textContent = ''
+    requireElement('#cart-status', HTMLElement).textContent = ''
     requestAnimationFrame(() => {
       const target = location.hash
         ? document.getElementById(decodeURIComponent(location.hash.slice(1)))
@@ -550,14 +606,18 @@ export function initializeUI({
         target.scrollIntoView()
         if (moveFocus) target.focus({ preventScroll: true })
       } else if (moveFocus) {
-        document.querySelector('#main-content').focus({ preventScroll: true })
+        requireElement('#main-content', HTMLElement).focus({
+          preventScroll: true,
+        })
         window.scrollTo({ top: 0, behavior: 'instant' })
       }
     })
   }
   window.addEventListener('popstate', () => renderRoute(true))
   document.addEventListener('click', (event) => {
-    const link = event.target.closest('a[data-route]')
+    const target = event.target
+    if (!(target instanceof Element)) return
+    const link = target.closest<HTMLAnchorElement>('a[data-route]')
     if (
       link &&
       !event.ctrlKey &&
@@ -571,9 +631,9 @@ export function initializeUI({
       renderRoute(true)
       return
     }
-    const add = event.target.closest('button[data-product]')
+    const add = target.closest<HTMLButtonElement>('button[data-product]')
     if (add) {
-      const product = catalog.get(add.dataset.product)
+      const product = catalog.get(add.dataset.product || '')
       if (!product) return
       const variant = add.dataset.variant
         ? product.variants.find((option) => option.id === add.dataset.variant)
@@ -581,66 +641,71 @@ export function initializeUI({
       if (!variant?.available) return
       addCartItem(product.id, variant.id)
       const quantity = renderCart()
-      document.querySelector('#cart-status').textContent =
+      requireElement('#cart-status', HTMLElement).textContent =
         `${product.name} | ${variant.name} added to your local cart. ${quantity} items in total.`
     }
   })
   view.addEventListener('input', (event) => {
-    if (event.target.id === 'product-search') renderProducts()
+    const target = event.target
+    if (!(target instanceof Element)) return
+    if (target.id === 'product-search') renderProducts()
   })
   view.addEventListener('change', (event) => {
-    if (
-      event.target.id === 'category-filter' ||
-      event.target.id === 'price-sort'
-    )
+    const target = event.target
+    if (!(target instanceof Element)) return
+    if (target.id === 'category-filter' || target.id === 'price-sort')
       renderProducts()
   })
   view.addEventListener('click', (event) => {
-    if (event.target.closest('#clear-search')) {
-      document.querySelector('#product-search').value = ''
+    const target = event.target
+    if (!(target instanceof Element)) return
+    if (target.closest('#clear-search')) {
+      requireElement('#product-search', HTMLInputElement).value = ''
       renderProducts()
-      document.querySelector('#product-search').focus()
+      requireElement('#product-search', HTMLInputElement).focus()
     }
-    if (event.target.closest('#reset-filters')) {
-      document.querySelector('#category-filter').value = 'all'
-      document.querySelector('#price-sort').value = 'default'
-      document.querySelector('#product-search').value = ''
+    if (target.closest('#reset-filters')) {
+      requireElement('#category-filter', HTMLSelectElement).value = 'all'
+      requireElement('#price-sort', HTMLSelectElement).value = 'default'
+      requireElement('#product-search', HTMLInputElement).value = ''
       renderProducts()
-      document.querySelector('#product-search').focus()
+      requireElement('#product-search', HTMLInputElement).focus()
     }
-    const color = event.target.closest('button[data-color]')
+    const color = target.closest<HTMLButtonElement>('button[data-color]')
     if (color) {
       const product = catalog.get(
-        new URLSearchParams(location.search).get('id'),
+        new URLSearchParams(location.search).get('id') || '',
       )
       const variant = product?.variants.find(
         (option) => option.id === color.dataset.color,
       )
-      if (variant) selectColor(product, variant)
+      if (product && variant) selectColor(product, variant)
     }
-    const gallery = event.target.closest('[data-gallery]')
-    if (gallery) {
+    const gallery = target.closest('[data-gallery]')
+    if (gallery instanceof HTMLElement) {
       const params = new URLSearchParams(location.search)
-      const product = catalog.get(params.get('id'))
+      const product = catalog.get(params.get('id') || '')
       if (!product) return
       const variant = getVariant(product, params.get('color'))
       showGalleryPhoto(product, variant, gallery.dataset.gallery)
     }
   })
   view.addEventListener('submit', (event) => {
-    if (event.target.id === 'room-planner') {
+    const target = event.target
+    if (!(target instanceof HTMLFormElement)) return
+    if (target.id === 'room-planner') {
       event.preventDefault()
       const area = calculateRoomArea(
-        document.querySelector('#room-width').valueAsNumber,
-        document.querySelector('#room-length').valueAsNumber,
+        requireElement('#room-width', HTMLInputElement).valueAsNumber,
+        requireElement('#room-length', HTMLInputElement).valueAsNumber,
       )
-      document.querySelector('#room-area').textContent =
+      requireElement('#room-area', HTMLElement).textContent =
         `Your room is ${area.toLocaleString('en-US', { maximumFractionDigits: 2 })} m². A good starting point for your layout.`
     }
-    if (event.target.id === 'contact-form') {
+    if (target.id === 'contact-form') {
       event.preventDefault()
-      event.target.reset()
-      document.querySelector('#contact-status').textContent =
+      target.reset()
+      requireElement('#contact-status', HTMLElement).textContent =
         'Demo complete. No message was sent and your entries have been cleared.'
     }
   })

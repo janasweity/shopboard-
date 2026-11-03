@@ -1,5 +1,7 @@
+import type { Product } from '../modules/products/products.types.ts'
+
 // Twenty distinct new designs with product-specific photographed finishes.
-export const expandedProducts = [
+export const expandedProducts: Product[] = [
   {
     id: 'beam-task-lamp',
     name: 'BEAM Adjustable Task Lamp',

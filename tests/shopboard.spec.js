@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 import AxeBuilder from '@axe-core/playwright'
-import { products, money } from '../src/data/catalog.js'
-import { getProductGallery } from '../src/product-gallery.js'
+import { products, money } from '../src/data/catalog.ts'
+import { getProductGallery } from '../src/product-gallery.ts'
 
 // General storefront checks exercise the already-introduced session.
 // Fresh-session branding, skip controls and reduced motion have dedicated tests.

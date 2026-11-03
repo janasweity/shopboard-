@@ -1,4 +1,6 @@
-const photo = (name, alt) => ({
+import type { Room } from '../modules/products/products.types.ts'
+
+const photo = (name: string, alt: string) => ({
   image: '/images/editorial/' + name + '.jpg',
   alt,
 })
@@ -16,7 +18,12 @@ export const aboutCraft = photo(
   'Hands fitting an unfinished oak mortise-and-tenon joint beside wood shavings and a hand plane',
 )
 
-export const roomPhotography = {
+export const roomPhotography: Partial<
+  Record<
+    string,
+    Pick<Room, 'image' | 'alt' | 'description'> & { title?: string }
+  >
+> = {
   'soft-living': {
     ...photo(
       'room-soft-living',
@@ -76,7 +83,7 @@ export const roomPhotography = {
   },
 }
 
-export const bathroomRoom = {
+export const bathroomRoom: Room = {
   id: 'blue-bathroom',
   name: 'Bathroom',
   title: 'Everyday rituals. A quieter start.',

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 import { readFile } from 'node:fs/promises'
-import { products, money } from '../src/data/catalog.js'
-import { expandedProducts } from '../src/data/expanded-products.js'
+import { products, money } from '../src/data/catalog.ts'
+import { expandedProducts } from '../src/data/expanded-products.ts'
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript(() =>

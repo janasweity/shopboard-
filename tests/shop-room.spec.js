@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 import AxeBuilder from '@axe-core/playwright'
-import { products, money } from '../src/data/catalog.js'
-import { inspirationRooms } from '../src/data/inspiration.js'
+import { products, money } from '../src/data/catalog.ts'
+import { inspirationRooms } from '../src/data/inspiration.ts'
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript(() =>

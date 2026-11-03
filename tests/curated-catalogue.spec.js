@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 import { access } from 'node:fs/promises'
-import { products, categories, retiredProducts } from '../src/data/catalog.js'
+import { products, categories, retiredProducts } from '../src/data/catalog.ts'
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript(() =>

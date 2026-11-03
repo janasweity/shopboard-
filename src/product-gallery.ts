@@ -1,6 +1,10 @@
-import { productGalleryImages } from './data/product-gallery-images.js'
+import type {
+  Product,
+  ProductVariant,
+} from './modules/products/products.types.ts'
+import { productGalleryImages } from './data/product-gallery-images.ts'
 
-export function getProductGallery(product, variant) {
+export function getProductGallery(product: Product, variant: ProductVariant) {
   const primary = {
     id: 'product',
     label: 'Product',

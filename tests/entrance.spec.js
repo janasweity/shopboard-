@@ -1,5 +1,5 @@
 ﻿import { test, expect } from '@playwright/test'
-import { products } from '../src/data/catalog.js'
+import { products } from '../src/data/catalog.ts'
 
 test('brand intro holds, finishes within four seconds, and does not replay', async ({
   page,

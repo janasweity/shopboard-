@@ -1,5 +1,7 @@
+import type { Product } from '../modules/products/products.types.ts'
+
 // Curated product concepts; each finish uses its own verified local photograph.
-export const retainedProducts = [
+export const retainedProducts: Product[] = [
   {
     id: 'arc-sofa',
     name: 'ARC Curved Sofa',

@@ -1,5 +1,20 @@
 import { test, expect } from '@playwright/test'
-import { products } from '../src/data/catalog.js'
+import { products } from '../src/data/catalog.ts'
+
+test('unknown category names cannot resolve inherited object properties', async ({
+  page,
+}) => {
+  for (const category of ['toString', 'constructor', '__proto__']) {
+    await page.goto('/?page=products&category=' + category)
+    await expect(page.getByLabel('Category', { exact: true })).toHaveValue(
+      'all',
+    )
+    await expect(page.locator('#catalog-grid article')).toHaveCount(
+      products.length,
+    )
+    expect(new URL(page.url()).searchParams.get('category')).toBe(category)
+  }
+})
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript(() =>

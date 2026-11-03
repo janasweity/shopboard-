@@ -5,7 +5,7 @@ import {
   categories,
   collections,
   money,
-} from '../src/data/catalog.js'
+} from '../src/data/catalog.ts'
 
 test.beforeEach(async ({ page }) => {
   await page.addInitScript(() =>
@@ -43,7 +43,7 @@ for (const width of [360, 768, 1280]) {
       'All categories',
     )
     const original = await page.evaluate(async () => {
-      const { products } = await import('/src/data/catalog.js')
+      const { products } = await import('/src/data/catalog.ts')
       Object.freeze(products)
       return products.map((product) => product.id)
     })
@@ -96,7 +96,7 @@ for (const width of [360, 768, 1280]) {
     expect(await ids()).toEqual(matches.map((product) => product.id))
     expect(
       await page.evaluate(async () =>
-        (await import('/src/data/catalog.js')).products.map(
+        (await import('/src/data/catalog.ts')).products.map(
           (product) => product.id,
         ),
       ),

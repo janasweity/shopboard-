@@ -1,6 +1,6 @@
 ﻿# RAHA
 
-A responsive furniture storefront with the RAHA ten-shade warm neutral palette, serif headings, and natural product photography built in the existing Vite project using HTML, CSS, and vanilla JavaScript. No framework or backend was added. All website content is English.
+A responsive furniture storefront with the RAHA ten-shade warm neutral palette, serif headings, and natural product photography built in the existing Vite project using HTML, CSS, and vanilla TypeScript. No framework or backend was added. All website content is English.
 
 The current catalogue contains **60 distinct products**: all 40 existing designs plus 20 new designs, four per category. Every product has at least four available photographed finishes. There are 241 product/finish images, including the existing out-of-stock FERN cream finish. New assets are in `public/images/expansion/`; prompts and photo review records are in `scripts/`. See [the catalogue expansion notes](docs/catalogue-expansion.md).
 
@@ -9,6 +9,7 @@ The current catalogue contains **60 distinct products**: all 40 existing designs
 ```sh
 npm install
 npm run dev
+npm run typecheck
 npm run build
 npm run preview
 npm test
@@ -26,12 +27,12 @@ npm run format
 npm run format:check
 ```
 
-`lint` checks JavaScript and fails on errors or warnings. `format` rewrites supported files; `format:check` checks formatting without modifying files.
+`lint` checks JavaScript and TypeScript and fails on errors or warnings. `format` rewrites supported files; `format:check` checks formatting without modifying files.
 
-- `eslint.config.js` uses ESLint's flat configuration and recommended JavaScript rules. Source files have browser globals; configuration files have Node globals. Playwright tests have both because their callbacks also execute in the browser. `eslint-config-prettier` disables conflicting formatting rules.
+- `eslint.config.js` uses ESLint's flat configuration and recommended JavaScript and TypeScript rules. Source files have browser globals; configuration files have Node globals. Playwright tests have both because their callbacks also execute in the browser. `eslint-config-prettier` disables conflicting formatting rules.
 - `.prettierrc.json` preserves the existing no-semicolon, single-quote JavaScript style, uses trailing commas and LF line endings, and leaves embedded template languages alone to preserve rendered HTML strings.
 - `.prettierignore` excludes generated folders, Husky's generated internals, the npm-managed lockfile, project instruction files, and existing prompt documents. ESLint also ignores generated folders.
-- `lint-staged.config.js` formats staged JavaScript first, then runs ESLint. Other staged files are formatted when Prettier supports them; binary assets are skipped. Tasks run sequentially, and lint-staged updates the staged versions automatically.
+- `lint-staged.config.js` formats staged JavaScript and TypeScript first, then runs ESLint. Other staged files are formatted when Prettier supports them; binary assets are skipped. Tasks run sequentially, and lint-staged updates the staged versions automatically.
 - `.husky/pre-commit` runs lint-staged before each normal commit. A formatting or lint failure returns a nonzero status and blocks the commit. Like other local Git hooks, it can be bypassed explicitly; it is not a replacement for CI.
 - `package.json` contains the development dependencies and scripts; `package-lock.json` records their resolved versions.
 
@@ -39,27 +40,35 @@ Stage and commit normally with `git add` and `git commit`. Review changes with `
 
 The hook was verified in a disposable nested repository by running `git hook run pre-commit`: a poorly formatted staged JavaScript file was corrected in the index, and an undefined identifier caused ESLint and the hook to exit with code 1. No commit was created, and the temporary repository was removed.
 
+## TypeScript
+
+All application modules under src/ are TypeScript. The compiler uses strict mode, noUnusedLocals, ES2022 and DOM libraries, Bundler resolution, and noEmit. Explicit .ts imports work in Vite and in the browser tests. Product/category types live in src/modules/products/products.types.ts; cart contracts live in src/modules/cart/cart.types.ts; UI dependencies and session flags live in src/app.types.ts. DOM helpers in src/dom.ts validate element classes at runtime, and saved JSON is treated as unknown until validated.
+
+Run npm run typecheck for the application's TypeScript 7 compiler. The tooling/eslint workspace isolates ESLint's TypeScript 6 parser dependency because typescript-eslint currently supports versions below 6.1. This does not replace or weaken the application's TypeScript 7 checks. Normal npm install/npm ci installs both toolchains from the root lockfile.
+
 ## Pages and URLs
 
 - `/`: Home with one living-room hero, six varied featured product articles, the room inspiration slider, local registration demo, and footer.
 - `/?page=products`: sixty products with combined case-insensitive name search, category selection, price ordering, result counts, empty state, and reset controls. URL parameters retain selections.
 - `/?page=product&id=arc-sofa`: product details. All sixty product cards link to their correct detail page, with price, description, dimensions, materials, care, add-to-cart, and an accessible image gallery.
-- `/?page=inspiration`: eight distinct room editorial sections across the cream-and-olive and burgundy-and-cream palettes plus the interactive Shop the Room and room-area planner.
+- `/?page=inspiration`: three catalogue-based living, bedroom and kitchen scenes, matching product links, and the room-area planner.
 - `/?page=about`: store information, returns explanation, and accessible contact demo.
 
-The project remains a single Vite entry point. Vanilla JavaScript renders the appropriate page for each URL, uses the History API for internal navigation, and supports Back/Forward, direct opening, refresh, and opening links in another tab. Home links are present in shared navigation, logo, and footer. Route changes update the page title, current navigation, and keyboard focus.
+The project remains a single Vite entry point. Vanilla TypeScript renders the appropriate page for each URL, uses the History API for internal navigation, and supports Back/Forward, direct opening, refresh, and opening links in another tab. Home links are present in shared navigation, logo, and footer. Route changes update the page title, current navigation, and keyboard focus.
 
 ## Source files
 
 - `index.html`: shared semantic shell, slim header, navigation, main view, registration demo, cart dialog, and footer.
-- `src/pages.js`: page HTML templates and reusable product card markup.
-- `src/data/catalog.js`: combines preserved records from `retained-products.js` and `curated-products.js` with twenty designs from `expanded-products.js` and reviewed finishes from `additional-variants.js`; also defines category labels, collection metadata, room records and legacy routes.
-- `src/main.js`: application entry point; imports styles and connects data, pure calculations, state operations, and UI initialization.
-- `src/data.js`: public catalogue exports; individual product, collection, and imagery records remain under `src/data/`.
-- `src/logic.js`: pure combined product search/category filtering/price sorting, cart validation/totals, and room-area calculations; no DOM or storage access.
-- `src/state.js`: cart state, localStorage restoration and saving, and the intro's sessionStorage flag; no DOM access.
-- `src/ui.js`: all application DOM access and event listeners, including routes, gallery/variant controls, cart rendering, room planner, local forms, manual room slider, shop-the-room panel, and the optional 3.75-second intro with its skip/cleanup behavior.
-- `src/product-gallery.js`: pure gallery selection; `src/pages.js` retains pure HTML templates without accessing the DOM.
+- `src/pages.ts`: page HTML templates and reusable product card markup.
+- `src/data/catalog.ts`: combines preserved records from `retained-products.ts` and `curated-products.ts` with twenty designs from `expanded-products.ts` and reviewed finishes from `additional-variants.ts`; also defines category labels, collection metadata, room records and legacy routes.
+- `src/main.ts`: application entry point; imports styles and connects data, pure calculations, state operations, and UI initialization.
+- `src/data.ts`: public catalogue exports; individual product, collection, and imagery records remain under `src/data/`.
+- `src/modules/products/products.logic.ts`: pure combined product search, category filtering and price sorting.
+- `src/modules/cart/cart.logic.ts`: cart entry validation, normalization and totals.
+- `src/modules/rooms/rooms.logic.ts`: room-area calculation. All three logic modules have no DOM or storage access.
+- `src/state.ts`: cart state, localStorage restoration and saving, and the intro's sessionStorage flag; no DOM access.
+- `src/ui.ts`: all application DOM access and event listeners, including routes, gallery/variant controls, cart rendering, room planner, local forms, manual room slider, shop-the-room panel, and the optional 3.75-second intro with its skip/cleanup behavior.
+- `src/product-gallery.ts`: pure gallery selection; `src/pages.ts` retains pure HTML templates without accessing the DOM.
 - `src/styles/tokens.css`: design colors, spacing, and typography tokens.
 - `src/styles/main.css`: responsive shared/page styling. Products use Grid; navigation uses Flexbox. Product columns: one at 360px, two from 768px, three from 1280px. Includes visible keyboard focus and reduced-motion support; uses min-width media queries.
 - `public/images/collection/`: local product and interior photography. Below-the-fold images lazy-load; hero/main product images load eagerly.
@@ -68,7 +77,7 @@ The project remains a single Vite entry point. Vanilla JavaScript renders the ap
 
 ## Local-only behavior
 
-The cart stores product IDs, variant IDs, and quantities in localStorage (`raha-cart`) and restores them before its first render. Prices come from the current catalogue. `src/state.js` owns cart state and storage, `src/logic.js` validates entries and calculates totals, and `src/ui.js` renders the cart. Invalid or unavailable items are ignored; blocked storage falls back to an in-memory cart. No checkout, payments, or backend is implemented.
+The cart stores product IDs, variant IDs, and quantities in localStorage (`raha-cart`) and restores them before its first render. Prices come from the current catalogue. `src/state.ts` owns cart state and storage, `src/modules/cart/cart.logic.ts` validates entries and calculates totals, and `src/ui.ts` renders the cart. Invalid or unavailable items are ignored; blocked storage falls back to an in-memory cart. No checkout, payments, or backend is implemented.
 
 The entrance uses a single `sessionStorage` flag, `raha-entrance-seen`, so it does not replay during navigation or refresh in the same tab session. No user details are stored. If storage is unavailable, the animation is skipped. Reduced-motion users see content immediately; changing that preference during the sequence cancels it. The overlay is created only by JavaScript and has a keyboard-focused Skip intro button. Enter, Escape, or focusing the underlying page dismisses it immediately. The page renders normally underneath; the intro never waits for images or an artificial loading state. Its CSS curtain slides fully offscreen even if cleanup fails, and no hidden base styles are applied to page content.
 
@@ -122,13 +131,13 @@ Twelve kitchen products expand the store to thirty-six items across three collec
 
 The manual Home hero controls switch between Living room, Burgundy & Butter Cream, and Kitchen & Dining with one rendered h1 and no auto-advance. Explore the look opens `/?page=products&collection=kitchen-dining&category=kitchen-dining`. Header navigation and the category grid also link to Kitchen & Dining. The kitchen collection has a styled introduction, and the same collection/category/search, detail-gallery, photographed-finish and local cart behavior as the existing store.
 
-The active kitchen records are defined in src/data/kitchen.js, with unique IDs, USD concept prices, dimensions, materials, and product-specific care. Existing overlapping kitchen drafts are preserved in docs/kitchen-reconciliation-snapshot.json; they are not duplicated in the active catalogue. The original 24 products and their variants remain unchanged. Fifteen active generated assets (one wide scene, twelve primary product photos, and two photographed color alternatives) are used from public/images/kitchen/. Additional generated visual studies are retained alongside them and documented in docs/kitchen-collection.md.
+The active kitchen records are defined in src/data/kitchen.ts, with unique IDs, USD concept prices, dimensions, materials, and product-specific care. Existing overlapping kitchen drafts are preserved in docs/kitchen-reconciliation-snapshot.json; they are not duplicated in the active catalogue. The original 24 products and their variants remain unchanged. Fifteen active generated assets (one wide scene, twelve primary product photos, and two photographed color alternatives) are used from public/images/kitchen/. Additional generated visual studies are retained alongside them and documented in docs/kitchen-collection.md.
 
 ## Products: search, category and price order
 
 Products has one labeled search input (`#product-search`), one category select (`#category-filter`, including All categories), and one price select (`#price-sort`, default/low-to-high/high-to-low). These replace the previous category buttons; collection buttons remain an independent existing filter.
 
-`renderProducts()` in `src/shopboard.js` is the single grid-rendering function. It reads the current controls, filters the catalogue by case-insensitive product **name**, category, and collection, then sorts `[...filteredProducts]` by price. The original catalogue is never sorted or mutated. It reuses `card()` from `src/pages.js` for all displayed results and updates the matching count and helpful empty state.
+`renderProducts()` in `src/ui.ts` is the single grid-rendering function. It reads the current controls, filters the catalogue by case-insensitive product **name**, category, and collection, then sorts `[...filteredProducts]` by price. The original catalogue is never sorted or mutated. It reuses `card()` from `src/pages.ts` for all displayed results and updates the matching count and helpful empty state.
 
 The existing delegated `input` handler runs it for search. A single delegated `change` handler runs it for either select. The existing collection/reset/clear handlers reuse it too. Controls stay outside the replaced grid, so changing one never resets another. URL query parameters (`q`, `category`, `sort`, `collection`) preserve state through refresh, product-detail navigation, and browser Back. Reset explicitly restores everything to defaults. Existing delegated product links and local cart actions work after each render.
 

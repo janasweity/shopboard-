@@ -2,6 +2,7 @@ import js from '@eslint/js'
 import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
 import prettier from 'eslint-config-prettier/flat'
+import tseslint from '@raha/eslint-tooling'
 
 export default defineConfig([
   globalIgnores([
@@ -13,13 +14,25 @@ export default defineConfig([
     '.husky/_/**',
   ]),
   {
-    files: ['**/*.{js,mjs,cjs}', 'src/main.ts'],
+    files: ['**/*.{js,mjs,cjs}'],
     extends: [js.configs.recommended],
     languageOptions: { ecmaVersion: 'latest' },
   },
   {
-    files: ['src/**/*.js'],
+    files: ['src/**/*.ts'],
+    extends: [js.configs.recommended, tseslint.configs.recommended],
     languageOptions: { globals: globals.browser },
+    rules: {
+      '@typescript-eslint/no-non-null-assertion': 'error',
+      'no-restricted-syntax': [
+        'error',
+        {
+          selector: 'TSAsExpression',
+          message:
+            'Narrow or validate the value instead of asserting its type.',
+        },
+      ],
+    },
   },
   {
     files: ['*.config.js'],

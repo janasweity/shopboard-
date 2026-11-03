@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Drawing
 $projectRoot = Split-Path -Parent $PSScriptRoot
 Set-Location -LiteralPath $projectRoot
-$records = node --input-type=module -e "import {products} from './src/data/catalog.js'; const images=products.flatMap(p=>p.variants.map(v=>({id:p.id,variant:v.id,image:v.image}))); console.log(JSON.stringify(images))" | ConvertFrom-Json
+$records = node --input-type=module -e "import {products} from './src/data/catalog.ts'; const images=products.flatMap(p=>p.variants.map(v=>({id:p.id,variant:v.id,image:v.image}))); console.log(JSON.stringify(images))" | ConvertFrom-Json
 if ($LASTEXITCODE -ne 0) { throw 'Could not load the product image manifest.' }
 $destination = Join-Path $projectRoot 'public/images/catalogue'
 New-Item -ItemType Directory -Force -Path $destination | Out-Null

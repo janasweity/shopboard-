@@ -14,6 +14,14 @@
     "format:check": "prettier . --check",
     "prepare": "husky"
   },
+  "workspaces": [
+    "tooling/eslint"
+  ],
+  "overrides": {
+    "ts-api-utils": {
+      "typescript": "^6.0.3"
+    }
+  },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
     "@eslint/js": "^10.0.1",

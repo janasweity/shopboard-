@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test'
 import fs from 'node:fs'
 import crypto from 'node:crypto'
-import { products, rooms } from '../src/data/catalog.js'
-import { heroSlides } from '../src/data/hero-slides.js'
-import { shopRoom } from '../src/data/shop-room.js'
+import { products, rooms } from '../src/data/catalog.ts'
+import { heroSlides } from '../src/data/hero-slides.ts'
+import { shopRoom } from '../src/data/shop-room.ts'
 import {
   homeHero,
   aboutMaterials,
   aboutCraft,
-} from '../src/data/page-imagery.js'
-import { getProductGallery } from '../src/product-gallery.js'
+} from '../src/data/page-imagery.ts'
+import { getProductGallery } from '../src/product-gallery.ts'
 
 test('decorative photographs have distinct owners and file contents', () => {
   const photos = [
