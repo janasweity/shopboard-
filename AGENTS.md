@@ -2,7 +2,7 @@
 
 ## Stack and scope
 
-- Use the existing Vite project with HTML, CSS, and vanilla JavaScript.
+- Use the existing Vite project with HTML, CSS, and strict TypeScript.
 - Do not introduce a framework or replace the project.
 - Preserve RAHA’s design, branding, images, animations, pages, and cart unless a change is requested.
 - Keep all website text in English.
@@ -13,7 +13,7 @@
 - Keep a header with working navigation and a main containing the Home hero, products, and registration sections.
 - Show six featured product cards on Home using article elements.
 - Keep one Products page for the full catalogue, with category filtering instead of separate category pages.
-- Render products from JavaScript data using map and join, without hardcoded product cards in index.html.
+- Render product cards from the TypeScript catalogue data using `map` and `join`. Keep product cards out of `index.html`.
 - Use semantic HTML and one rendered h1 per page.
 - Keep headings in a logical order.
 - Give informative images descriptive alt text and decorative images empty alt text.
@@ -63,13 +63,14 @@
 
 ## Architecture
 
-- ملف src/data.js يصدّر بيانات المنتجات، ويمكنه الاستعانة بملفات البيانات داخل src/data/، ولا يتعامل مع الصفحة أو التخزين.
-- ملف src/logic.js مسؤول عن الحسابات والبحث والفلترة والترتيب، ولا يتعامل مع DOM أو التخزين، ولا يغيّر بيانات المنتجات الأصلية.
-- ملف src/state.js مسؤول عن حالة السلة وحفظها واسترجاعها وأعلام الجلسة، ولا يتعامل مع عناصر الصفحة.
-- ملف src/ui.js مسؤول عن التعامل مع DOM وعرض المحتوى وأحداث المستخدم والتفاعل والتنقل.
-- ملف src/main.js يحمّل التنسيقات ويربط الوحدات ويبدأ تشغيل التطبيق، ولا يحتوي منطق العرض أو الحسابات.
-- يمكن الاحتفاظ بقوالب نصية في src/pages.js ومساعدات مستقلة، بشرط عدم تعاملها المباشر مع DOM.
-- استخدم أسماء واضحة، واجعل لكل دالة مسؤولية واحدة، ولا تكرر المنطق في أكثر من مكان.
+- Keep catalogue data in `src/data/` and export it through `src/data.ts`.
+- Put product search, filtering, sorting, and product types in `src/modules/products/`.
+- Put cart types, validation, and totals in `src/modules/cart/`. Keep cart state and browser storage in `src/state.ts`.
+- Put room area calculations in `src/modules/rooms/`.
+- Keep page templates in `src/pages.ts`, rendering and events in `src/ui.ts`, and DOM helpers in `src/dom.ts`.
+- Use `src/main.ts` to load styles and connect the application modules.
+- Add new logic to the module that owns the feature. For example, add a new product filter in `src/modules/products/products.logic.ts` and connect its control in `src/ui.ts`.
+- Keep calculations separate from DOM access and browser storage.
 
 ## Verification
 
@@ -84,6 +85,10 @@
 - Explain every change and keep edits within the requested scope.
 - Do not commit or push unless requested.
 
-## Rule learned from a mistake
+## Rules learned from a mistakes
 
-- Check that the terminal is inside the folder containing package.json before running npm commands.
+- ## Rules learned from mistakes
+
+- Refresh the page after changing the cart. Check that the same products, finishes, and quantities are still there.
+- Test every cart action before calling the feature done. Clear Cart should remove all items and reset the count and total to zero.
+- Review the room photos across all pages before adding new ones. Use a different room photo for each section so the site does not feel repetitive.
