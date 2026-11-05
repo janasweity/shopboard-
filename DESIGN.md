@@ -19,3 +19,26 @@ I looked at interior design references on Pinterest. I liked the warm neutral co
 - Start with the mobile layout and adapt it for wider screens at 768px and 1280px.
 - Use semantic HTML, one main heading per page, and a label for every form field.
 - Keep keyboard focus visible and respect reduced-motion preferences.
+
+## Brand palette
+
+The RAHA wordmark uses charcoal brown on warm ivory, with the tagline HOME & LIVING.
+
+Colors are defined in `src/styles/tokens.css`.
+
+| Color          | Hex     |
+| -------------- | ------- |
+| Soft Black     | #171614 |
+| Charcoal Brown | #302923 |
+| Warm Slate     | #4d4b47 |
+| Graphite Grey  | #62605b |
+| Stone Grey     | #88857d |
+| Warm Greige    | #b6ac9d |
+| Taupe Brown    | #9a826d |
+| Silver Mist    | #d1c8bc |
+| Warm Ivory     | #eee5d5 |
+| Soft White     | #faf8f1 |
+
+Use dark colors for readable text and strong controls, light colors for backgrounds, and taupe and grey shades for supporting details. Keep product photos and finish swatches accurate to the products.
+
+Maintain readable contrast, visible keyboard focus, and reduced-motion support.
