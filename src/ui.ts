@@ -1,10 +1,10 @@
-import type { UIDependencies, UIState } from './app.types.ts'
+import type { UIDependencies, UIState } from './shared/ui/app.types.ts'
 import type {
   Product,
   ProductVariant,
 } from './modules/products/products.types.ts'
 import { isPriceSort } from './modules/products/products.logic.ts'
-import { findElement, requireElement, findElements } from './dom.ts'
+import { findElement, requireElement, findElements } from './shared/ui/dom.ts'
 import {
   getVariant,
   categories,
@@ -21,6 +21,7 @@ import { getProductGallery } from './product-gallery.ts'
 // Browser interactions are initialized once by main.ts.
 export function initializeUI({
   products,
+  loadProducts,
   selectProducts,
   calculateCart,
   calculateRoomArea,
@@ -373,6 +374,22 @@ export function initializeUI({
 
   // Page rendering, routes, forms, and delegated interaction handlers.
   const catalog = new Map(products.map((product) => [product.id, product]))
+  let catalogueProducts: Product[] = []
+  let catalogueState: 'idle' | 'loading' | 'error' | 'success' = 'idle'
+
+  async function fetchCatalogue() {
+    if (catalogueState === 'loading') return
+    catalogueState = 'loading'
+    renderProducts(false)
+    try {
+      catalogueProducts = await loadProducts()
+      catalogueState = 'success'
+    } catch {
+      catalogueState = 'error'
+    }
+    // Render only if the catalogue controls still exist after navigation.
+    renderProducts(false)
+  }
   const view = requireElement('#page-view', HTMLElement)
   const registration = requireElement('#registration-dialog', HTMLDialogElement)
   const reopen = requireElement('.reopen-button', HTMLButtonElement)
@@ -496,16 +513,34 @@ export function initializeUI({
     const activeSort = isPriceSort(sortSelect.value)
       ? sortSelect.value
       : 'default'
-    const sortedProducts = selectProducts(products, {
+    const ready = catalogueState === 'success'
+    const message = requireElement('#catalogue-status', HTMLElement)
+    message.textContent =
+      catalogueState === 'error'
+        ? 'We could not load the catalogue. Please try again.'
+        : !ready
+          ? 'Loading products…'
+          : catalogueProducts.length === 0
+            ? 'The catalogue is empty. Please check back soon.'
+            : ''
+    requireElement('#retry-products', HTMLElement).hidden =
+      catalogueState !== 'error'
+    grid.setAttribute('aria-busy', String(catalogueState === 'loading'))
+    const sortedProducts = selectProducts(ready ? catalogueProducts : [], {
       query: search.value,
       category: activeCategory,
       sort: activeSort,
     })
     grid.innerHTML = sortedProducts.map((product) => card(product)).join('')
     const visible = sortedProducts.length
-    requireElement('#product-count', HTMLElement).textContent =
-      `${visible} of ${products.length} products`
-    requireElement('#empty-products', HTMLElement).hidden = visible !== 0
+    requireElement('#product-count', HTMLElement).textContent = ready
+      ? `${visible} of ${catalogueProducts.length} products`
+      : ''
+    requireElement('#catalogue-summary', HTMLElement).textContent = ready
+      ? `${catalogueProducts.length} considered pieces. So many ways to make them yours.`
+      : 'Explore our considered collection.'
+    requireElement('#empty-products', HTMLElement).hidden =
+      !ready || catalogueProducts.length === 0 || visible !== 0
     requireElement('#clear-search', HTMLElement).hidden = !search.value
     if (syncURL) {
       const url = new URL(location.href)
@@ -592,6 +627,7 @@ export function initializeUI({
       requireElement('#product-search', HTMLInputElement).value =
         params.get('q') || ''
       renderProducts(false)
+      void fetchCatalogue()
     }
     requireElement('#registration', HTMLElement).hidden = page !== 'home'
     requireElement('form', HTMLFormElement, registration).reset()
@@ -659,6 +695,7 @@ export function initializeUI({
   view.addEventListener('click', (event) => {
     const target = event.target
     if (!(target instanceof Element)) return
+    if (target.closest('#retry-products')) void fetchCatalogue()
     if (target.closest('#clear-search')) {
       requireElement('#product-search', HTMLInputElement).value = ''
       renderProducts()

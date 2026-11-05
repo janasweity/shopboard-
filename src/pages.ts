@@ -30,7 +30,25 @@ export const image = (
 ) =>
   `<img src="${src}" alt="${alt}" width="1400" height="1000" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" class="${className}" />`
 
-export function card(product: Product, featured = false) {
+function escapeText(value: string) {
+  return value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;')
+}
+
+export function card(source: Product, featured = false) {
+  const product = {
+    ...source,
+    id: escapeText(source.id),
+    name: escapeText(source.name),
+    image: escapeText(source.image),
+    alt: escapeText(source.alt),
+    description: escapeText(source.description),
+    tag: source.tag ? escapeText(source.tag) : undefined,
+  }
   return `<article class="product-card ${featured ? 'featured' : ''}" data-id="${product.id}" data-category="${product.category}" data-collection="${product.collection}"><a class="product-image" data-route href="${productURL(product.id)}" aria-label="View ${product.name}">${product.tag ? `<span class="product-tag">${product.tag}</span>` : ''}${image(product.image, product.alt)}</a><div class="product-info"><p class="product-type">${collectionName(product.collection)} / ${categoryName(product.category)}</p><h3>${routeLink(productURL(product.id), product.name)}</h3><p class="product-detail">${product.description.split('. ')[0]}.</p><p class="product-price">${money(product.price)}</p><p class="color-option-count">${product.variants.length} ${product.variants.length === 1 ? 'color / finish' : 'colors &amp; finishes'}</p><button type="button" class="add-to-cart" data-product="${product.id}" aria-label="Add ${product.name} to cart">Add to cart <span aria-hidden="true">＋</span></button></div></article>`
 }
 
@@ -76,7 +94,7 @@ const home =
 `
 
 const catalog = () =>
-  `<section class="page-intro"><p class="eyebrow">FIVE ROOMS / ONE CONSIDERED HOME</p><h1>Find your everyday favourites.</h1><p>${products.length} considered pieces. So many ways to make them yours.</p></section><section aria-label="Product catalogue"><div class="search-field"><label for="product-search">Find something for your home</label><div class="search-input"><span aria-hidden="true">⌕</span><input id="product-search" type="search" placeholder="Search product names…" autocomplete="off" /><button id="clear-search" type="button" aria-label="Clear search" hidden>×</button></div></div><div class="product-tools"><div class="catalogue-selects"><div class="catalogue-control"><label for="category-filter">Category</label><select id="category-filter">${categories.map(([id, name]) => `<option value="${id}">${id === 'all' ? 'All categories' : name}</option>`).join('')}<optgroup label="Collections">${collections.map(({ id, name }) => `<option value="collection:${id}">${name}</option>`).join('')}</optgroup></select></div><div class="catalogue-control"><label for="price-sort">Sort by price</label><select id="price-sort"><option value="default">Default order</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option></select></div></div><p id="product-count" role="status" aria-live="polite">${products.length} of ${products.length} products</p></div><div class="product-grid" id="catalog-grid"></div><p id="empty-products" class="empty-state" hidden>No products match these selections. Try a shorter product name, choose All categories, or reset the filters.</p><button type="button" id="reset-filters" class="text-button">Reset search and filters</button><p class="collection-footnote">A concept furniture store. Product photos illustrate the collection; names, specifications and prices are concept content.</p></section>`
+  `<section class="page-intro"><p class="eyebrow">FIVE ROOMS / ONE CONSIDERED HOME</p><h1>Find your everyday favourites.</h1><p id="catalogue-summary">Explore our considered collection.</p></section><section aria-label="Product catalogue"><div class="search-field"><label for="product-search">Find something for your home</label><div class="search-input"><span aria-hidden="true">⌕</span><input id="product-search" type="search" placeholder="Search product names…" autocomplete="off" /><button id="clear-search" type="button" aria-label="Clear search" hidden>×</button></div></div><div class="product-tools"><div class="catalogue-selects"><div class="catalogue-control"><label for="category-filter">Category</label><select id="category-filter">${categories.map(([id, name]) => `<option value="${id}">${id === 'all' ? 'All categories' : name}</option>`).join('')}<optgroup label="Collections">${collections.map(({ id, name }) => `<option value="collection:${id}">${name}</option>`).join('')}</optgroup></select></div><div class="catalogue-control"><label for="price-sort">Sort by price</label><select id="price-sort"><option value="default">Default order</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option></select></div></div><p id="product-count" role="status" aria-live="polite"></p></div><p id="catalogue-status" role="status" aria-live="polite"></p><button type="button" id="retry-products" class="text-button" hidden>Try again</button><div class="product-grid" id="catalog-grid" aria-busy="true"></div><p id="empty-products" class="empty-state" hidden>No products match these selections. Try a shorter product name, choose All categories, or reset the filters.</p><button type="button" id="reset-filters" class="text-button">Reset search and filters</button><p class="collection-footnote">A concept furniture store. Product photos illustrate the collection; names, specifications and prices are concept content.</p></section>`
 
 export function galleryOptions(product: Product, variant: ProductVariant) {
   const views = getProductGallery(product, variant)

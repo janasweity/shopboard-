@@ -15,7 +15,7 @@ RAHA is a responsive concept furniture and homeware storefront built with Vite, 
 - Internal navigation supports direct URLs, refresh, and browser Back/Forward. Routes update the page title, active navigation, and keyboard focus.
 - Responsive styling includes visible focus states and reduced-motion support. A skippable entrance animation runs once per tab session; `/?intro=replay` requests a replay, subject to reduced-motion preferences.
 
-This is a local storefront demo with illustrative products, specifications, availability, and prices. There is no backend, checkout, payment processing, or order fulfilment. Registration uses native email and password validation, including an eight-character password minimum; successful validation does not create an account. Registration and contact details are neither transmitted nor stored, and the contact form sends no message.
+This is a local storefront demo with illustrative products, specifications, availability, and prices. A read-only catalogue API is available locally through Vite; there is no checkout, payment processing, or order fulfilment. Registration uses native email and password validation, including an eight-character password minimum; successful validation does not create an account. Registration and contact details are neither transmitted nor stored, and the contact form sends no message.
 
 ## Install and run
 
@@ -34,6 +34,14 @@ npm run preview
 ```
 
 The build is written to `dist/`. Use `npm.cmd` instead of `npm` in Windows PowerShell if execution policy blocks `npm.ps1`.
+
+## Local products API
+
+Run `npm.cmd run dev`, then open [http://localhost:5173/api/products](http://localhost:5173/api/products) in your browser. Vite uses port 5173 and fails if it is occupied, rather than silently opening a different port. Stop the old RAHA dev server before starting a replacement. After adding or changing the API plugin, restart Vite; a stale server can return the HTML page with status 200 at `/api/products` instead of JSON. `GET /api/products` returns `{ "items": [...] }` containing all RAHA products, including every existing ID, category, image, variant, and other catalogue field. Product and variant `price` values are integer USD cents: `$1,695` becomes `169500`.
+
+The endpoint reads the existing catalogue exported by `src/data.ts`; it does not maintain a second product list or change the catalogue's dollar prices. The Products page fetches this endpoint each time the Products route opens, validates the response, and maps cents to dollars before rendering. Home, product details, and saved carts continue using the existing catalogue directly. Methods other than GET return JSON with status 405 and `Allow: GET`.
+
+The route is available in both `npm.cmd run dev` and `npm.cmd run preview` (normally port 4173). It is Vite middleware, so uploading only `dist/` to a static host does not deploy an API server. The response uses the course API envelope `{ "items": [...] }`.
 
 ## Verification
 
@@ -77,11 +85,16 @@ src/
     products/              Product types and pure search, filter, and sort logic
     cart/                  Cart types, validation, normalization, and totals
     rooms/                 Room-area calculation
+    state/                 Entrance session behavior
+  shared/
+    api/
+      api-client.ts        Shared fetchJson and ApiError
+    ui/
+      dom.ts               Typed DOM helpers
+      app.types.ts         UI dependency and session contracts
   state.ts                 Cart state, browser storage, and entrance session flag
   ui.ts                    DOM rendering, routing, and user interaction handlers
   pages.ts                 Page templates and reusable product markup
-  dom.ts                   Typed DOM helpers
-  app.types.ts             UI dependency and session contracts
   product-gallery.ts       Gallery selection helpers
   styles/
     tokens.css             Design tokens
@@ -92,3 +105,5 @@ tooling/eslint/            Workspace for TypeScript ESLint tooling
 package.json               Dependencies and development scripts
 playwright.config.js       Browser test and development server configuration
 ```
+
+To inspect the request, run `npm.cmd run dev`, open the site, and open DevTools ? Network. Select Fetch/XHR, then visit Products (or reload it). Select `products`: Headers shows `GET /api/products` and status 200; Response shows `items` with integer-cent prices. Cards display dollars. Slow the network to see loading, or block `/api/products` and reload to see the error. Unblock it and choose **Try again** to recover.

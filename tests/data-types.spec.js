@@ -74,6 +74,7 @@ test('catalogue declarations match every actual product, variant and metadata ex
       `
     import { products as catalogue, getVariant, money, productURL, categoryName, collectionName } from './data.ts';
     import { selectProducts } from './modules/products/products.logic.ts';
+    import { loadProducts } from './modules/products/products.client.ts';
     import { calculateCart, cartKey, resolveCartItem, normalizeCart } from './modules/cart/cart.logic.ts';
     import { calculateRoomArea } from './modules/rooms/rooms.logic.ts';
     import { getCart, addCartItem, changeCartItem, clearCart, claimEntranceSession, CART_STORAGE_KEY } from './state.ts';
@@ -97,7 +98,7 @@ test('catalogue declarations match every actual product, variant and metadata ex
     addCartItem(product.id, product.variants[0].id);
     changeCartItem(key, 'increase');
     clearCart();
-    initializeUI({products: catalogue, selectProducts, calculateCart, calculateRoomArea, getCart, addCartItem, changeCartItem, clearCart, claimEntranceSession});
+    initializeUI({products: catalogue, loadProducts, selectProducts, calculateCart, calculateRoomArea, getCart, addCartItem, changeCartItem, clearCart, claimEntranceSession});
     void [labels, selected, subtotal, area, entranceClaimed, storageKey, restoredSubtotal];
   `,
   )
