@@ -1,24 +1,24 @@
 # RAHA Debugging Log
 
-## Bug 1: The cart emptied after a refresh
+## Bug 1: Cart items disappeared after refreshing
 
-- **What I saw:** I added products to the cart, refreshed the page, and found the cart empty.
+- **What I saw:** I added products to the cart, but after refreshing or reopening the page, the products disappeared. I had to add them again.
 - **Type:** State bug.
-- **How I found it:** I added items to the cart and refreshed the page to check whether they were saved.
-- **Cause:** At the time, `src/shopboard.js` kept the cart in an in-memory `Map`. Refreshing the page recreated the map, and there was no saved cart to restore.
-- **Fix:** Cart state was moved into a separate module. The app saves product IDs, variant IDs, and quantities to `localStorage` after cart changes. On startup, it restores and validates those entries before rendering the cart.
-- **Verification:** I added products again, refreshed the page, and confirmed the cart stayed populated. The cart persistence tests also passed.
-- **Did I use AI? For what?** Yes. Codex traced the cause and implemented the fix. I reproduced the issue and verified the result in the browser.
+- **How I found it:** I added products, refreshed the page, and checked the cart again.
+- **Cause:** The cart was kept in page memory and was not saved between page loads.
+- **Fix:** The cart was saved to localStorage and restored when the page opened.
+- **Verification:** I refreshed and reopened the page, and the products stayed in the cart.
+- **Did I use AI? For what?** Yes. I described the problem to Codex. It found the cause and added persistence, and I tested the result.
 
 ## Bug 2: Missing CollectionId type
 
-- **What I saw:** TypeScript flagged `CollectionId` in `src/modules/products/products.types.ts`.
-- **Type:** Compile-time type error.
-- **How I found it:** I noticed the error while editing the product type definitions.
-- **Cause:** `Product`, `Collection`, and `Room` referenced `CollectionId`, but the type was missing.
-- **Fix:** I defined `CollectionId` as a union of the three existing collection IDs: `'nature-form'`, `'burgundy-butter'`, and `'kitchen-dining'`.
-- **Verification:** I ran `npm run typecheck` and it finished without errors.
-- **Did I use AI? For what?** Yes. I shared the code with ChatGPT, which identified the missing type and suggested the fix. I updated the file and ran the check.
+- **What I saw:** An error appeared on `CollectionId` while I was editing `src/modules/products/products.types.ts`.
+- **Type:** TypeScript compile-time error.
+- **How I found it:** I noticed the error in VS Code and shared the code with ChatGPT.
+- **Cause:** The code used `CollectionId`, but its type definition was missing.
+- **Fix:** I added the `CollectionId` type with the three allowed collection IDs.
+- **Verification:** I ran `npm run typecheck`, and it passed.
+- **Did I use AI? For what?** Yes. ChatGPT explained the missing definition and helped me add it. I ran the check myself.
 
 ## Breakpoint practice
 
