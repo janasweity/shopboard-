@@ -82,18 +82,21 @@ src/
   data.ts                  Public catalogue exports
   data/                    Products, variants, collections, rooms, and imagery records
   modules/
-    products/              Product types and pure search, filter, and sort logic
-    cart/                  Cart types, validation, normalization, and totals
-    rooms/                 Room-area calculation
+    products/              Product types, pure logic, catalogue UI, variants, and galleries
+    cart/                  Cart types, pure logic, rendering, and delegated actions
+    rooms/                 Room-area calculation, planner UI, and shop-room panel
+    forms/                 Registration and contact demo handlers
+    navigation/            Routing, active links, and keyboard focus
+    interactions/          Entrance animation cleanup and manual hero slider
     state/                 Entrance session behavior
   shared/
     api/
       api-client.ts        Shared fetchJson and ApiError
     ui/
       dom.ts               Typed DOM helpers
-      app.types.ts         UI dependency and session contracts
+      app.types.ts         UI dependency contracts
   state.ts                 Cart state, browser storage, and entrance session flag
-  ui.ts                    DOM rendering, routing, and user interaction handlers
+  ui.ts                    Initializes feature UI modules once and connects route hooks
   pages.ts                 Page templates and reusable product markup
   product-gallery.ts       Gallery selection helpers
   styles/
@@ -105,5 +108,7 @@ tooling/eslint/            Workspace for TypeScript ESLint tooling
 package.json               Dependencies and development scripts
 playwright.config.js       Browser test and development server configuration
 ```
+
+Feature UI modules own their DOM access and handlers. Navigation invokes coordinator hooks to reset forms and cart status, close room panels, stop entrance effects, and initialize catalogue controls. Catalogue requests use route generations to ignore stale responses; navigation cancels pending focus callbacks before rendering another route. Pure calculations remain separate from DOM and storage.
 
 To inspect the request, run `npm.cmd run dev`, open the site, and open DevTools ? Network. Select Fetch/XHR, then visit Products (or reload it). Select `products`: Headers shows `GET /api/products` and status 200; Response shows `items` with integer-cent prices. Cards display dollars. Slow the network to see loading, or block `/api/products` and reload to see the error. Unblock it and choose **Try again** to recover.

@@ -23,10 +23,3 @@ export interface UIDependencies {
   clearCart: typeof clearCart
   claimEntranceSession: typeof claimEntranceSession
 }
-
-export interface UIState {
-  cleanup: () => void
-  initialized: boolean
-  activeHotspot: HTMLButtonElement | null
-  pointerInteraction: boolean
-}

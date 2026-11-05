@@ -67,9 +67,11 @@
 - Put product search, filtering, sorting, and product types in `src/modules/products/`.
 - Put cart types, validation, and totals in `src/modules/cart/`. Keep cart state and browser storage in `src/state.ts`.
 - Put room area calculations in `src/modules/rooms/`.
-- Keep page templates in `src/pages.ts`, rendering and events in `src/ui.ts`, and DOM helpers in `src/dom.ts`.
+- Keep page templates in `src/pages.ts` and typed DOM helpers in `src/shared/ui/dom.ts`. Keep `src/ui.ts` as a small coordinator that initializes feature UI modules once.
+- Put DOM rendering and event handlers beside their feature in `src/modules/`: products and galleries in `products/`, cart in `cart/`, registration/contact forms in `forms/`, room interactions in `rooms/`, routing in `navigation/`, and entrance/slider interactions in `interactions/`.
+- Register delegated handlers once on stable roots. Use explicit route lifecycle hooks for cleanup, reject stale async catalogue results after navigation, and cancel pending navigation focus callbacks. Avoid circular imports.
 - Use `src/main.ts` to load styles and connect the application modules.
-- Add new logic to the module that owns the feature. For example, add a new product filter in `src/modules/products/products.logic.ts` and connect its control in `src/ui.ts`.
+- Add new logic to the module that owns the feature. For example, add a new product filter in `src/modules/products/products.logic.ts` and connect its control in `src/modules/products/products.ui.ts`.
 - Keep calculations separate from DOM access and browser storage.
 
 ## Verification
